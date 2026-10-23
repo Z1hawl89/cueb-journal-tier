@@ -1,0 +1,5617 @@
+{
+ "meta": {
+  "title": "中国科学引文数据库来源期刊列表（核心库，2025-2026年度）",
+  "adopted": "中国科学院文献情报中心发布（2025-2026年度）",
+  "total_cscd": 1504,
+  "total_core": 1120,
+  "source_url": "http://sciencechina.cn/scichina2/style/sourcelist25_26.pdf",
+  "fetched": "2026-10-18",
+  "school_rule": "首经贸2024目录 中文B2 = CSCD核心库全部期刊（不含扩展库）；本数据仅含核心库",
+  "notes": [
+   "官网遴选报告页称1501种，列表PDF实际1504行（核心1120+扩展384），以列表为准",
+   "扩展库384种未收录"
+  ]
+ },
+ "journals": [
+  {
+   "seq": 1,
+   "name": "aBIOTECH",
+   "issn": "2096-6326"
+  },
+  {
+   "seq": 2,
+   "name": "Accounts of Materials Research",
+   "issn": "2643-6728"
+  },
+  {
+   "seq": 3,
+   "name": "Acta Biochimica et Biophysica Sinica",
+   "issn": "1672-9145"
+  },
+  {
+   "seq": 4,
+   "name": "Acta epileptologica",
+   "issn": "2096-9384"
+  },
+  {
+   "seq": 5,
+   "name": "Acta Geochimica",
+   "issn": "2096-0956"
+  },
+  {
+   "seq": 6,
+   "name": "Acta Geologica Sinica",
+   "issn": "1000-9515"
+  },
+  {
+   "seq": 7,
+   "name": "Acta Mathematica Scientia",
+   "issn": "0252-9602"
+  },
+  {
+   "seq": 8,
+   "name": "Acta Mathematica Sinica. English Series",
+   "issn": "1439-8516"
+  },
+  {
+   "seq": 9,
+   "name": "Acta Mathematicae Applicatae Sinica-English Series",
+   "issn": "0168-9673"
+  },
+  {
+   "seq": 10,
+   "name": "Acta Mechanica Sinica",
+   "issn": "0567-7718"
+  },
+  {
+   "seq": 11,
+   "name": "Acta Mechanica Solida Sinica",
+   "issn": "0894-9166"
+  },
+  {
+   "seq": 12,
+   "name": "Acta Metallurgica Sinica-English Letters",
+   "issn": "1006-7191"
+  },
+  {
+   "seq": 13,
+   "name": "Acta Oceanologica Sinica",
+   "issn": "0253-505X"
+  },
+  {
+   "seq": 14,
+   "name": "Acta Pharmaceutica Sinica B",
+   "issn": "2211-3835"
+  },
+  {
+   "seq": 15,
+   "name": "Acta Pharmacologica Sinica",
+   "issn": "1671-4083"
+  },
+  {
+   "seq": 16,
+   "name": "Acupuncture and Herbal Medicine",
+   "issn": "2097-0226"
+  },
+  {
+   "seq": 17,
+   "name": "Additive Manufacturing Frontiers",
+   "issn": "2950-4317"
+  },
+  {
+   "seq": 18,
+   "name": "Advanced Agrochem",
+   "issn": "2773-2371"
+  },
+  {
+   "seq": 19,
+   "name": "Advanced Fiber Materials",
+   "issn": "2524-7921"
+  },
+  {
+   "seq": 20,
+   "name": "Advanced Photonics",
+   "issn": "2577-5421"
+  },
+  {
+   "seq": 21,
+   "name": "Advanced Photonics Nexus",
+   "issn": "2791-1519"
+  },
+  {
+   "seq": 22,
+   "name": "Advanced Powder Materials",
+   "issn": "2772-834X"
+  },
+  {
+   "seq": 23,
+   "name": "Advances in Applied Mathematics and Mechanics",
+   "issn": "2070-0733"
+  },
+  {
+   "seq": 24,
+   "name": "Advances in Atmospheric Sciences",
+   "issn": "0256-1530"
+  },
+  {
+   "seq": 25,
+   "name": "Advances in Climate Change Research",
+   "issn": "1674-9278"
+  },
+  {
+   "seq": 26,
+   "name": "Advances in Manufacturing",
+   "issn": "2095-3127"
+  },
+  {
+   "seq": 27,
+   "name": "Advances in Polar Science",
+   "issn": "1674-9928"
+  },
+  {
+   "seq": 28,
+   "name": "Aerospace Systems",
+   "issn": "2523-3947"
+  },
+  {
+   "seq": 29,
+   "name": "Aggregate",
+   "issn": "2692-4560"
+  },
+  {
+   "seq": 30,
+   "name": "Algebra Colloquium",
+   "issn": "1005-3867"
+  },
+  {
+   "seq": 32,
+   "name": "Animal Diseases",
+   "issn": "2731-0442"
+  },
+  {
+   "seq": 33,
+   "name": "Animal Models and Experimental Medicine",
+   "issn": "2096-5451"
+  },
+  {
+   "seq": 34,
+   "name": "Animal Nutrition",
+   "issn": "2405-6545"
+  },
+  {
+   "seq": 35,
+   "name": "Applied Geophysics",
+   "issn": "1672-7975"
+  },
+  {
+   "seq": 36,
+   "name": "Applied Mathematics and Mechanics",
+   "issn": "0253-4827"
+  },
+  {
+   "seq": 37,
+   "name": "Applied Mathematics. Series B, A Journal of Chinese Universities",
+   "issn": "1005-1031"
+  },
+  {
+   "seq": 38,
+   "name": "Aquaculture and Fisheries",
+   "issn": "2096-1758"
+  },
+  {
+   "seq": 39,
+   "name": "Artificial Intelligence in Agriculture",
+   "issn": "2589-7217"
+  },
+  {
+   "seq": 40,
+   "name": "Artificial Intelligence in Geosciences",
+   "issn": "2666-5441"
+  },
+  {
+   "seq": 41,
+   "name": "Asia Pacific Journal of Clinical Nutrition",
+   "issn": "0964-7058"
+  },
+  {
+   "seq": 42,
+   "name": "Asian Herpetological Research",
+   "issn": "2095-0357"
+  },
+  {
+   "seq": 43,
+   "name": "Asian Journal of Andrology",
+   "issn": "1008-682X"
+  },
+  {
+   "seq": 44,
+   "name": "Asian Journal of Pharmaceutical Sciences",
+   "issn": "1818-0876"
+  },
+  {
+   "seq": 45,
+   "name": "Asian Journal of Urology",
+   "issn": "2214-3882"
+  },
+  {
+   "seq": 46,
+   "name": "Astrodynamics",
+   "issn": "2522-008X"
+  },
+  {
+   "seq": 47,
+   "name": "Astronomical Techniques and Instruments",
+   "issn": "2097-3675"
+  },
+  {
+   "seq": 48,
+   "name": "Atmospheric and Oceanic Science Letters",
+   "issn": "1674-2834"
+  },
+  {
+   "seq": 49,
+   "name": "Automotive Innovation",
+   "issn": "2096-4250"
+  },
+  {
+   "seq": 50,
+   "name": "Avian Research",
+   "issn": "2055-6187"
+  },
+  {
+   "seq": 51,
+   "name": "Big Data Mining and Analytics",
+   "issn": "2096-0654"
+  },
+  {
+   "seq": 52,
+   "name": "Big Earth Data",
+   "issn": "2096-4471"
+  },
+  {
+   "seq": 53,
+   "name": "Bioactive Materials",
+   "issn": "2097-1192"
+  },
+  {
+   "seq": 54,
+   "name": "Biochar",
+   "issn": "2524-7972"
+  },
+  {
+   "seq": 55,
+   "name": "Bio-Design and Manufacturing",
+   "issn": "2096-5524"
+  },
+  {
+   "seq": 56,
+   "name": "Biomedical and Environmental Sciences",
+   "issn": "0895-3988"
+  },
+  {
+   "seq": 57,
+   "name": "Biomimetic Intelligence and Robotics",
+   "issn": "2097-0242"
+  },
+  {
+   "seq": 58,
+   "name": "Biophysics Reports",
+   "issn": "2364-3439"
+  },
+  {
+   "seq": 59,
+   "name": "Bioresources and Bioprocessing",
+   "issn": "2197-4365"
+  },
+  {
+   "seq": 60,
+   "name": "Biosafety and Health",
+   "issn": "2096-6962"
+  },
+  {
+   "seq": 61,
+   "name": "Blockchain: Research and Applications",
+   "issn": "2096-7209"
+  },
+  {
+   "seq": 63,
+   "name": "BMEMat",
+   "issn": "2751-7438"
+  },
+  {
+   "seq": 64,
+   "name": "Bone Research",
+   "issn": "2095-4700"
+  },
+  {
+   "seq": 65,
+   "name": "Building Simulation",
+   "issn": "1996-3599"
+  },
+  {
+   "seq": 66,
+   "name": "Built Heritage",
+   "issn": "2096-3041"
+  },
+  {
+   "seq": 67,
+   "name": "Burns & Trauma",
+   "issn": "2321-3868"
+  },
+  {
+   "seq": 68,
+   "name": "CAAI Transactions on Intelligence Technology",
+   "issn": "2468-6557"
+  },
+  {
+   "seq": 69,
+   "name": "Cancer Biology and Medicine",
+   "issn": "2095-3941"
+  },
+  {
+   "seq": 70,
+   "name": "Cancer Communications",
+   "issn": "2523-3548"
+  },
+  {
+   "seq": 71,
+   "name": "Cancer Innovation",
+   "issn": "2770-9191"
+  },
+  {
+   "seq": 72,
+   "name": "Carbon and Hydrogen",
+   "issn": "2097-535X"
+  },
+  {
+   "seq": 73,
+   "name": "Carbon Energy",
+   "issn": "2096-9570"
+  },
+  {
+   "seq": 74,
+   "name": "Carbon Neutrality",
+   "issn": "2788-8614"
+  },
+  {
+   "seq": 75,
+   "name": "Carbon Resources Conversion",
+   "issn": "2588-9133"
+  },
+  {
+   "seq": 77,
+   "name": "CCF Transactions on High Performance Computing",
+   "issn": "2524-4922"
+  },
+  {
+   "seq": 78,
+   "name": "CCS Chemistry",
+   "issn": "2096-5745"
+  },
+  {
+   "seq": 79,
+   "name": "Cell Research",
+   "issn": "1001-0602"
+  },
+  {
+   "seq": 80,
+   "name": "Cellular & Molecular Immunology",
+   "issn": "1672-7681"
+  },
+  {
+   "seq": 81,
+   "name": "CES Transactions on Electrical Machines and Systems",
+   "issn": "2096-3564"
+  },
+  {
+   "seq": 82,
+   "name": "Chemical & Biomedical Imaging",
+   "issn": "2832-3637"
+  },
+  {
+   "seq": 83,
+   "name": "Chemical Research in Chinese Universities",
+   "issn": "1005-9040"
+  },
+  {
+   "seq": 84,
+   "name": "ChemPhysMater",
+   "issn": "2772-5715"
+  },
+  {
+   "seq": 85,
+   "name": "China CDC Weekly",
+   "issn": "2096-7071"
+  },
+  {
+   "seq": 86,
+   "name": "China City Planning Review",
+   "issn": "1002-8447"
+  },
+  {
+   "seq": 87,
+   "name": "China Communications",
+   "issn": "1673-5447"
+  },
+  {
+   "seq": 88,
+   "name": "China Foundry",
+   "issn": "1672-6421"
+  },
+  {
+   "seq": 89,
+   "name": "China Geology",
+   "issn": "2096-5192"
+  },
+  {
+   "seq": 90,
+   "name": "China Ocean Engineering",
+   "issn": "0890-5487"
+  },
+  {
+   "seq": 91,
+   "name": "Chinese Annals of Mathematics. Series B",
+   "issn": "0252-9599"
+  },
+  {
+   "seq": 92,
+   "name": "Chinese Chemical Letters",
+   "issn": "1001-8417"
+  },
+  {
+   "seq": 93,
+   "name": "Chinese Geographical Science",
+   "issn": "1002-0063"
+  },
+  {
+   "seq": 94,
+   "name": "Chinese Herbal Medicines",
+   "issn": "1674-6384"
+  },
+  {
+   "seq": 96,
+   "name": "Chinese Journal of Aeronautics",
+   "issn": "1000-9361"
+  },
+  {
+   "seq": 97,
+   "name": "Chinese Journal of Cancer Research",
+   "issn": "1000-9604"
+  },
+  {
+   "seq": 98,
+   "name": "Chinese Journal of Catalysis",
+   "issn": "0253-9837"
+  },
+  {
+   "seq": 99,
+   "name": "Chinese Journal of Chemical Engineering",
+   "issn": "1004-9541"
+  },
+  {
+   "seq": 100,
+   "name": "Chinese Journal of Chemical Physics",
+   "issn": "1674-0068"
+  },
+  {
+   "seq": 101,
+   "name": "Chinese Journal of Chemistry",
+   "issn": "1001-604X"
+  },
+  {
+   "seq": 102,
+   "name": "Chinese Journal of Electrical Engineering",
+   "issn": "2096-1529"
+  },
+  {
+   "seq": 103,
+   "name": "Chinese Journal of Electronics",
+   "issn": "1022-4653"
+  },
+  {
+   "seq": 104,
+   "name": "Chinese Journal of Integrative Medicine",
+   "issn": "1672-0415"
+  },
+  {
+   "seq": 105,
+   "name": "Chinese Journal of Mechanical Engineering",
+   "issn": "1000-9345"
+  },
+  {
+   "seq": 106,
+   "name": "Chinese Journal of Natural Medicines",
+   "issn": "2095-6975"
+  },
+  {
+   "seq": 107,
+   "name": "Chinese Journal of Polymer Science",
+   "issn": "0256-7679"
+  },
+  {
+   "seq": 108,
+   "name": "Chinese Journal of Population, Resources and Environment",
+   "issn": "2096-9589"
+  },
+  {
+   "seq": 109,
+   "name": "Chinese Journal of Structural Chemistry",
+   "issn": "0254-5861"
+  },
+  {
+   "seq": 110,
+   "name": "Chinese Journal of Traumatology",
+   "issn": "1008-1275"
+  },
+  {
+   "seq": 111,
+   "name": "Chinese Medical Journal",
+   "issn": "0366-6999"
+  },
+  {
+   "seq": 112,
+   "name": "Chinese Medical Sciences Journal",
+   "issn": "1001-9294"
+  },
+  {
+   "seq": 113,
+   "name": "Chinese Neurosurgical Journal",
+   "issn": "2095-9370"
+  },
+  {
+   "seq": 114,
+   "name": "Chinese Optics Letters",
+   "issn": "1671-7694"
+  },
+  {
+   "seq": 115,
+   "name": "Chinese Physics Letters",
+   "issn": "0256-307X"
+  },
+  {
+   "seq": 116,
+   "name": "Chinese Physics. B",
+   "issn": "1674-1056"
+  },
+  {
+   "seq": 117,
+   "name": "Chinese Physics. C",
+   "issn": "1674-1137"
+  },
+  {
+   "seq": 118,
+   "name": "Chip",
+   "issn": "2709-4723"
+  },
+  {
+   "seq": 119,
+   "name": "Chronic Diseases and Translational Medicine",
+   "issn": "2095-882X"
+  },
+  {
+   "seq": 120,
+   "name": "Clean Energy",
+   "issn": "2515-4230"
+  },
+  {
+   "seq": 121,
+   "name": "Collagen and Leather",
+   "issn": "2097-1419"
+  },
+  {
+   "seq": 122,
+   "name": "Communications in Computational Physics",
+   "issn": "1815-2406"
+  },
+  {
+   "seq": 124,
+   "name": "Communications in Mathematics and Statistics",
+   "issn": "2194-6701"
+  },
+  {
+   "seq": 125,
+   "name": "Communications in Theoretical Physics",
+   "issn": "0253-6102"
+  },
+  {
+   "seq": 126,
+   "name": "Communications in Transportation Research",
+   "issn": "2772-4247"
+  },
+  {
+   "seq": 127,
+   "name": "Communications on Applied Mathematics and Computation",
+   "issn": "2096-6385"
+  },
+  {
+   "seq": 128,
+   "name": "Communications on Pure and Applied Analysis",
+   "issn": "1534-0392"
+  },
+  {
+   "seq": 129,
+   "name": "Computational Visual Media",
+   "issn": "2096-0433"
+  },
+  {
+   "seq": 130,
+   "name": "Control Theory and Technology",
+   "issn": "2095-6983"
+  },
+  {
+   "seq": 131,
+   "name": "Corrosion Communications",
+   "issn": "2667-2669"
+  },
+  {
+   "seq": 132,
+   "name": "CSEE Journal of Power and Energy Systems",
+   "issn": "2096-0042"
+  },
+  {
+   "seq": 133,
+   "name": "Current Medical Science",
+   "issn": "2096-5230"
+  },
+  {
+   "seq": 134,
+   "name": "Current Urology",
+   "issn": "1661-7649"
+  },
+  {
+   "seq": 135,
+   "name": "Current Zoology",
+   "issn": "1674-5507"
+  },
+  {
+   "seq": 136,
+   "name": "Cybersecurity",
+   "issn": "2096-4862"
+  },
+  {
+   "seq": 137,
+   "name": "Cyborg and Bionic Systems",
+   "issn": "2097-1087"
+  },
+  {
+   "seq": 138,
+   "name": "Data Intelligence",
+   "issn": "2096-7004"
+  },
+  {
+   "seq": 140,
+   "name": "Data Science and Management",
+   "issn": "2666-7649"
+  },
+  {
+   "seq": 141,
+   "name": "Deep Underground Science and Engineering",
+   "issn": "2097-0668"
+  },
+  {
+   "seq": 142,
+   "name": "Defence Technology",
+   "issn": "2096-3459"
+  },
+  {
+   "seq": 143,
+   "name": "Digital Chinese Medicine",
+   "issn": "2096-479X"
+  },
+  {
+   "seq": 144,
+   "name": "Digital Communications and Networks",
+   "issn": "2468-5925"
+  },
+  {
+   "seq": 145,
+   "name": "Droplet",
+   "issn": "2769-2159"
+  },
+  {
+   "seq": 146,
+   "name": "Earth and Planetary Physics",
+   "issn": "2096-3955"
+  },
+  {
+   "seq": 147,
+   "name": "Earthquake Engineering and Engineering Vibration",
+   "issn": "1671-3664"
+  },
+  {
+   "seq": 148,
+   "name": "Earthquake Research Advances",
+   "issn": "2096-9996"
+  },
+  {
+   "seq": 149,
+   "name": "Earthquake Science",
+   "issn": "1674-4519"
+  },
+  {
+   "seq": 150,
+   "name": "Eco-Environment & Health",
+   "issn": "2772-9850"
+  },
+  {
+   "seq": 151,
+   "name": "Ecological Frontiers",
+   "issn": "2950-5097"
+  },
+  {
+   "seq": 152,
+   "name": "Ecological Processes",
+   "issn": "2097-1311"
+  },
+  {
+   "seq": 153,
+   "name": "Ecosystem Health and Sustainability",
+   "issn": "2096-4129"
+  },
+  {
+   "seq": 157,
+   "name": "Emerging Contaminants",
+   "issn": "2405-6650"
+  },
+  {
+   "seq": 158,
+   "name": "Energy and AI",
+   "issn": "2666-5468"
+  },
+  {
+   "seq": 159,
+   "name": "Energy and Built Environment",
+   "issn": "2666-1233"
+  },
+  {
+   "seq": 160,
+   "name": "Energy and Environmental Material",
+   "issn": "2575-0348"
+  },
+  {
+   "seq": 161,
+   "name": "Energy Geoscience",
+   "issn": "2666-7592"
+  },
+  {
+   "seq": 162,
+   "name": "Energy Material Advances",
+   "issn": "2097-1133"
+  },
+  {
+   "seq": 164,
+   "name": "Engineered Regeneration",
+   "issn": "2666-1381"
+  },
+  {
+   "seq": 165,
+   "name": "Engineering",
+   "issn": "2095-8099"
+  },
+  {
+   "seq": 166,
+   "name": "Engineering Microbiology",
+   "issn": "2667-3703"
+  },
+  {
+   "seq": 167,
+   "name": "Entomotaxonomia",
+   "issn": "2095-8609"
+  },
+  {
+   "seq": 168,
+   "name": "Environment & Health",
+   "issn": "2833-8278"
+  },
+  {
+   "seq": 169,
+   "name": "Environmental Science and Ecotechnology",
+   "issn": "2666-4984"
+  },
+  {
+   "seq": 170,
+   "name": "eScience",
+   "issn": "2097-2431"
+  },
+  {
+   "seq": 171,
+   "name": "Experimental and Computational Multiphase Flow",
+   "issn": "2661-8869"
+  },
+  {
+   "seq": 172,
+   "name": "Eye and Vision",
+   "issn": "2326-0246"
+  },
+  {
+   "seq": 173,
+   "name": "Food Production, Processing and Nutrition",
+   "issn": "2661-8974"
+  },
+  {
+   "seq": 174,
+   "name": "Food Quality and Safety",
+   "issn": "2399-1399"
+  },
+  {
+   "seq": 175,
+   "name": "Food Science and Human Wellness",
+   "issn": "2097-0765"
+  },
+  {
+   "seq": 176,
+   "name": "Forensic Sciences Research",
+   "issn": "2096-1790"
+  },
+  {
+   "seq": 177,
+   "name": "Forest Ecosystems",
+   "issn": "2095-6355"
+  },
+  {
+   "seq": 178,
+   "name": "Friction",
+   "issn": "2223-7690"
+  },
+  {
+   "seq": 179,
+   "name": "Frontiers in Energy",
+   "issn": "2095-1701"
+  },
+  {
+   "seq": 180,
+   "name": "Frontiers of Agricultural Science and Engineering",
+   "issn": "2095-7505"
+  },
+  {
+   "seq": 181,
+   "name": "Frontiers of Architectural Research",
+   "issn": "2095-2635"
+  },
+  {
+   "seq": 182,
+   "name": "Frontiers of Chemical Science and Engineering",
+   "issn": "2095-0179"
+  },
+  {
+   "seq": 183,
+   "name": "Frontiers of Computer Science",
+   "issn": "2095-2228"
+  },
+  {
+   "seq": 184,
+   "name": "Frontiers of Earth Science",
+   "issn": "2095-0195"
+  },
+  {
+   "seq": 185,
+   "name": "Frontiers of Engineering Management",
+   "issn": "2095-7513"
+  },
+  {
+   "seq": 186,
+   "name": "Frontiers of Environmental Science & Engineering",
+   "issn": "2095-2201"
+  },
+  {
+   "seq": 187,
+   "name": "Frontiers of Information Technology & Electronic Engineering",
+   "issn": "2095-9184"
+  },
+  {
+   "seq": 188,
+   "name": "Frontiers of Materials Science",
+   "issn": "2095-025X"
+  },
+  {
+   "seq": 190,
+   "name": "Frontiers of Mechanical Engineering",
+   "issn": "2095-0233"
+  },
+  {
+   "seq": 191,
+   "name": "Frontiers of Medicine",
+   "issn": "2095-0217"
+  },
+  {
+   "seq": 192,
+   "name": "Frontiers of Optoelectronics",
+   "issn": "2095-2759"
+  },
+  {
+   "seq": 193,
+   "name": "Frontiers of Physics",
+   "issn": "2095-0462"
+  },
+  {
+   "seq": 194,
+   "name": "Frontiers of Structural and Civil Engineering",
+   "issn": "2095-2430"
+  },
+  {
+   "seq": 195,
+   "name": "Fundamental Research",
+   "issn": "2096-9457"
+  },
+  {
+   "seq": 196,
+   "name": "Gastroenterology Report",
+   "issn": "2304-1412"
+  },
+  {
+   "seq": 197,
+   "name": "General Psychiatry",
+   "issn": "2096-5923"
+  },
+  {
+   "seq": 198,
+   "name": "Genes & Diseases",
+   "issn": "2352-4820"
+  },
+  {
+   "seq": 199,
+   "name": "Genomics, Proteomics & Bioinformatics",
+   "issn": "1672-0229"
+  },
+  {
+   "seq": 200,
+   "name": "Geodesy and Geodynamics",
+   "issn": "1674-9847"
+  },
+  {
+   "seq": 201,
+   "name": "Geography and Sustainability",
+   "issn": "2096-7438"
+  },
+  {
+   "seq": 202,
+   "name": "Geoscience Frontiers",
+   "issn": "1674-9871"
+  },
+  {
+   "seq": 203,
+   "name": "Geo-spatial Information Science",
+   "issn": "1009-5020"
+  },
+  {
+   "seq": 204,
+   "name": "Global Energy Interconnection",
+   "issn": "2096-5117"
+  },
+  {
+   "seq": 205,
+   "name": "Global Health Research and Policy",
+   "issn": "2397-0642"
+  },
+  {
+   "seq": 206,
+   "name": "Green and Smart Mining Engineering",
+   "issn": "2950-5550"
+  },
+  {
+   "seq": 207,
+   "name": "Green Carbon",
+   "issn": "2950-1555"
+  },
+  {
+   "seq": 208,
+   "name": "Green Chemical Engineering",
+   "issn": "2096-9147"
+  },
+  {
+   "seq": 209,
+   "name": "Green Energy & Environment",
+   "issn": "2096-2797"
+  },
+  {
+   "seq": 210,
+   "name": "Green Energy and Intelligent Transportation",
+   "issn": "2097-2512"
+  },
+  {
+   "seq": 211,
+   "name": "Green Synthesis and Catalysis",
+   "issn": "2666-5549"
+  },
+  {
+   "seq": 212,
+   "name": "Guidance, Navigation and Control",
+   "issn": "2737-4807"
+  },
+  {
+   "seq": 213,
+   "name": "Health Care Science",
+   "issn": "2771-1749"
+  },
+  {
+   "seq": 215,
+   "name": "Hepatobiliary & Pancreatic Diseases International",
+   "issn": "1499-3872"
+  },
+  {
+   "seq": 216,
+   "name": "High Power Laser Science and Engineering",
+   "issn": "2095-4719"
+  },
+  {
+   "seq": 217,
+   "name": "High Voltage",
+   "issn": "2096-9813"
+  },
+  {
+   "seq": 218,
+   "name": "High-Confidence Computing",
+   "issn": "2667-2952"
+  },
+  {
+   "seq": 220,
+   "name": "hLife",
+   "issn": "2949-9283"
+  },
+  {
+   "seq": 221,
+   "name": "Holistic Integrative Oncology",
+   "issn": "2731-4529"
+  },
+  {
+   "seq": 222,
+   "name": "Horticultural Plant Journal",
+   "issn": "2095-9885"
+  },
+  {
+   "seq": 223,
+   "name": "Horticulture Research",
+   "issn": "2662-6810"
+  },
+  {
+   "seq": 224,
+   "name": "IEEE/CAA Journal of Automatica Sinica",
+   "issn": "2329-9266"
+  },
+  {
+   "seq": 226,
+   "name": "Industrial Chemistry & Materials",
+   "issn": "2755-2500"
+  },
+  {
+   "seq": 227,
+   "name": "Infectious Disease Modelling",
+   "issn": "2468-2152"
+  },
+  {
+   "seq": 228,
+   "name": "Infectious Diseases & Immunity",
+   "issn": "2096-9511"
+  },
+  {
+   "seq": 229,
+   "name": "Infectious Diseases of Poverty",
+   "issn": "2095-5162"
+  },
+  {
+   "seq": 230,
+   "name": "Infectious Medicine",
+   "issn": "2097-0684"
+  },
+  {
+   "seq": 231,
+   "name": "Infectious Microbes & Diseases",
+   "issn": "2641-5917"
+  },
+  {
+   "seq": 232,
+   "name": "InfoMat",
+   "issn": "2770-5110"
+  },
+  {
+   "seq": 233,
+   "name": "Information Processing in Agriculture",
+   "issn": "2097-0153"
+  },
+  {
+   "seq": 234,
+   "name": "Inorganic Chemistry Frontiers",
+   "issn": "2052-1545"
+  },
+  {
+   "seq": 235,
+   "name": "Insect Science",
+   "issn": "1672-9609"
+  },
+  {
+   "seq": 236,
+   "name": "Integrative Zoology",
+   "issn": "1749-4869"
+  },
+  {
+   "seq": 238,
+   "name": "Interdisciplinary Materials",
+   "issn": "2767-4401"
+  },
+  {
+   "seq": 239,
+   "name": "International Journal of Coal Science & Technology",
+   "issn": "2095-8293"
+  },
+  {
+   "seq": 240,
+   "name": "International Journal of Dermatology and Venereology",
+   "issn": "2096-5540"
+  },
+  {
+   "seq": 241,
+   "name": "International Journal of Disaster Risk Science",
+   "issn": "2095-0055"
+  },
+  {
+   "seq": 242,
+   "name": "International Journal of Extreme Manufacturing",
+   "issn": "2631-8644"
+  },
+  {
+   "seq": 243,
+   "name": "International Journal of Fluid Engineering",
+   "issn": "2994-9009"
+  },
+  {
+   "seq": 244,
+   "name": "International Journal of Mechanical System Dynamics",
+   "issn": "2767-1399"
+  },
+  {
+   "seq": 245,
+   "name": "International Journal of Minerals, Metallurgy and Materials",
+   "issn": "1674-4799"
+  },
+  {
+   "seq": 246,
+   "name": "International Journal of Mining Science and Technology",
+   "issn": "2095-2686"
+  },
+  {
+   "seq": 247,
+   "name": "International Journal of Nursing Sciences",
+   "issn": "2096-6296"
+  },
+  {
+   "seq": 248,
+   "name": "International Journal of Oral Science",
+   "issn": "1674-2818"
+  },
+  {
+   "seq": 249,
+   "name": "International Journal of Sediment Research",
+   "issn": "1001-6279"
+  },
+  {
+   "seq": 250,
+   "name": "International Journal of Smart and Nano Materials",
+   "issn": "1947-5411"
+  },
+  {
+   "seq": 251,
+   "name": "International Journal of Transportation Science and Technology",
+   "issn": "2046-0430"
+  },
+  {
+   "seq": 252,
+   "name": "International Soil and Water Conservation Research",
+   "issn": "2095-6339"
+  },
+  {
+   "seq": 254,
+   "name": "Journal of Acupuncture and Tuina Science",
+   "issn": "1672-3597"
+  },
+  {
+   "seq": 255,
+   "name": "Journal of Advanced Ceramics",
+   "issn": "2226-4108"
+  },
+  {
+   "seq": 256,
+   "name": "Journal of Advanced Dielectrics",
+   "issn": "2010-135X"
+  },
+  {
+   "seq": 257,
+   "name": "Journal of Analysis and Testing",
+   "issn": "2096-241X"
+  },
+  {
+   "seq": 258,
+   "name": "Journal of Animal Science and Biotechnology",
+   "issn": "1674-9782"
+  },
+  {
+   "seq": 259,
+   "name": "Journal of Arid Land",
+   "issn": "1674-6767"
+  },
+  {
+   "seq": 261,
+   "name": "Journal of Biomedical Research",
+   "issn": "1674-8301"
+  },
+  {
+   "seq": 262,
+   "name": "Journal of Bionic Engineering",
+   "issn": "1672-6529"
+  },
+  {
+   "seq": 263,
+   "name": "Journal of Bioresources and Bioproducts",
+   "issn": "2097-2415"
+  },
+  {
+   "seq": 264,
+   "name": "Journal of Central South University",
+   "issn": "2095-2899"
+  },
+  {
+   "seq": 265,
+   "name": "Journal of Chinese Pharmaceutical Sciences",
+   "issn": "1003-1057"
+  },
+  {
+   "seq": 266,
+   "name": "Journal of Clinical and Translational Hepatology",
+   "issn": "2225-0719"
+  },
+  {
+   "seq": 267,
+   "name": "Journal of Communications and Information Networks",
+   "issn": "2096-1081"
+  },
+  {
+   "seq": 268,
+   "name": "Journal of Computational Mathematics",
+   "issn": "0254-9409"
+  },
+  {
+   "seq": 269,
+   "name": "Journal of Computer Science and Technology",
+   "issn": "1000-9000"
+  },
+  {
+   "seq": 270,
+   "name": "Journal of Cotton Research",
+   "issn": "2096-5044"
+  },
+  {
+   "seq": 271,
+   "name": "Journal of Data and Information Science",
+   "issn": "2096-157X"
+  },
+  {
+   "seq": 272,
+   "name": "Journal of Earth Science",
+   "issn": "1674-487X"
+  },
+  {
+   "seq": 274,
+   "name": "Journal of Energy Chemistry",
+   "issn": "2095-4956"
+  },
+  {
+   "seq": 275,
+   "name": "Journal of Environmental Sciences",
+   "issn": "1001-0742"
+  },
+  {
+   "seq": 276,
+   "name": "Journal of Forestry Research",
+   "issn": "1007-662X"
+  },
+  {
+   "seq": 277,
+   "name": "Journal of Future Foods",
+   "issn": "2772-5669"
+  },
+  {
+   "seq": 278,
+   "name": "Journal of Genetics and Genomics",
+   "issn": "1673-8527"
+  },
+  {
+   "seq": 279,
+   "name": "Journal of Geodesy and Geoinformation Science",
+   "issn": "2096-5990"
+  },
+  {
+   "seq": 280,
+   "name": "Journal of Geographical Sciences",
+   "issn": "1009-637X"
+  },
+  {
+   "seq": 281,
+   "name": "Journal of Geriatric Cardiology",
+   "issn": "1671-5411"
+  },
+  {
+   "seq": 282,
+   "name": "Journal of Hydrodynamics",
+   "issn": "1001-6058"
+  },
+  {
+   "seq": 283,
+   "name": "Journal of Innovative Optical Health Sciences",
+   "issn": "1793-5458"
+  },
+  {
+   "seq": 284,
+   "name": "Journal of Integrative Agriculture",
+   "issn": "2095-3119"
+  },
+  {
+   "seq": 285,
+   "name": "Journal of Integrative Medicine",
+   "issn": "2095-4964"
+  },
+  {
+   "seq": 286,
+   "name": "Journal of Integrative Plant Biology",
+   "issn": "1672-9072"
+  },
+  {
+   "seq": 287,
+   "name": "Journal of Intensive Medicine",
+   "issn": "2097-0250"
+  },
+  {
+   "seq": 288,
+   "name": "Journal of Iron and Steel Research, International",
+   "issn": "1006-706X"
+  },
+  {
+   "seq": 289,
+   "name": "Journal of Magnesium and Alloys",
+   "issn": "2213-9567"
+  },
+  {
+   "seq": 290,
+   "name": "Journal of Management Science and Engineering",
+   "issn": "2096-2320"
+  },
+  {
+   "seq": 291,
+   "name": "Journal of Marine Science and Application",
+   "issn": "1671-9433"
+  },
+  {
+   "seq": 292,
+   "name": "Journal of Materials Science & Technology",
+   "issn": "1005-0302"
+  },
+  {
+   "seq": 293,
+   "name": "Journal of Materiomics",
+   "issn": "2352-8478"
+  },
+  {
+   "seq": 294,
+   "name": "Journal of Mathematical Research with Applications",
+   "issn": "2095-2651"
+  },
+  {
+   "seq": 295,
+   "name": "Journal of Measurement Science and Instrumentation",
+   "issn": "1674-8042"
+  },
+  {
+   "seq": 296,
+   "name": "Journal of Meteorological Research",
+   "issn": "2095-6037"
+  },
+  {
+   "seq": 297,
+   "name": "Journal of Modern Power Systems and Clean Energy",
+   "issn": "2196-5625"
+  },
+  {
+   "seq": 298,
+   "name": "Journal of Molecular Cell Biology",
+   "issn": "1674-2788"
+  },
+  {
+   "seq": 299,
+   "name": "Journal of Mountain Science",
+   "issn": "1672-6316"
+  },
+  {
+   "seq": 300,
+   "name": "Journal of Neurorestoratology",
+   "issn": "2324-2426"
+  },
+  {
+   "seq": 301,
+   "name": "Journal of Ocean Engineering and Science",
+   "issn": "2468-0133"
+  },
+  {
+   "seq": 302,
+   "name": "Journal of Ocean University of China",
+   "issn": "1672-5182"
+  },
+  {
+   "seq": 303,
+   "name": "Journal of Oceanology and Limnology",
+   "issn": "2096-5508"
+  },
+  {
+   "seq": 304,
+   "name": "Journal of Otology",
+   "issn": "1672-2930"
+  },
+  {
+   "seq": 305,
+   "name": "Journal of Palaeogeography",
+   "issn": "2095-3836"
+  },
+  {
+   "seq": 307,
+   "name": "Journal of Pharmaceutical Analysis",
+   "issn": "2095-1779"
+  },
+  {
+   "seq": 308,
+   "name": "Journal of Plant Ecology",
+   "issn": "1752-9921"
+  },
+  {
+   "seq": 309,
+   "name": "Journal of Rare Earths",
+   "issn": "1002-0721"
+  },
+  {
+   "seq": 310,
+   "name": "Journal of Remote Sensing",
+   "issn": "2097-0064"
+  },
+  {
+   "seq": 311,
+   "name": "Journal of Resources and Ecology",
+   "issn": "1674-764X"
+  },
+  {
+   "seq": 312,
+   "name": "Journal of Rock Mechanics and Geotechnical Engineering",
+   "issn": "1674-7755"
+  },
+  {
+   "seq": 313,
+   "name": "Journal of Safety Science and Resilience",
+   "issn": "2096-7527"
+  },
+  {
+   "seq": 314,
+   "name": "Journal of Science in Sport and Exercise",
+   "issn": "2096-6709"
+  },
+  {
+   "seq": 315,
+   "name": "Journal of Semiconductors",
+   "issn": "1674-4926"
+  },
+  {
+   "seq": 316,
+   "name": "Journal of Sport and Health Science",
+   "issn": "2095-2546"
+  },
+  {
+   "seq": 317,
+   "name": "Journal of Systematics and Evolution",
+   "issn": "1674-4918"
+  },
+  {
+   "seq": 318,
+   "name": "Journal of Systems Engineering and Electronics",
+   "issn": "1004-4132"
+  },
+  {
+   "seq": 319,
+   "name": "Journal of Systems Science and Complexity",
+   "issn": "1009-6124"
+  },
+  {
+   "seq": 320,
+   "name": "Journal of Systems Science and Information",
+   "issn": "1478-9906"
+  },
+  {
+   "seq": 321,
+   "name": "Journal of Systems Science and Systems Engineering",
+   "issn": "1004-3756"
+  },
+  {
+   "seq": 322,
+   "name": "Journal of the National Cancer Center",
+   "issn": "2096-8663"
+  },
+  {
+   "seq": 323,
+   "name": "Journal of the Operations Research Society of China",
+   "issn": "2194-668X"
+  },
+  {
+   "seq": 324,
+   "name": "Journal of Thermal Science",
+   "issn": "1003-2169"
+  },
+  {
+   "seq": 325,
+   "name": "Journal of Traditional Chinese Medical Sciences",
+   "issn": "2095-7548"
+  },
+  {
+   "seq": 326,
+   "name": "Journal of Traditional Chinese Medicine",
+   "issn": "0255-2922"
+  },
+  {
+   "seq": 327,
+   "name": "Journal of Traffic and Transportation Engineering (English Edition)",
+   "issn": "2095-7564"
+  },
+  {
+   "seq": 328,
+   "name": "Journal of Tropical Meteorology",
+   "issn": "1006-8775"
+  },
+  {
+   "seq": 329,
+   "name": "Journal of Wuhan University of Technology. Materials Science Edition",
+   "issn": "1000-2413"
+  },
+  {
+   "seq": 330,
+   "name": "Journal of Zhejiang University. Science A, Applied Physics & Engineering",
+   "issn": "1673-565X"
+  },
+  {
+   "seq": 331,
+   "name": "Journal of Zhejiang University. Science B, Biomedicine & Biotechnology",
+   "issn": "1673-1581"
+  },
+  {
+   "seq": 332,
+   "name": "Light: Advanced Manufacturing",
+   "issn": "2689-9620"
+  },
+  {
+   "seq": 333,
+   "name": "Light:Science & Applications",
+   "issn": "2095-5545"
+  },
+  {
+   "seq": 334,
+   "name": "Liver Research",
+   "issn": "2096-2878"
+  },
+  {
+   "seq": 335,
+   "name": "Machine Intelligence Research",
+   "issn": "2731-538X"
+  },
+  {
+   "seq": 336,
+   "name": "Marine Life Science & Technology",
+   "issn": "2096-6490"
+  },
+  {
+   "seq": 337,
+   "name": "Materials Futures",
+   "issn": "2752-5724"
+  },
+  {
+   "seq": 338,
+   "name": "Materials Genome Engineering Advances",
+   "issn": "2940-9489"
+  },
+  {
+   "seq": 339,
+   "name": "Maternal-Fetal Medicine",
+   "issn": "2096-6954"
+  },
+  {
+   "seq": 340,
+   "name": "Matter and Radiation at Extremes",
+   "issn": "2468-2047"
+  },
+  {
+   "seq": 342,
+   "name": "Microsystems & Nanoengineering",
+   "issn": "2096-1030"
+  },
+  {
+   "seq": 343,
+   "name": "Military Medical Research",
+   "issn": "2095-7467"
+  },
+  {
+   "seq": 344,
+   "name": "mLife",
+   "issn": "2097-1699"
+  },
+  {
+   "seq": 345,
+   "name": "Molecular Horticulture",
+   "issn": "2730-9401"
+  },
+  {
+   "seq": 346,
+   "name": "Molecular Plant",
+   "issn": "1674-2052"
+  },
+  {
+   "seq": 347,
+   "name": "Mycology",
+   "issn": "2150-1203"
+  },
+  {
+   "seq": 348,
+   "name": "Nano Materials Science",
+   "issn": "2096-6482"
+  },
+  {
+   "seq": 349,
+   "name": "Nano Research",
+   "issn": "1998-0124"
+  },
+  {
+   "seq": 350,
+   "name": "Nano Research Energy",
+   "issn": "2791-0091"
+  },
+  {
+   "seq": 351,
+   "name": "Nano-Micro Letters",
+   "issn": "2311-6706"
+  },
+  {
+   "seq": 352,
+   "name": "Nanotechnology and Precision Engineering",
+   "issn": "1672-6030"
+  },
+  {
+   "seq": 353,
+   "name": "National Science Open",
+   "issn": "2097-1168"
+  },
+  {
+   "seq": 354,
+   "name": "National Science Review",
+   "issn": "2095-5138"
+  },
+  {
+   "seq": 355,
+   "name": "Natural Products and Bioprospecting",
+   "issn": "2192-2195"
+  },
+  {
+   "seq": 356,
+   "name": "Neural Regeneration Research",
+   "issn": "1673-5374"
+  },
+  {
+   "seq": 357,
+   "name": "Neuroscience Bulletin",
+   "issn": "1673-7067"
+  },
+  {
+   "seq": 358,
+   "name": "npj Computational Materials",
+   "issn": "2096-5001"
+  },
+  {
+   "seq": 359,
+   "name": "npj Flexible Electronics",
+   "issn": "2397-4621"
+  },
+  {
+   "seq": 360,
+   "name": "Nuclear Science and Techniques",
+   "issn": "1001-8042"
+  },
+  {
+   "seq": 361,
+   "name": "Numerical Mathematics Theory, Methods and Applications",
+   "issn": "1004-8979"
+  },
+  {
+   "seq": 363,
+   "name": "Oil Crop Science",
+   "issn": "2096-2428"
+  },
+  {
+   "seq": 364,
+   "name": "Oncology and Translational Medicine",
+   "issn": "2095-9621"
+  },
+  {
+   "seq": 366,
+   "name": "Opto-Electronic Advances",
+   "issn": "2096-4579"
+  },
+  {
+   "seq": 367,
+   "name": "Particuology",
+   "issn": "1674-2001"
+  },
+  {
+   "seq": 368,
+   "name": "Pediatric Investigation",
+   "issn": "2096-3726"
+  },
+  {
+   "seq": 369,
+   "name": "Pedosphere",
+   "issn": "1002-0160"
+  },
+  {
+   "seq": 371,
+   "name": "Petroleum",
+   "issn": "2405-6561"
+  },
+  {
+   "seq": 372,
+   "name": "Petroleum Research",
+   "issn": "2096-2495"
+  },
+  {
+   "seq": 373,
+   "name": "Petroleum Science",
+   "issn": "1672-5107"
+  },
+  {
+   "seq": 374,
+   "name": "Phenomics",
+   "issn": "2730-583X"
+  },
+  {
+   "seq": 375,
+   "name": "Photonic Sensors",
+   "issn": "1674-9251"
+  },
+  {
+   "seq": 376,
+   "name": "Photonics Research",
+   "issn": "2327-9125"
+  },
+  {
+   "seq": 377,
+   "name": "PhotoniX",
+   "issn": "2662-1991"
+  },
+  {
+   "seq": 378,
+   "name": "Phytopathology Research",
+   "issn": "2096-5362"
+  },
+  {
+   "seq": 379,
+   "name": "Plant Communications",
+   "issn": "2590-3462"
+  },
+  {
+   "seq": 380,
+   "name": "Plant Diversity",
+   "issn": "2096-2703"
+  },
+  {
+   "seq": 381,
+   "name": "Plant Phenomics",
+   "issn": "2097-0374"
+  },
+  {
+   "seq": 382,
+   "name": "Plasma Science & Technology",
+   "issn": "1009-0630"
+  },
+  {
+   "seq": 383,
+   "name": "Precision Chemistry",
+   "issn": "2771-9316"
+  },
+  {
+   "seq": 384,
+   "name": "Progress in Natural Science: Materials International",
+   "issn": "1002-0071"
+  },
+  {
+   "seq": 385,
+   "name": "Propulsion and Power Research",
+   "issn": "2212-540X"
+  },
+  {
+   "seq": 386,
+   "name": "Protection and Control of Modern Power Systems",
+   "issn": "2367-2617"
+  },
+  {
+   "seq": 387,
+   "name": "Protein & Cell",
+   "issn": "1674-800X"
+  },
+  {
+   "seq": 388,
+   "name": "PsyCh Journal",
+   "issn": "2046-0252"
+  },
+  {
+   "seq": 389,
+   "name": "Quantitative Biology",
+   "issn": "2095-4689"
+  },
+  {
+   "seq": 391,
+   "name": "Radiation Detection Technology and Methods",
+   "issn": "2509-9930"
+  },
+  {
+   "seq": 392,
+   "name": "Radiation Medicine and Protection",
+   "issn": "2097-0439"
+  },
+  {
+   "seq": 393,
+   "name": "Rare Metals",
+   "issn": "1001-0521"
+  },
+  {
+   "seq": 394,
+   "name": "Regenerative Biomaterials",
+   "issn": "2056-3418"
+  },
+  {
+   "seq": 395,
+   "name": "Regional Sustainability",
+   "issn": "2097-0129"
+  },
+  {
+   "seq": 396,
+   "name": "Reproductive and Developmental Medicine",
+   "issn": "2096-2924"
+  },
+  {
+   "seq": 397,
+   "name": "Research",
+   "issn": "2096-5168"
+  },
+  {
+   "seq": 398,
+   "name": "Research in Astronomy and Astrophysics",
+   "issn": "1674-4527"
+  },
+  {
+   "seq": 399,
+   "name": "Research in Cold and Arid Regions",
+   "issn": "2097-1583"
+  },
+  {
+   "seq": 401,
+   "name": "Rice Science",
+   "issn": "1672-6308"
+  },
+  {
+   "seq": 402,
+   "name": "River",
+   "issn": "2750-4867"
+  },
+  {
+   "seq": 403,
+   "name": "Rock Mechanics Bulletin",
+   "issn": "2773-2304"
+  },
+  {
+   "seq": 404,
+   "name": "Satellite Navigation",
+   "issn": "2662-9291"
+  },
+  {
+   "seq": 405,
+   "name": "Science Bulletin",
+   "issn": "2095-9273"
+  },
+  {
+   "seq": 406,
+   "name": "Science China. Chemistry",
+   "issn": "1674-7291"
+  },
+  {
+   "seq": 407,
+   "name": "Science China. Earth Sciences",
+   "issn": "1674-7313"
+  },
+  {
+   "seq": 408,
+   "name": "Science China. Information Sciences",
+   "issn": "1674-733X"
+  },
+  {
+   "seq": 409,
+   "name": "Science China. Life Sciences",
+   "issn": "1674-7305"
+  },
+  {
+   "seq": 410,
+   "name": "Science China. Materials",
+   "issn": "2095-8226"
+  },
+  {
+   "seq": 411,
+   "name": "Science China. Mathematics",
+   "issn": "1674-7283"
+  },
+  {
+   "seq": 412,
+   "name": "Science China. Physics, Mechanics & Astronomy",
+   "issn": "1674-7348"
+  },
+  {
+   "seq": 413,
+   "name": "Science China. Technological Sciences",
+   "issn": "1674-7321"
+  },
+  {
+   "seq": 414,
+   "name": "Science of Traditional Chinese Medicine",
+   "issn": "2836-922X"
+  },
+  {
+   "seq": 416,
+   "name": "Signal Transduction and Targeted Therapy",
+   "issn": "2095-9907"
+  },
+  {
+   "seq": 417,
+   "name": "Smart Molecules",
+   "issn": "2751-4587"
+  },
+  {
+   "seq": 418,
+   "name": "SmartMat",
+   "issn": "2766-8525"
+  },
+  {
+   "seq": 419,
+   "name": "Soil Ecology Letters",
+   "issn": "2662-2289"
+  },
+  {
+   "seq": 420,
+   "name": "Space: Science & Technology",
+   "issn": "2692-7659"
+  },
+  {
+   "seq": 421,
+   "name": "Sports Medicine and Health Science",
+   "issn": "2666-3376"
+  },
+  {
+   "seq": 423,
+   "name": "Stress Biology",
+   "issn": "2097-4418"
+  },
+  {
+   "seq": 424,
+   "name": "Stroke and Vascular Neurology",
+   "issn": "2059-8688"
+  },
+  {
+   "seq": 427,
+   "name": "SusMat",
+   "issn": "2766-8479"
+  },
+  {
+   "seq": 428,
+   "name": "Synthetic and Systems Biotechnology",
+   "issn": "2097-1206"
+  },
+  {
+   "seq": 429,
+   "name": "Systems Microbiology and Biomanufacturing",
+   "issn": "2662-7655"
+  },
+  {
+   "seq": 430,
+   "name": "The Crop Journal",
+   "issn": "2095-5421"
+  },
+  {
+   "seq": 431,
+   "name": "The Journal of China Universities of Posts and Telecommunications",
+   "issn": "1005-8885"
+  },
+  {
+   "seq": 432,
+   "name": "Theoretical and Applied Mechanics Letters",
+   "issn": "2095-0349"
+  },
+  {
+   "seq": 433,
+   "name": "Transactions of Nanjing University of Aeronautics & Astronautics",
+   "issn": "1005-1120"
+  },
+  {
+   "seq": 434,
+   "name": "Transactions of Nonferrous Metals Society of China",
+   "issn": "1003-6326"
+  },
+  {
+   "seq": 435,
+   "name": "Translational Neurodegeneration",
+   "issn": "2096-6466"
+  },
+  {
+   "seq": 436,
+   "name": "Transportation Safety and Environment",
+   "issn": "2631-6765"
+  },
+  {
+   "seq": 437,
+   "name": "Tropical Plants",
+   "issn": "2833-9851"
+  },
+  {
+   "seq": 438,
+   "name": "Tsinghua Science and Technology",
+   "issn": "1007-0214"
+  },
+  {
+   "seq": 439,
+   "name": "Tungsten",
+   "issn": "2661-8028"
+  },
+  {
+   "seq": 441,
+   "name": "Underground Space",
+   "issn": "2096-2754"
+  },
+  {
+   "seq": 442,
+   "name": "Unmanned Systems",
+   "issn": "2301-3850"
+  },
+  {
+   "seq": 443,
+   "name": "Virologica Sinica",
+   "issn": "1674-0769"
+  },
+  {
+   "seq": 446,
+   "name": "Visual Intelligence",
+   "issn": "2731-9008"
+  },
+  {
+   "seq": 447,
+   "name": "Waste Disposal & Sustainable Energy",
+   "issn": "2524-7980"
+  },
+  {
+   "seq": 448,
+   "name": "Water Biology and Security",
+   "issn": "2772-7351"
+  },
+  {
+   "seq": 449,
+   "name": "Water Science and Engineering",
+   "issn": "1674-2370"
+  },
+  {
+   "seq": 450,
+   "name": "World Journal of Acupuncture-Moxibustion",
+   "issn": "1003-5257"
+  },
+  {
+   "seq": 451,
+   "name": "World Journal Of Emergency Medicine",
+   "issn": "1920-8642"
+  },
+  {
+   "seq": 452,
+   "name": "World Journal of Otorhinolaryngology – Head and Neck Surgery",
+   "issn": "2095-8811"
+  },
+  {
+   "seq": 453,
+   "name": "World Journal of Pediatric Surgery",
+   "issn": "2096-6938"
+  },
+  {
+   "seq": 454,
+   "name": "World Journal of Pediatrics",
+   "issn": "1708-8569"
+  },
+  {
+   "seq": 455,
+   "name": "World Journal of Traditional Chinese Medicine",
+   "issn": "2311-8571"
+  },
+  {
+   "seq": 456,
+   "name": "Wuhan University Journal of Natural Sciences",
+   "issn": "1007-1202"
+  },
+  {
+   "seq": 457,
+   "name": "Zoological Research",
+   "issn": "2095-8137"
+  },
+  {
+   "seq": 458,
+   "name": "Zoological Systematics",
+   "issn": "2095-6827"
+  },
+  {
+   "seq": 461,
+   "name": "安全与环境学报",
+   "issn": "1009-6094"
+  },
+  {
+   "seq": 464,
+   "name": "爆炸与冲击",
+   "issn": "1001-1455"
+  },
+  {
+   "seq": 465,
+   "name": "北京大学学报. 医学版",
+   "issn": "1671-167X"
+  },
+  {
+   "seq": 466,
+   "name": "北京大学学报. 自然科学版",
+   "issn": "0479-8023"
+  },
+  {
+   "seq": 467,
+   "name": "北京工业大学学报",
+   "issn": "0254-0037"
+  },
+  {
+   "seq": 468,
+   "name": "北京航空航天大学学报",
+   "issn": "1001-5965"
+  },
+  {
+   "seq": 470,
+   "name": "北京交通大学学报. 自然科学版",
+   "issn": "1673-0291"
+  },
+  {
+   "seq": 471,
+   "name": "北京理工大学学报",
+   "issn": "1001-0645"
+  },
+  {
+   "seq": 472,
+   "name": "北京林业大学学报",
+   "issn": "1000-1522"
+  },
+  {
+   "seq": 473,
+   "name": "北京师范大学学报. 自然科学版",
+   "issn": "0476-0301"
+  },
+  {
+   "seq": 475,
+   "name": "北京中医药大学学报",
+   "issn": "1006-2157"
+  },
+  {
+   "seq": 476,
+   "name": "表面技术",
+   "issn": "1001-3660"
+  },
+  {
+   "seq": 477,
+   "name": "冰川冻土",
+   "issn": "1000-0240"
+  },
+  {
+   "seq": 478,
+   "name": "兵工学报",
+   "issn": "1000-1093"
+  },
+  {
+   "seq": 480,
+   "name": "兵器装备工程学报",
+   "issn": "2096-2304"
+  },
+  {
+   "seq": 481,
+   "name": "病毒学报",
+   "issn": "1000-8721"
+  },
+  {
+   "seq": 483,
+   "name": "材料导报",
+   "issn": "1005-023X"
+  },
+  {
+   "seq": 484,
+   "name": "材料工程",
+   "issn": "1001-4381"
+  },
+  {
+   "seq": 486,
+   "name": "材料科学与工艺",
+   "issn": "1005-0299"
+  },
+  {
+   "seq": 487,
+   "name": "材料热处理学报",
+   "issn": "1009-6264"
+  },
+  {
+   "seq": 488,
+   "name": "材料研究学报",
+   "issn": "1005-3093"
+  },
+  {
+   "seq": 489,
+   "name": "采矿与安全工程学报",
+   "issn": "1673-3363"
+  },
+  {
+   "seq": 491,
+   "name": "草地学报",
+   "issn": "1007-0435"
+  },
+  {
+   "seq": 492,
+   "name": "草业科学",
+   "issn": "1001-0629"
+  },
+  {
+   "seq": 493,
+   "name": "草业学报",
+   "issn": "1004-5759"
+  },
+  {
+   "seq": 496,
+   "name": "测绘科学",
+   "issn": "1009-2307"
+  },
+  {
+   "seq": 497,
+   "name": "测绘通报",
+   "issn": "0494-0911"
+  },
+  {
+   "seq": 498,
+   "name": "测绘学报",
+   "issn": "1001-1595"
+  },
+  {
+   "seq": 499,
+   "name": "茶叶科学",
+   "issn": "1000-369X"
+  },
+  {
+   "seq": 501,
+   "name": "沉积学报",
+   "issn": "1000-0550"
+  },
+  {
+   "seq": 503,
+   "name": "成都理工大学学报. 自然科学版",
+   "issn": "1671-9727"
+  },
+  {
+   "seq": 504,
+   "name": "城市发展研究",
+   "issn": "1006-3862"
+  },
+  {
+   "seq": 505,
+   "name": "城市规划",
+   "issn": "1002-1329"
+  },
+  {
+   "seq": 506,
+   "name": "城市规划学刊",
+   "issn": "1000-3363"
+  },
+  {
+   "seq": 507,
+   "name": "重庆大学学报",
+   "issn": "1000-582X"
+  },
+  {
+   "seq": 511,
+   "name": "储能科学与技术",
+   "issn": "2095-4239"
+  },
+  {
+   "seq": 515,
+   "name": "磁共振成像",
+   "issn": "1674-8034"
+  },
+  {
+   "seq": 516,
+   "name": "大地测量与地球动力学",
+   "issn": "1671-5942"
+  },
+  {
+   "seq": 517,
+   "name": "大地构造与成矿学",
+   "issn": "1001-1552"
+  },
+  {
+   "seq": 520,
+   "name": "大连海洋大学学报",
+   "issn": "2095-1388"
+  },
+  {
+   "seq": 521,
+   "name": "大连理工大学学报",
+   "issn": "1000-8608"
+  },
+  {
+   "seq": 522,
+   "name": "大气科学",
+   "issn": "1006-9895"
+  },
+  {
+   "seq": 523,
+   "name": "大气科学学报",
+   "issn": "1674-7097"
+  },
+  {
+   "seq": 524,
+   "name": "大气与环境光学学报",
+   "issn": "1673-6141"
+  },
+  {
+   "seq": 526,
+   "name": "弹道学报",
+   "issn": "1004-499X"
+  },
+  {
+   "seq": 533,
+   "name": "地理科学",
+   "issn": "1000-0690"
+  },
+  {
+   "seq": 534,
+   "name": "地理科学进展",
+   "issn": "1007-6301"
+  },
+  {
+   "seq": 535,
+   "name": "地理学报",
+   "issn": "0375-5444"
+  },
+  {
+   "seq": 536,
+   "name": "地理研究",
+   "issn": "1000-0585"
+  },
+  {
+   "seq": 537,
+   "name": "地理与地理信息科学",
+   "issn": "1672-0504"
+  },
+  {
+   "seq": 538,
+   "name": "地球化学",
+   "issn": "0379-1726"
+  },
+  {
+   "seq": 540,
+   "name": "地球科学",
+   "issn": "1000-2383"
+  },
+  {
+   "seq": 541,
+   "name": "地球科学进展",
+   "issn": "1001-8166"
+  },
+  {
+   "seq": 542,
+   "name": "地球物理学报",
+   "issn": "0001-5733"
+  },
+  {
+   "seq": 543,
+   "name": "地球物理学进展",
+   "issn": "1004-2903"
+  },
+  {
+   "seq": 544,
+   "name": "地球信息科学学报",
+   "issn": "1560-8999"
+  },
+  {
+   "seq": 545,
+   "name": "地球学报",
+   "issn": "1006-3021"
+  },
+  {
+   "seq": 546,
+   "name": "地球与行星物理论评（中英文）",
+   "issn": "2097-1893"
+  },
+  {
+   "seq": 547,
+   "name": "地球与环境",
+   "issn": "1672-9250"
+  },
+  {
+   "seq": 548,
+   "name": "地下空间与工程学报",
+   "issn": "1673-0836"
+  },
+  {
+   "seq": 549,
+   "name": "地学前缘",
+   "issn": "1005-2321"
+  },
+  {
+   "seq": 551,
+   "name": "地震地质",
+   "issn": "0253-4967"
+  },
+  {
+   "seq": 552,
+   "name": "地震工程学报",
+   "issn": "1000-0844"
+  },
+  {
+   "seq": 553,
+   "name": "地震工程与工程振动",
+   "issn": "1000-1301"
+  },
+  {
+   "seq": 554,
+   "name": "地震学报",
+   "issn": "0253-3782"
+  },
+  {
+   "seq": 557,
+   "name": "地质科学",
+   "issn": "0563-5020"
+  },
+  {
+   "seq": 558,
+   "name": "地质力学学报",
+   "issn": "1006-6616"
+  },
+  {
+   "seq": 559,
+   "name": "地质论评",
+   "issn": "0371-5736"
+  },
+  {
+   "seq": 560,
+   "name": "地质通报",
+   "issn": "1671-2552"
+  },
+  {
+   "seq": 561,
+   "name": "地质学报",
+   "issn": "0001-5717"
+  },
+  {
+   "seq": 563,
+   "name": "第四纪研究",
+   "issn": "1001-7410"
+  },
+  {
+   "seq": 567,
+   "name": "电工技术学报",
+   "issn": "1000-6753"
+  },
+  {
+   "seq": 569,
+   "name": "电机与控制学报",
+   "issn": "1007-449X"
+  },
+  {
+   "seq": 571,
+   "name": "电力建设",
+   "issn": "1000-7229"
+  },
+  {
+   "seq": 573,
+   "name": "电力系统保护与控制",
+   "issn": "1674-3415"
+  },
+  {
+   "seq": 574,
+   "name": "电力系统及其自动化学报",
+   "issn": "1003-8930"
+  },
+  {
+   "seq": 575,
+   "name": "电力系统自动化",
+   "issn": "1000-1026"
+  },
+  {
+   "seq": 576,
+   "name": "电力自动化设备",
+   "issn": "1006-6047"
+  },
+  {
+   "seq": 578,
+   "name": "电网技术",
+   "issn": "1000-3673"
+  },
+  {
+   "seq": 579,
+   "name": "电网与清洁能源",
+   "issn": "1674-3814"
+  },
+  {
+   "seq": 581,
+   "name": "电子测量与仪器学报",
+   "issn": "1000-7105"
+  },
+  {
+   "seq": 582,
+   "name": "电子科技大学学报",
+   "issn": "1001-0548"
+  },
+  {
+   "seq": 584,
+   "name": "电子学报",
+   "issn": "0372-2112"
+  },
+  {
+   "seq": 585,
+   "name": "电子与信息学报",
+   "issn": "1009-5896"
+  },
+  {
+   "seq": 586,
+   "name": "东北大学学报. 自然科学版",
+   "issn": "1005-3026"
+  },
+  {
+   "seq": 588,
+   "name": "东北农业大学学报",
+   "issn": "1005-9369"
+  },
+  {
+   "seq": 589,
+   "name": "东南大学学报. 自然科学版",
+   "issn": "1001-0505"
+  },
+  {
+   "seq": 590,
+   "name": "动力工程学报",
+   "issn": "1674-7607"
+  },
+  {
+   "seq": 592,
+   "name": "动物营养学报",
+   "issn": "1006-267X"
+  },
+  {
+   "seq": 593,
+   "name": "断块油气田",
+   "issn": "1005-8907"
+  },
+  {
+   "seq": 595,
+   "name": "发电技术",
+   "issn": "2096-4528"
+  },
+  {
+   "seq": 596,
+   "name": "发光学报",
+   "issn": "1000-7032"
+  },
+  {
+   "seq": 598,
+   "name": "防灾减灾工程学报",
+   "issn": "1672-2132"
+  },
+  {
+   "seq": 599,
+   "name": "纺织学报",
+   "issn": "0253-9721"
+  },
+  {
+   "seq": 600,
+   "name": "放射学实践",
+   "issn": "1000-0313"
+  },
+  {
+   "seq": 602,
+   "name": "分析测试学报",
+   "issn": "1004-4957"
+  },
+  {
+   "seq": 603,
+   "name": "分析化学",
+   "issn": "0253-3820"
+  },
+  {
+   "seq": 607,
+   "name": "辐射防护",
+   "issn": "1000-8187"
+  },
+  {
+   "seq": 608,
+   "name": "辐射研究与辐射工艺学报",
+   "issn": "1000-3436"
+  },
+  {
+   "seq": 612,
+   "name": "复旦学报. 医学版",
+   "issn": "1672-8467"
+  },
+  {
+   "seq": 614,
+   "name": "复合材料学报",
+   "issn": "1000-3851"
+  },
+  {
+   "seq": 615,
+   "name": "复杂系统与复杂性科学",
+   "issn": "1672-3813"
+  },
+  {
+   "seq": 617,
+   "name": "干旱地区农业研究",
+   "issn": "1000-7601"
+  },
+  {
+   "seq": 618,
+   "name": "干旱区地理",
+   "issn": "1000-6060"
+  },
+  {
+   "seq": 619,
+   "name": "干旱区研究",
+   "issn": "1001-4675"
+  },
+  {
+   "seq": 620,
+   "name": "干旱区资源与环境",
+   "issn": "1003-7578"
+  },
+  {
+   "seq": 621,
+   "name": "钢铁",
+   "issn": "0449-749X"
+  },
+  {
+   "seq": 622,
+   "name": "钢铁研究学报",
+   "issn": "1001-0963"
+  },
+  {
+   "seq": 623,
+   "name": "高等学校化学学报",
+   "issn": "0251-0790"
+  },
+  {
+   "seq": 624,
+   "name": "高电压技术",
+   "issn": "1003-6520"
+  },
+  {
+   "seq": 625,
+   "name": "高分子材料科学与工程",
+   "issn": "1000-7555"
+  },
+  {
+   "seq": 626,
+   "name": "高分子通报",
+   "issn": "1003-3726"
+  },
+  {
+   "seq": 627,
+   "name": "高分子学报",
+   "issn": "1000-3304"
+  },
+  {
+   "seq": 630,
+   "name": "高校化学工程学报",
+   "issn": "1003-9015"
+  },
+  {
+   "seq": 631,
+   "name": "高压电器",
+   "issn": "1001-1609"
+  },
+  {
+   "seq": 632,
+   "name": "高压物理学报",
+   "issn": "1000-5773"
+  },
+  {
+   "seq": 634,
+   "name": "高原气象",
+   "issn": "1000-0534"
+  },
+  {
+   "seq": 635,
+   "name": "给水排水",
+   "issn": "1002-8471"
+  },
+  {
+   "seq": 637,
+   "name": "工程地质学报",
+   "issn": "1004-9665"
+  },
+  {
+   "seq": 638,
+   "name": "工程科学学报",
+   "issn": "2095-9389"
+  },
+  {
+   "seq": 639,
+   "name": "工程科学与技术",
+   "issn": "2096-3246"
+  },
+  {
+   "seq": 640,
+   "name": "工程力学",
+   "issn": "1000-4750"
+  },
+  {
+   "seq": 641,
+   "name": "工程热物理学报",
+   "issn": "0253-231X"
+  },
+  {
+   "seq": 645,
+   "name": "工业水处理",
+   "issn": "1005-829X"
+  },
+  {
+   "seq": 646,
+   "name": "公路交通科技",
+   "issn": "1002-0268"
+  },
+  {
+   "seq": 647,
+   "name": "功能材料",
+   "issn": "1001-9731"
+  },
+  {
+   "seq": 648,
+   "name": "功能高分子学报",
+   "issn": "1008-9357"
+  },
+  {
+   "seq": 649,
+   "name": "古地理学报",
+   "issn": "1671-1505"
+  },
+  {
+   "seq": 650,
+   "name": "古脊椎动物学报（中英文）",
+   "issn": "2096-9899"
+  },
+  {
+   "seq": 651,
+   "name": "古生物学报",
+   "issn": "0001-6616"
+  },
+  {
+   "seq": 652,
+   "name": "固体火箭技术",
+   "issn": "1006-2793"
+  },
+  {
+   "seq": 653,
+   "name": "固体力学学报",
+   "issn": "0254-7805"
+  },
+  {
+   "seq": 654,
+   "name": "管理工程学报",
+   "issn": "1004-6062"
+  },
+  {
+   "seq": 655,
+   "name": "管理科学学报",
+   "issn": "1007-9807"
+  },
+  {
+   "seq": 657,
+   "name": "光电工程",
+   "issn": "1003-501X"
+  },
+  {
+   "seq": 659,
+   "name": "光谱学与光谱分析",
+   "issn": "1000-0593"
+  },
+  {
+   "seq": 661,
+   "name": "光学精密工程",
+   "issn": "1004-924X"
+  },
+  {
+   "seq": 662,
+   "name": "光学学报",
+   "issn": "0253-2239"
+  },
+  {
+   "seq": 663,
+   "name": "光子学报",
+   "issn": "1004-4213"
+  },
+  {
+   "seq": 667,
+   "name": "硅酸盐学报",
+   "issn": "0454-5648"
+  },
+  {
+   "seq": 668,
+   "name": "国防科技大学学报",
+   "issn": "1001-2486"
+  },
+  {
+   "seq": 669,
+   "name": "国际城市规划",
+   "issn": "1673-9493"
+  },
+  {
+   "seq": 670,
+   "name": "国际口腔医学杂志",
+   "issn": "1673-5749"
+  },
+  {
+   "seq": 672,
+   "name": "果树学报",
+   "issn": "1009-9980"
+  },
+  {
+   "seq": 673,
+   "name": "过程工程学报",
+   "issn": "1009-606X"
+  },
+  {
+   "seq": 674,
+   "name": "哈尔滨工程大学学报",
+   "issn": "1006-7043"
+  },
+  {
+   "seq": 675,
+   "name": "哈尔滨工业大学学报",
+   "issn": "0367-6234"
+  },
+  {
+   "seq": 676,
+   "name": "海军军医大学学报",
+   "issn": "2097-1338"
+  },
+  {
+   "seq": 677,
+   "name": "海相油气地质",
+   "issn": "1672-9854"
+  },
+  {
+   "seq": 679,
+   "name": "海洋地质前沿",
+   "issn": "1009-2722"
+  },
+  {
+   "seq": 680,
+   "name": "海洋地质与第四纪地质",
+   "issn": "0256-1492"
+  },
+  {
+   "seq": 681,
+   "name": "海洋工程",
+   "issn": "1005-9865"
+  },
+  {
+   "seq": 682,
+   "name": "海洋湖沼通报（中英文）",
+   "issn": "1003-6482"
+  },
+  {
+   "seq": 683,
+   "name": "海洋环境科学",
+   "issn": "1007-6336"
+  },
+  {
+   "seq": 684,
+   "name": "海洋科学",
+   "issn": "1000-3096"
+  },
+  {
+   "seq": 685,
+   "name": "海洋科学进展",
+   "issn": "1671-6647"
+  },
+  {
+   "seq": 686,
+   "name": "海洋通报",
+   "issn": "1001-6392"
+  },
+  {
+   "seq": 687,
+   "name": "海洋学报",
+   "issn": "0253-4193"
+  },
+  {
+   "seq": 689,
+   "name": "海洋渔业",
+   "issn": "1004-2490"
+  },
+  {
+   "seq": 690,
+   "name": "海洋与湖沼",
+   "issn": "0029-814X"
+  },
+  {
+   "seq": 692,
+   "name": "含能材料",
+   "issn": "1006-9941"
+  },
+  {
+   "seq": 693,
+   "name": "焊接学报",
+   "issn": "0253-360X"
+  },
+  {
+   "seq": 694,
+   "name": "航空兵器",
+   "issn": "1673-5048"
+  },
+  {
+   "seq": 695,
+   "name": "航空材料学报",
+   "issn": "1005-5053"
+  },
+  {
+   "seq": 696,
+   "name": "航空动力学报",
+   "issn": "1000-8055"
+  },
+  {
+   "seq": 698,
+   "name": "航空学报",
+   "issn": "1000-6893"
+  },
+  {
+   "seq": 699,
+   "name": "航空制造技术",
+   "issn": "1671-833X"
+  },
+  {
+   "seq": 700,
+   "name": "航天返回与遥感",
+   "issn": "1009-8518"
+  },
+  {
+   "seq": 702,
+   "name": "航天器工程",
+   "issn": "1673-8748"
+  },
+  {
+   "seq": 703,
+   "name": "航天器环境工程",
+   "issn": "1673-1379"
+  },
+  {
+   "seq": 704,
+   "name": "合成生物学",
+   "issn": "2096-8280"
+  },
+  {
+   "seq": 706,
+   "name": "河海大学学报. 自然科学版",
+   "issn": "1000-1980"
+  },
+  {
+   "seq": 707,
+   "name": "河南农业大学学报",
+   "issn": "1000-2340"
+  },
+  {
+   "seq": 708,
+   "name": "核动力工程",
+   "issn": "0258-0926"
+  },
+  {
+   "seq": 709,
+   "name": "核化学与放射化学",
+   "issn": "0253-9950"
+  },
+  {
+   "seq": 710,
+   "name": "核技术",
+   "issn": "0253-3219"
+  },
+  {
+   "seq": 714,
+   "name": "红外技术",
+   "issn": "1001-8891"
+  },
+  {
+   "seq": 715,
+   "name": "红外与毫米波学报",
+   "issn": "1001-9014"
+  },
+  {
+   "seq": 716,
+   "name": "红外与激光工程",
+   "issn": "1007-2276"
+  },
+  {
+   "seq": 717,
+   "name": "湖泊科学",
+   "issn": "1003-5427"
+  },
+  {
+   "seq": 718,
+   "name": "湖南大学学报. 自然科学版",
+   "issn": "1674-2974"
+  },
+  {
+   "seq": 724,
+   "name": "华北农学报",
+   "issn": "1000-7091"
+  },
+  {
+   "seq": 727,
+   "name": "华南理工大学学报. 自然科学版",
+   "issn": "1000-565X"
+  },
+  {
+   "seq": 728,
+   "name": "华南农业大学学报",
+   "issn": "1001-411X"
+  },
+  {
+   "seq": 729,
+   "name": "华西口腔医学杂志",
+   "issn": "1000-1182"
+  },
+  {
+   "seq": 732,
+   "name": "华中科技大学学报. 自然科学版",
+   "issn": "1671-4512"
+  },
+  {
+   "seq": 733,
+   "name": "华中农业大学学报",
+   "issn": "1000-2421"
+  },
+  {
+   "seq": 736,
+   "name": "化工进展",
+   "issn": "1000-6613"
+  },
+  {
+   "seq": 738,
+   "name": "化工学报",
+   "issn": "0438-1157"
+  },
+  {
+   "seq": 740,
+   "name": "化学进展",
+   "issn": "1005-281X"
+  },
+  {
+   "seq": 742,
+   "name": "化学学报",
+   "issn": "0567-7351"
+  },
+  {
+   "seq": 744,
+   "name": "环境工程技术学报",
+   "issn": "1674-991X"
+  },
+  {
+   "seq": 746,
+   "name": "环境化学",
+   "issn": "0254-6108"
+  },
+  {
+   "seq": 748,
+   "name": "环境科学",
+   "issn": "0250-3301"
+  },
+  {
+   "seq": 749,
+   "name": "环境科学学报",
+   "issn": "0253-2468"
+  },
+  {
+   "seq": 750,
+   "name": "环境科学研究",
+   "issn": "1001-6929"
+  },
+  {
+   "seq": 751,
+   "name": "环境科学与技术",
+   "issn": "1003-6504"
+  },
+  {
+   "seq": 754,
+   "name": "环境与职业医学",
+   "issn": "2095-9982"
+  },
+  {
+   "seq": 759,
+   "name": "火炸药学报",
+   "issn": "1007-7812"
+  },
+  {
+   "seq": 760,
+   "name": "机器人",
+   "issn": "1002-0446"
+  },
+  {
+   "seq": 761,
+   "name": "机械工程材料",
+   "issn": "1000-3738"
+  },
+  {
+   "seq": 762,
+   "name": "机械工程学报",
+   "issn": "0577-6686"
+  },
+  {
+   "seq": 763,
+   "name": "机械科学与技术",
+   "issn": "1003-8728"
+  },
+  {
+   "seq": 769,
+   "name": "激光与光电子学进展",
+   "issn": "1006-4125"
+  },
+  {
+   "seq": 771,
+   "name": "吉林大学学报. 地球科学版",
+   "issn": "1671-5888"
+  },
+  {
+   "seq": 772,
+   "name": "吉林大学学报. 工学版",
+   "issn": "1671-5497"
+  },
+  {
+   "seq": 775,
+   "name": "极地研究",
+   "issn": "1007-7073"
+  },
+  {
+   "seq": 776,
+   "name": "疾病监测",
+   "issn": "1003-9961"
+  },
+  {
+   "seq": 778,
+   "name": "计量经济学报",
+   "issn": "2096-9732"
+  },
+  {
+   "seq": 780,
+   "name": "计算机辅助设计与图形学学报",
+   "issn": "1003-9775"
+  },
+  {
+   "seq": 781,
+   "name": "计算机工程",
+   "issn": "1000-3428"
+  },
+  {
+   "seq": 784,
+   "name": "计算机集成制造系统",
+   "issn": "1006-5911"
+  },
+  {
+   "seq": 785,
+   "name": "计算机科学",
+   "issn": "1002-137X"
+  },
+  {
+   "seq": 787,
+   "name": "计算机学报",
+   "issn": "0254-4164"
+  },
+  {
+   "seq": 788,
+   "name": "计算机研究与发展",
+   "issn": "1000-1239"
+  },
+  {
+   "seq": 791,
+   "name": "计算力学学报",
+   "issn": "1007-4708"
+  },
+  {
+   "seq": 792,
+   "name": "计算数学",
+   "issn": "0254-7791"
+  },
+  {
+   "seq": 794,
+   "name": "建筑材料学报",
+   "issn": "1007-9629"
+  },
+  {
+   "seq": 796,
+   "name": "建筑结构学报",
+   "issn": "1000-6869"
+  },
+  {
+   "seq": 798,
+   "name": "江苏农业学报",
+   "issn": "1000-4440"
+  },
+  {
+   "seq": 799,
+   "name": "江西农业大学学报",
+   "issn": "1000-2286"
+  },
+  {
+   "seq": 801,
+   "name": "交通运输工程学报",
+   "issn": "1671-1637"
+  },
+  {
+   "seq": 802,
+   "name": "交通运输系统工程与信息",
+   "issn": "1009-6744"
+  },
+  {
+   "seq": 803,
+   "name": "洁净煤技术",
+   "issn": "1006-6772"
+  },
+  {
+   "seq": 804,
+   "name": "解放军医学杂志",
+   "issn": "0577-7402"
+  },
+  {
+   "seq": 805,
+   "name": "解剖学报",
+   "issn": "0529-1356"
+  },
+  {
+   "seq": 808,
+   "name": "金属学报",
+   "issn": "0412-1961"
+  },
+  {
+   "seq": 809,
+   "name": "经济地理",
+   "issn": "1000-8462"
+  },
+  {
+   "seq": 810,
+   "name": "精细化工",
+   "issn": "1003-5214"
+  },
+  {
+   "seq": 812,
+   "name": "军事护理",
+   "issn": "2097-1826"
+  },
+  {
+   "seq": 813,
+   "name": "军事医学",
+   "issn": "1674-9960"
+  },
+  {
+   "seq": 814,
+   "name": "菌物学报",
+   "issn": "1672-6472"
+  },
+  {
+   "seq": 815,
+   "name": "菌物研究",
+   "issn": "1672-3538"
+  },
+  {
+   "seq": 816,
+   "name": "康复学报",
+   "issn": "2096-0328"
+  },
+  {
+   "seq": 817,
+   "name": "科技导报",
+   "issn": "1000-7857"
+  },
+  {
+   "seq": 819,
+   "name": "科学通报",
+   "issn": "0023-074X"
+  },
+  {
+   "seq": 820,
+   "name": "科学学研究",
+   "issn": "1003-2053"
+  },
+  {
+   "seq": 821,
+   "name": "科学学与科学技术管理",
+   "issn": "1002-0241"
+  },
+  {
+   "seq": 822,
+   "name": "科研管理",
+   "issn": "1000-2995"
+  },
+  {
+   "seq": 823,
+   "name": "可再生能源",
+   "issn": "1671-5292"
+  },
+  {
+   "seq": 824,
+   "name": "空间科学学报",
+   "issn": "0254-6124"
+  },
+  {
+   "seq": 826,
+   "name": "空间控制技术与应用",
+   "issn": "1674-1579"
+  },
+  {
+   "seq": 828,
+   "name": "空气动力学学报",
+   "issn": "0258-1825"
+  },
+  {
+   "seq": 829,
+   "name": "空天防御",
+   "issn": "2096-4641"
+  },
+  {
+   "seq": 830,
+   "name": "空天技术",
+   "issn": "2097-0714"
+  },
+  {
+   "seq": 833,
+   "name": "控制理论与应用",
+   "issn": "1000-8152"
+  },
+  {
+   "seq": 834,
+   "name": "控制与决策",
+   "issn": "1001-0920"
+  },
+  {
+   "seq": 837,
+   "name": "矿床地质",
+   "issn": "0258-7106"
+  },
+  {
+   "seq": 838,
+   "name": "矿物学报",
+   "issn": "1000-4734"
+  },
+  {
+   "seq": 839,
+   "name": "矿物岩石地球化学通报",
+   "issn": "1007-2802"
+  },
+  {
+   "seq": 840,
+   "name": "矿业科学学报",
+   "issn": "2096-2193"
+  },
+  {
+   "seq": 841,
+   "name": "昆虫学报",
+   "issn": "0454-6296"
+  },
+  {
+   "seq": 842,
+   "name": "兰州大学学报. 自然科学版",
+   "issn": "0455-2059"
+  },
+  {
+   "seq": 843,
+   "name": "雷达学报（中英文）",
+   "issn": "2095-283X"
+  },
+  {
+   "seq": 846,
+   "name": "力学进展",
+   "issn": "1000-0992"
+  },
+  {
+   "seq": 847,
+   "name": "力学学报",
+   "issn": "0459-1879"
+  },
+  {
+   "seq": 852,
+   "name": "林产化学与工业",
+   "issn": "0253-2417"
+  },
+  {
+   "seq": 853,
+   "name": "林业工程学报",
+   "issn": "2096-1359"
+  },
+  {
+   "seq": 854,
+   "name": "林业科学",
+   "issn": "1001-7488"
+  },
+  {
+   "seq": 855,
+   "name": "林业科学研究",
+   "issn": "1001-1498"
+  },
+  {
+   "seq": 857,
+   "name": "临床儿科杂志",
+   "issn": "1000-3606"
+  },
+  {
+   "seq": 858,
+   "name": "临床耳鼻咽喉头颈外科杂志",
+   "issn": "2096-7993"
+  },
+  {
+   "seq": 864,
+   "name": "陆军军医大学学报",
+   "issn": "2097-0927"
+  },
+  {
+   "seq": 865,
+   "name": "麦类作物学报",
+   "issn": "1009-1041"
+  },
+  {
+   "seq": 866,
+   "name": "煤炭科学技术",
+   "issn": "0253-2336"
+  },
+  {
+   "seq": 867,
+   "name": "煤炭学报",
+   "issn": "0253-9993"
+  },
+  {
+   "seq": 868,
+   "name": "煤炭转化",
+   "issn": "1004-4248"
+  },
+  {
+   "seq": 869,
+   "name": "煤田地质与勘探",
+   "issn": "1001-1986"
+  },
+  {
+   "seq": 870,
+   "name": "密码学报（中英文）",
+   "issn": "2097-4116"
+  },
+  {
+   "seq": 871,
+   "name": "棉花学报",
+   "issn": "1002-7807"
+  },
+  {
+   "seq": 872,
+   "name": "免疫学杂志",
+   "issn": "1000-8861"
+  },
+  {
+   "seq": 873,
+   "name": "模式识别与人工智能",
+   "issn": "1003-6059"
+  },
+  {
+   "seq": 874,
+   "name": "膜科学与技术",
+   "issn": "1007-8924"
+  },
+  {
+   "seq": 875,
+   "name": "摩擦学学报（中英文）",
+   "issn": "1004-0595"
+  },
+  {
+   "seq": 877,
+   "name": "南方电网技术",
+   "issn": "1674-0629"
+  },
+  {
+   "seq": 880,
+   "name": "南方水产科学",
+   "issn": "2095-0780"
+  },
+  {
+   "seq": 881,
+   "name": "南方医科大学学报",
+   "issn": "1673-4254"
+  },
+  {
+   "seq": 882,
+   "name": "南京大学学报. 自然科学版",
+   "issn": "0469-5097"
+  },
+  {
+   "seq": 883,
+   "name": "南京航空航天大学学报. 自然科学版",
+   "issn": "1005-2615"
+  },
+  {
+   "seq": 885,
+   "name": "南京林业大学学报. 自然科学版",
+   "issn": "1000-2006"
+  },
+  {
+   "seq": 886,
+   "name": "南京农业大学学报",
+   "issn": "1000-2030"
+  },
+  {
+   "seq": 887,
+   "name": "南京中医药大学学报",
+   "issn": "1672-0482"
+  },
+  {
+   "seq": 889,
+   "name": "南水北调与水利科技（中英文）",
+   "issn": "2096-8086"
+  },
+  {
+   "seq": 891,
+   "name": "内燃机学报",
+   "issn": "1000-0909"
+  },
+  {
+   "seq": 892,
+   "name": "泥沙研究",
+   "issn": "0468-155X"
+  },
+  {
+   "seq": 894,
+   "name": "农药学学报",
+   "issn": "1008-7303"
+  },
+  {
+   "seq": 895,
+   "name": "农业工程学报",
+   "issn": "1002-6819"
+  },
+  {
+   "seq": 896,
+   "name": "农业环境科学学报",
+   "issn": "1672-2043"
+  },
+  {
+   "seq": 897,
+   "name": "农业机械学报",
+   "issn": "1000-1298"
+  },
+  {
+   "seq": 898,
+   "name": "农业生物技术学报",
+   "issn": "1674-7968"
+  },
+  {
+   "seq": 899,
+   "name": "农业现代化研究",
+   "issn": "1000-0275"
+  },
+  {
+   "seq": 900,
+   "name": "农业资源与环境学报",
+   "issn": "2095-6819"
+  },
+  {
+   "seq": 901,
+   "name": "排灌机械工程学报",
+   "issn": "1674-8530"
+  },
+  {
+   "seq": 903,
+   "name": "气候变化研究进展",
+   "issn": "1673-1719"
+  },
+  {
+   "seq": 904,
+   "name": "气候与环境研究",
+   "issn": "1006-9585"
+  },
+  {
+   "seq": 905,
+   "name": "气象",
+   "issn": "1000-0526"
+  },
+  {
+   "seq": 906,
+   "name": "气象学报",
+   "issn": "0577-6619"
+  },
+  {
+   "seq": 907,
+   "name": "汽车安全与节能学报",
+   "issn": "1674-8484"
+  },
+  {
+   "seq": 908,
+   "name": "汽车工程",
+   "issn": "1000-680X"
+  },
+  {
+   "seq": 910,
+   "name": "器官移植",
+   "issn": "1674-7445"
+  },
+  {
+   "seq": 912,
+   "name": "强激光与粒子束",
+   "issn": "1001-4322"
+  },
+  {
+   "seq": 913,
+   "name": "桥梁建设",
+   "issn": "1003-4722"
+  },
+  {
+   "seq": 914,
+   "name": "清华大学学报. 自然科学版",
+   "issn": "1000-0054"
+  },
+  {
+   "seq": 918,
+   "name": "全球能源互联网",
+   "issn": "2096-5125"
+  },
+  {
+   "seq": 919,
+   "name": "燃料化学学报（中英文）",
+   "issn": "2097-213X"
+  },
+  {
+   "seq": 920,
+   "name": "燃烧科学与技术",
+   "issn": "1006-8740"
+  },
+  {
+   "seq": 921,
+   "name": "热带地理",
+   "issn": "1001-5221"
+  },
+  {
+   "seq": 922,
+   "name": "热带海洋学报",
+   "issn": "1009-5470"
+  },
+  {
+   "seq": 927,
+   "name": "热力发电",
+   "issn": "1002-3364"
+  },
+  {
+   "seq": 929,
+   "name": "人类学学报",
+   "issn": "1000-3193"
+  },
+  {
+   "seq": 930,
+   "name": "软件学报",
+   "issn": "1000-9825"
+  },
+  {
+   "seq": 932,
+   "name": "色谱",
+   "issn": "1000-8713"
+  },
+  {
+   "seq": 933,
+   "name": "森林与环境学报",
+   "issn": "2096-0018"
+  },
+  {
+   "seq": 935,
+   "name": "山地学报",
+   "issn": "1008-2786"
+  },
+  {
+   "seq": 936,
+   "name": "山东大学学报. 工学版",
+   "issn": "1672-3961"
+  },
+  {
+   "seq": 940,
+   "name": "上海海洋大学学报",
+   "issn": "1674-5566"
+  },
+  {
+   "seq": 941,
+   "name": "上海航天（中英文）",
+   "issn": "2096-8655"
+  },
+  {
+   "seq": 942,
+   "name": "上海交通大学学报",
+   "issn": "1006-2467"
+  },
+  {
+   "seq": 943,
+   "name": "上海交通大学学报. 医学版",
+   "issn": "1674-8115"
+  },
+  {
+   "seq": 948,
+   "name": "深空探测学报（中英文）",
+   "issn": "2096-9287"
+  },
+  {
+   "seq": 954,
+   "name": "生理学报",
+   "issn": "0371-0874"
+  },
+  {
+   "seq": 955,
+   "name": "生命科学",
+   "issn": "1004-0374"
+  },
+  {
+   "seq": 957,
+   "name": "生态环境学报",
+   "issn": "1674-5906"
+  },
+  {
+   "seq": 958,
+   "name": "生态科学",
+   "issn": "1008-8873"
+  },
+  {
+   "seq": 959,
+   "name": "生态学报",
+   "issn": "1000-0933"
+  },
+  {
+   "seq": 960,
+   "name": "生态学杂志",
+   "issn": "1000-4890"
+  },
+  {
+   "seq": 961,
+   "name": "生态与农村环境学报",
+   "issn": "1673-4831"
+  },
+  {
+   "seq": 963,
+   "name": "生物多样性",
+   "issn": "1005-0094"
+  },
+  {
+   "seq": 964,
+   "name": "生物工程学报",
+   "issn": "1000-3061"
+  },
+  {
+   "seq": 966,
+   "name": "生物技术通报",
+   "issn": "1002-5464"
+  },
+  {
+   "seq": 969,
+   "name": "声学学报",
+   "issn": "0371-0025"
+  },
+  {
+   "seq": 970,
+   "name": "湿地科学",
+   "issn": "1672-5948"
+  },
+  {
+   "seq": 971,
+   "name": "石油地球物理勘探",
+   "issn": "1000-7210"
+  },
+  {
+   "seq": 972,
+   "name": "石油化工",
+   "issn": "1000-8144"
+  },
+  {
+   "seq": 973,
+   "name": "石油勘探与开发",
+   "issn": "1000-0747"
+  },
+  {
+   "seq": 975,
+   "name": "石油实验地质",
+   "issn": "1001-6112"
+  },
+  {
+   "seq": 976,
+   "name": "石油物探",
+   "issn": "1000-1441"
+  },
+  {
+   "seq": 977,
+   "name": "石油学报",
+   "issn": "0253-2697"
+  },
+  {
+   "seq": 979,
+   "name": "石油与天然气地质",
+   "issn": "0253-9985"
+  },
+  {
+   "seq": 982,
+   "name": "时间频率学报",
+   "issn": "1674-0637"
+  },
+  {
+   "seq": 984,
+   "name": "实验力学",
+   "issn": "1001-4888"
+  },
+  {
+   "seq": 985,
+   "name": "实验流体力学",
+   "issn": "1672-9897"
+  },
+  {
+   "seq": 988,
+   "name": "食品科学",
+   "issn": "1002-6630"
+  },
+  {
+   "seq": 989,
+   "name": "食品科学技术学报",
+   "issn": "2095-6002"
+  },
+  {
+   "seq": 990,
+   "name": "食品与发酵工业",
+   "issn": "0253-990X"
+  },
+  {
+   "seq": 996,
+   "name": "世界林业研究",
+   "issn": "1001-4241"
+  },
+  {
+   "seq": 999,
+   "name": "数据分析与知识发现",
+   "issn": "2096-3467"
+  },
+  {
+   "seq": 1001,
+   "name": "数量经济技术经济研究",
+   "issn": "1000-3894"
+  },
+  {
+   "seq": 1004,
+   "name": "数学物理学报. A 辑",
+   "issn": "1003-3998"
+  },
+  {
+   "seq": 1005,
+   "name": "数学学报",
+   "issn": "0583-1431"
+  },
+  {
+   "seq": 1007,
+   "name": "水产学报",
+   "issn": "1000-0615"
+  },
+  {
+   "seq": 1010,
+   "name": "水科学进展",
+   "issn": "1001-6791"
+  },
+  {
+   "seq": 1011,
+   "name": "水力发电学报",
+   "issn": "1003-1243"
+  },
+  {
+   "seq": 1013,
+   "name": "水利水电科技进展",
+   "issn": "1006-7647"
+  },
+  {
+   "seq": 1015,
+   "name": "水利学报",
+   "issn": "0559-9350"
+  },
+  {
+   "seq": 1016,
+   "name": "水生生物学报",
+   "issn": "1000-3207"
+  },
+  {
+   "seq": 1017,
+   "name": "水生态学杂志",
+   "issn": "1674-3075"
+  },
+  {
+   "seq": 1019,
+   "name": "水土保持学报",
+   "issn": "1009-2242"
+  },
+  {
+   "seq": 1020,
+   "name": "水土保持研究",
+   "issn": "1005-3409"
+  },
+  {
+   "seq": 1022,
+   "name": "水文地质工程地质",
+   "issn": "1000-3665"
+  },
+  {
+   "seq": 1023,
+   "name": "水资源保护",
+   "issn": "1004-6933"
+  },
+  {
+   "seq": 1024,
+   "name": "水资源与水工程学报",
+   "issn": "1672-643X"
+  },
+  {
+   "seq": 1025,
+   "name": "丝绸",
+   "issn": "1001-7003"
+  },
+  {
+   "seq": 1026,
+   "name": "四川大学学报. 医学版",
+   "issn": "1672-173X"
+  },
+  {
+   "seq": 1030,
+   "name": "塑料工业",
+   "issn": "1005-5770"
+  },
+  {
+   "seq": 1031,
+   "name": "塑性工程学报",
+   "issn": "1007-2012"
+  },
+  {
+   "seq": 1032,
+   "name": "隧道建设（中英文）",
+   "issn": "2096-4498"
+  },
+  {
+   "seq": 1035,
+   "name": "特种油气藏",
+   "issn": "1006-6535"
+  },
+  {
+   "seq": 1036,
+   "name": "天津大学学报. 自然科学与工程技术版",
+   "issn": "0493-2137"
+  },
+  {
+   "seq": 1037,
+   "name": "天然产物研究与开发",
+   "issn": "1001-6880"
+  },
+  {
+   "seq": 1038,
+   "name": "天然气地球科学",
+   "issn": "1672-1926"
+  },
+  {
+   "seq": 1039,
+   "name": "天然气工业",
+   "issn": "1000-0976"
+  },
+  {
+   "seq": 1040,
+   "name": "天文学报",
+   "issn": "0001-5245"
+  },
+  {
+   "seq": 1041,
+   "name": "天文学进展",
+   "issn": "1000-8349"
+  },
+  {
+   "seq": 1042,
+   "name": "铁道工程学报",
+   "issn": "1006-2106"
+  },
+  {
+   "seq": 1043,
+   "name": "铁道科学与工程学报",
+   "issn": "1672-7029"
+  },
+  {
+   "seq": 1044,
+   "name": "铁道学报",
+   "issn": "1001-8360"
+  },
+  {
+   "seq": 1045,
+   "name": "听力学及言语疾病杂志",
+   "issn": "1006-7299"
+  },
+  {
+   "seq": 1046,
+   "name": "通信学报",
+   "issn": "1000-436X"
+  },
+  {
+   "seq": 1047,
+   "name": "同济大学学报. 自然科学版",
+   "issn": "0253-374X"
+  },
+  {
+   "seq": 1048,
+   "name": "图学学报",
+   "issn": "2095-302X"
+  },
+  {
+   "seq": 1049,
+   "name": "土木工程学报",
+   "issn": "1000-131X"
+  },
+  {
+   "seq": 1050,
+   "name": "土木与环境工程学报（中英文）",
+   "issn": "2096-6717"
+  },
+  {
+   "seq": 1051,
+   "name": "土壤",
+   "issn": "0253-9829"
+  },
+  {
+   "seq": 1052,
+   "name": "土壤通报",
+   "issn": "0564-3945"
+  },
+  {
+   "seq": 1053,
+   "name": "土壤学报",
+   "issn": "0564-3929"
+  },
+  {
+   "seq": 1054,
+   "name": "推进技术",
+   "issn": "1001-4055"
+  },
+  {
+   "seq": 1055,
+   "name": "网络空间安全科学学报",
+   "issn": "2097-3136"
+  },
+  {
+   "seq": 1057,
+   "name": "微生物学报",
+   "issn": "0001-6209"
+  },
+  {
+   "seq": 1058,
+   "name": "微生物学通报",
+   "issn": "0253-2654"
+  },
+  {
+   "seq": 1060,
+   "name": "微体古生物学报（中英文）",
+   "issn": "2097-5139"
+  },
+  {
+   "seq": 1061,
+   "name": "卫生研究",
+   "issn": "1000-8020"
+  },
+  {
+   "seq": 1062,
+   "name": "无机材料学报",
+   "issn": "1000-324X"
+  },
+  {
+   "seq": 1066,
+   "name": "武汉大学学报. 工学版",
+   "issn": "1671-8844"
+  },
+  {
+   "seq": 1067,
+   "name": "武汉大学学报. 理学版",
+   "issn": "1671-8836"
+  },
+  {
+   "seq": 1068,
+   "name": "武汉大学学报. 信息科学版",
+   "issn": "1671-8860"
+  },
+  {
+   "seq": 1069,
+   "name": "物理化学学报",
+   "issn": "1000-6818"
+  },
+  {
+   "seq": 1070,
+   "name": "物理学报",
+   "issn": "1000-3290"
+  },
+  {
+   "seq": 1071,
+   "name": "西安电子科技大学学报",
+   "issn": "1001-2400"
+  },
+  {
+   "seq": 1072,
+   "name": "西安交通大学学报",
+   "issn": "0253-987X"
+  },
+  {
+   "seq": 1073,
+   "name": "西安交通大学学报. 医学版",
+   "issn": "1671-8259"
+  },
+  {
+   "seq": 1074,
+   "name": "西北大学学报. 自然科学版",
+   "issn": "1000-274X"
+  },
+  {
+   "seq": 1076,
+   "name": "西北工业大学学报",
+   "issn": "1000-2758"
+  },
+  {
+   "seq": 1077,
+   "name": "西北林学院学报",
+   "issn": "1001-7461"
+  },
+  {
+   "seq": 1078,
+   "name": "西北农林科技大学学报. 自然科学版",
+   "issn": "1671-9387"
+  },
+  {
+   "seq": 1079,
+   "name": "西北农业学报",
+   "issn": "1004-1389"
+  },
+  {
+   "seq": 1080,
+   "name": "西北植物学报",
+   "issn": "1000-4025"
+  },
+  {
+   "seq": 1083,
+   "name": "西南交通大学学报",
+   "issn": "0258-2724"
+  },
+  {
+   "seq": 1087,
+   "name": "稀有金属",
+   "issn": "0258-7076"
+  },
+  {
+   "seq": 1088,
+   "name": "稀有金属材料与工程",
+   "issn": "1002-185X"
+  },
+  {
+   "seq": 1090,
+   "name": "系统仿真学报",
+   "issn": "1004-731X"
+  },
+  {
+   "seq": 1092,
+   "name": "系统工程理论与实践",
+   "issn": "1000-6788"
+  },
+  {
+   "seq": 1093,
+   "name": "系统工程学报",
+   "issn": "1000-5781"
+  },
+  {
+   "seq": 1094,
+   "name": "系统工程与电子技术",
+   "issn": "1001-506X"
+  },
+  {
+   "seq": 1095,
+   "name": "系统管理学报",
+   "issn": "2097-4558"
+  },
+  {
+   "seq": 1096,
+   "name": "系统科学与数学",
+   "issn": "1000-0577"
+  },
+  {
+   "seq": 1098,
+   "name": "现代地质",
+   "issn": "1000-8527"
+  },
+  {
+   "seq": 1102,
+   "name": "现代隧道技术",
+   "issn": "1009-6582"
+  },
+  {
+   "seq": 1104,
+   "name": "协和医学杂志",
+   "issn": "1674-9081"
+  },
+  {
+   "seq": 1106,
+   "name": "心理科学进展",
+   "issn": "1671-3710"
+  },
+  {
+   "seq": 1107,
+   "name": "心理学报",
+   "issn": "0439-755X"
+  },
+  {
+   "seq": 1111,
+   "name": "新疆石油地质",
+   "issn": "1001-3873"
+  },
+  {
+   "seq": 1112,
+   "name": "新能源进展",
+   "issn": "2095-560X"
+  },
+  {
+   "seq": 1113,
+   "name": "新型炭材料（中英文）",
+   "issn": "2097-1605"
+  },
+  {
+   "seq": 1114,
+   "name": "信号处理",
+   "issn": "1003-0530"
+  },
+  {
+   "seq": 1115,
+   "name": "信息安全学报",
+   "issn": "2096-1146"
+  },
+  {
+   "seq": 1119,
+   "name": "信息与控制",
+   "issn": "1002-0411"
+  },
+  {
+   "seq": 1120,
+   "name": "畜牧兽医学报",
+   "issn": "0366-6964"
+  },
+  {
+   "seq": 1121,
+   "name": "烟草科技",
+   "issn": "1002-0861"
+  },
+  {
+   "seq": 1122,
+   "name": "岩矿测试",
+   "issn": "0254-5357"
+  },
+  {
+   "seq": 1123,
+   "name": "岩石矿物学杂志",
+   "issn": "1000-6524"
+  },
+  {
+   "seq": 1124,
+   "name": "岩石力学与工程学报",
+   "issn": "1000-6915"
+  },
+  {
+   "seq": 1125,
+   "name": "岩石学报",
+   "issn": "1000-0569"
+  },
+  {
+   "seq": 1126,
+   "name": "岩土工程学报",
+   "issn": "1000-4548"
+  },
+  {
+   "seq": 1127,
+   "name": "岩土力学",
+   "issn": "1000-7598"
+  },
+  {
+   "seq": 1128,
+   "name": "岩性油气藏",
+   "issn": "1673-8926"
+  },
+  {
+   "seq": 1129,
+   "name": "盐湖研究",
+   "issn": "1008-858X"
+  },
+  {
+   "seq": 1131,
+   "name": "遥感技术与应用",
+   "issn": "1004-0323"
+  },
+  {
+   "seq": 1132,
+   "name": "遥感信息",
+   "issn": "1000-3177"
+  },
+  {
+   "seq": 1133,
+   "name": "遥感学报",
+   "issn": "1007-4619"
+  },
+  {
+   "seq": 1135,
+   "name": "药物分析杂志",
+   "issn": "0254-1793"
+  },
+  {
+   "seq": 1136,
+   "name": "药学学报",
+   "issn": "0513-4870"
+  },
+  {
+   "seq": 1138,
+   "name": "医用生物力学",
+   "issn": "1004-7220"
+  },
+  {
+   "seq": 1140,
+   "name": "仪器仪表学报",
+   "issn": "0254-3087"
+  },
+  {
+   "seq": 1141,
+   "name": "遗传",
+   "issn": "0253-9772"
+  },
+  {
+   "seq": 1142,
+   "name": "营养学报",
+   "issn": "0512-7955"
+  },
+  {
+   "seq": 1145,
+   "name": "应用化学",
+   "issn": "1000-0518"
+  },
+  {
+   "seq": 1146,
+   "name": "应用基础与工程科学学报",
+   "issn": "1005-0930"
+  },
+  {
+   "seq": 1149,
+   "name": "应用昆虫学报",
+   "issn": "2095-1353"
+  },
+  {
+   "seq": 1151,
+   "name": "应用气象学报",
+   "issn": "1001-7313"
+  },
+  {
+   "seq": 1152,
+   "name": "应用生态学报",
+   "issn": "1001-9332"
+  },
+  {
+   "seq": 1155,
+   "name": "应用数学学报",
+   "issn": "0254-3079"
+  },
+  {
+   "seq": 1156,
+   "name": "应用与环境生物学报",
+   "issn": "1006-687X"
+  },
+  {
+   "seq": 1157,
+   "name": "油气藏评价与开发",
+   "issn": "2095-1426"
+  },
+  {
+   "seq": 1158,
+   "name": "油气地质与采收率",
+   "issn": "1009-9603"
+  },
+  {
+   "seq": 1163,
+   "name": "渔业科学进展",
+   "issn": "2095-9869"
+  },
+  {
+   "seq": 1165,
+   "name": "宇航材料工艺",
+   "issn": "1007-2330"
+  },
+  {
+   "seq": 1167,
+   "name": "宇航学报",
+   "issn": "1000-1328"
+  },
+  {
+   "seq": 1169,
+   "name": "玉米科学",
+   "issn": "1005-0906"
+  },
+  {
+   "seq": 1170,
+   "name": "园艺学报",
+   "issn": "0513-353X"
+  },
+  {
+   "seq": 1172,
+   "name": "原子能科学技术",
+   "issn": "1000-6931"
+  },
+  {
+   "seq": 1175,
+   "name": "运筹学学报（中英文）",
+   "issn": "1007-6093"
+  },
+  {
+   "seq": 1178,
+   "name": "灾害学",
+   "issn": "1000-811X"
+  },
+  {
+   "seq": 1179,
+   "name": "载人航天",
+   "issn": "1674-5825"
+  },
+  {
+   "seq": 1180,
+   "name": "噪声与振动控制",
+   "issn": "1006-1355"
+  },
+  {
+   "seq": 1181,
+   "name": "战术导弹技术",
+   "issn": "1009-1300"
+  },
+  {
+   "seq": 1182,
+   "name": "长安大学学报. 自然科学版",
+   "issn": "1671-8879"
+  },
+  {
+   "seq": 1183,
+   "name": "长江科学院院报",
+   "issn": "1001-5485"
+  },
+  {
+   "seq": 1184,
+   "name": "长江流域资源与环境",
+   "issn": "1004-8227"
+  },
+  {
+   "seq": 1185,
+   "name": "浙江大学学报. 工学版",
+   "issn": "1008-973X"
+  },
+  {
+   "seq": 1186,
+   "name": "浙江大学学报. 理学版",
+   "issn": "1008-9497"
+  },
+  {
+   "seq": 1187,
+   "name": "浙江大学学报. 农业与生命科学版",
+   "issn": "1008-9209"
+  },
+  {
+   "seq": 1188,
+   "name": "浙江大学学报. 医学版",
+   "issn": "1008-9292"
+  },
+  {
+   "seq": 1189,
+   "name": "浙江农林大学学报",
+   "issn": "2095-0756"
+  },
+  {
+   "seq": 1191,
+   "name": "针刺研究",
+   "issn": "1000-0607"
+  },
+  {
+   "seq": 1193,
+   "name": "振动、测试与诊断",
+   "issn": "1004-6801"
+  },
+  {
+   "seq": 1194,
+   "name": "振动工程学报",
+   "issn": "1004-4523"
+  },
+  {
+   "seq": 1195,
+   "name": "振动与冲击",
+   "issn": "1000-3835"
+  },
+  {
+   "seq": 1197,
+   "name": "植物保护",
+   "issn": "0529-1542"
+  },
+  {
+   "seq": 1198,
+   "name": "植物保护学报",
+   "issn": "0577-7518"
+  },
+  {
+   "seq": 1199,
+   "name": "植物病理学报",
+   "issn": "0412-0914"
+  },
+  {
+   "seq": 1200,
+   "name": "植物科学学报",
+   "issn": "2095-0837"
+  },
+  {
+   "seq": 1201,
+   "name": "植物生理学报",
+   "issn": "2095-1108"
+  },
+  {
+   "seq": 1202,
+   "name": "植物生态学报",
+   "issn": "1005-264X"
+  },
+  {
+   "seq": 1203,
+   "name": "植物学报",
+   "issn": "1674-3466"
+  },
+  {
+   "seq": 1204,
+   "name": "植物研究",
+   "issn": "1673-5102"
+  },
+  {
+   "seq": 1205,
+   "name": "植物遗传资源学报",
+   "issn": "1672-1810"
+  },
+  {
+   "seq": 1206,
+   "name": "植物营养与肥料学报",
+   "issn": "1008-505X"
+  },
+  {
+   "seq": 1207,
+   "name": "植物资源与环境学报",
+   "issn": "1674-7895"
+  },
+  {
+   "seq": 1208,
+   "name": "指挥与控制学报",
+   "issn": "2096-0204"
+  },
+  {
+   "seq": 1209,
+   "name": "制冷学报",
+   "issn": "0253-4339"
+  },
+  {
+   "seq": 1210,
+   "name": "质谱学报",
+   "issn": "1004-2997"
+  },
+  {
+   "seq": 1212,
+   "name": "智慧农业（中英文）",
+   "issn": "2096-8094"
+  },
+  {
+   "seq": 1214,
+   "name": "智能科学与技术学报",
+   "issn": "2096-6652"
+  },
+  {
+   "seq": 1215,
+   "name": "智能系统学报",
+   "issn": "1673-4785"
+  },
+  {
+   "seq": 1216,
+   "name": "中草药",
+   "issn": "0253-2670"
+  },
+  {
+   "seq": 1217,
+   "name": "中成药",
+   "issn": "1001-1528"
+  },
+  {
+   "seq": 1218,
+   "name": "中国癌症杂志",
+   "issn": "1007-3639"
+  },
+  {
+   "seq": 1219,
+   "name": "中国艾滋病性病",
+   "issn": "1672-5662"
+  },
+  {
+   "seq": 1220,
+   "name": "中国安全科学学报",
+   "issn": "1003-3033"
+  },
+  {
+   "seq": 1222,
+   "name": "中国表面工程",
+   "issn": "1007-9289"
+  },
+  {
+   "seq": 1224,
+   "name": "中国病理生理杂志",
+   "issn": "1000-4718"
+  },
+  {
+   "seq": 1225,
+   "name": "中国病原生物学杂志",
+   "issn": "1673-5234"
+  },
+  {
+   "seq": 1226,
+   "name": "中国材料进展",
+   "issn": "1674-3962"
+  },
+  {
+   "seq": 1227,
+   "name": "中国草地学报",
+   "issn": "1673-5021"
+  },
+  {
+   "seq": 1229,
+   "name": "中国畜牧兽医",
+   "issn": "1671-7236"
+  },
+  {
+   "seq": 1231,
+   "name": "中国当代儿科杂志",
+   "issn": "1008-8830"
+  },
+  {
+   "seq": 1232,
+   "name": "中国地质",
+   "issn": "1000-3657"
+  },
+  {
+   "seq": 1233,
+   "name": "中国地质灾害与防治学报",
+   "issn": "1003-8035"
+  },
+  {
+   "seq": 1234,
+   "name": "中国电机工程学报",
+   "issn": "0258-8013"
+  },
+  {
+   "seq": 1235,
+   "name": "中国电力",
+   "issn": "1004-9649"
+  },
+  {
+   "seq": 1240,
+   "name": "中国防痨杂志",
+   "issn": "1000-6621"
+  },
+  {
+   "seq": 1241,
+   "name": "中国肺癌杂志",
+   "issn": "1009-3419"
+  },
+  {
+   "seq": 1243,
+   "name": "中国腐蚀与防护学报",
+   "issn": "1005-4537"
+  },
+  {
+   "seq": 1245,
+   "name": "中国感染控制杂志",
+   "issn": "1671-9638"
+  },
+  {
+   "seq": 1246,
+   "name": "中国感染与化疗杂志",
+   "issn": "1009-7708"
+  },
+  {
+   "seq": 1247,
+   "name": "中国给水排水",
+   "issn": "1000-4602"
+  },
+  {
+   "seq": 1248,
+   "name": "中国工程科学",
+   "issn": "1009-1742"
+  },
+  {
+   "seq": 1249,
+   "name": "中国公共卫生",
+   "issn": "1001-0580"
+  },
+  {
+   "seq": 1250,
+   "name": "中国公路学报",
+   "issn": "1001-7372"
+  },
+  {
+   "seq": 1252,
+   "name": "中国骨质疏松杂志",
+   "issn": "1006-7108"
+  },
+  {
+   "seq": 1253,
+   "name": "中国管理科学",
+   "issn": "1003-207X"
+  },
+  {
+   "seq": 1254,
+   "name": "中国惯性技术学报",
+   "issn": "1005-6734"
+  },
+  {
+   "seq": 1255,
+   "name": "中国光学（中英文）",
+   "issn": "2097-1842"
+  },
+  {
+   "seq": 1256,
+   "name": "中国海上油气",
+   "issn": "1673-1506"
+  },
+  {
+   "seq": 1257,
+   "name": "中国海洋大学学报. 自然科学版",
+   "issn": "1672-5174"
+  },
+  {
+   "seq": 1260,
+   "name": "中国呼吸与危重监护杂志",
+   "issn": "1671-6205"
+  },
+  {
+   "seq": 1261,
+   "name": "中国护理管理",
+   "issn": "1672-1756"
+  },
+  {
+   "seq": 1262,
+   "name": "中国环境监测",
+   "issn": "1002-6002"
+  },
+  {
+   "seq": 1263,
+   "name": "中国环境科学",
+   "issn": "1000-6923"
+  },
+  {
+   "seq": 1264,
+   "name": "中国机械工程",
+   "issn": "1004-132X"
+  },
+  {
+   "seq": 1265,
+   "name": "中国激光",
+   "issn": "0258-7025"
+  },
+  {
+   "seq": 1266,
+   "name": "中国急救医学",
+   "issn": "1002-1949"
+  },
+  {
+   "seq": 1267,
+   "name": "中国脊柱脊髓杂志",
+   "issn": "1004-406X"
+  },
+  {
+   "seq": 1268,
+   "name": "中国寄生虫学与寄生虫病杂志",
+   "issn": "1000-7423"
+  },
+  {
+   "seq": 1269,
+   "name": "中国舰船研究",
+   "issn": "1673-3185"
+  },
+  {
+   "seq": 1272,
+   "name": "中国康复理论与实践",
+   "issn": "1006-9771"
+  },
+  {
+   "seq": 1273,
+   "name": "中国康复医学杂志",
+   "issn": "1001-1242"
+  },
+  {
+   "seq": 1274,
+   "name": "中国抗生素杂志",
+   "issn": "1001-8689"
+  },
+  {
+   "seq": 1276,
+   "name": "中国科学. 地球科学",
+   "issn": "1674-7240"
+  },
+  {
+   "seq": 1277,
+   "name": "中国科学. 化学",
+   "issn": "1674-7224"
+  },
+  {
+   "seq": 1278,
+   "name": "中国科学. 技术科学",
+   "issn": "1674-7259"
+  },
+  {
+   "seq": 1279,
+   "name": "中国科学. 生命科学",
+   "issn": "1674-7232"
+  },
+  {
+   "seq": 1280,
+   "name": "中国科学. 数学",
+   "issn": "1674-7216"
+  },
+  {
+   "seq": 1281,
+   "name": "中国科学. 物理学, 力学, 天文学",
+   "issn": "1674-7275"
+  },
+  {
+   "seq": 1282,
+   "name": "中国科学. 信息科学",
+   "issn": "1674-7267"
+  },
+  {
+   "seq": 1283,
+   "name": "中国科学基金",
+   "issn": "1000-8217"
+  },
+  {
+   "seq": 1285,
+   "name": "中国科学数据",
+   "issn": "2096-2223"
+  },
+  {
+   "seq": 1286,
+   "name": "中国科学院大学学报（中英文）",
+   "issn": "2095-6134"
+  },
+  {
+   "seq": 1287,
+   "name": "中国科学院院刊",
+   "issn": "1000-3045"
+  },
+  {
+   "seq": 1288,
+   "name": "中国空间科学技术（中英文）",
+   "issn": "1000-758X"
+  },
+  {
+   "seq": 1289,
+   "name": "中国矿业大学学报. 自然科学版",
+   "issn": "1000-1964"
+  },
+  {
+   "seq": 1290,
+   "name": "中国粮油学报",
+   "issn": "1003-0174"
+  },
+  {
+   "seq": 1292,
+   "name": "中国临床心理学杂志",
+   "issn": "1005-3611"
+  },
+  {
+   "seq": 1293,
+   "name": "中国临床药理学与治疗学",
+   "issn": "1009-2501"
+  },
+  {
+   "seq": 1296,
+   "name": "中国慢性病预防与控制",
+   "issn": "1004-6194"
+  },
+  {
+   "seq": 1298,
+   "name": "中国免疫学杂志",
+   "issn": "1000-484X"
+  },
+  {
+   "seq": 1300,
+   "name": "中国脑血管病杂志",
+   "issn": "1672-5921"
+  },
+  {
+   "seq": 1301,
+   "name": "中国农业大学学报",
+   "issn": "1007-4333"
+  },
+  {
+   "seq": 1303,
+   "name": "中国农业科学",
+   "issn": "0578-1752"
+  },
+  {
+   "seq": 1304,
+   "name": "中国农业气象",
+   "issn": "1000-6362"
+  },
+  {
+   "seq": 1305,
+   "name": "中国农业资源与区划",
+   "issn": "1005-9121"
+  },
+  {
+   "seq": 1307,
+   "name": "中国普通外科杂志",
+   "issn": "1005-6947"
+  },
+  {
+   "seq": 1308,
+   "name": "中国人口·资源与环境",
+   "issn": "1002-2104"
+  },
+  {
+   "seq": 1309,
+   "name": "中国人兽共患病学报",
+   "issn": "1002-2694"
+  },
+  {
+   "seq": 1310,
+   "name": "中国软科学",
+   "issn": "1005-0566"
+  },
+  {
+   "seq": 1311,
+   "name": "中国沙漠",
+   "issn": "1000-694X"
+  },
+  {
+   "seq": 1314,
+   "name": "中国生态农业学报（中英文）",
+   "issn": "2096-6237"
+  },
+  {
+   "seq": 1315,
+   "name": "中国生物防治学报",
+   "issn": "2095-039X"
+  },
+  {
+   "seq": 1318,
+   "name": "中国生物医学工程学报",
+   "issn": "0258-8021"
+  },
+  {
+   "seq": 1321,
+   "name": "中国石油勘探",
+   "issn": "1672-7703"
+  },
+  {
+   "seq": 1323,
+   "name": "中国实验方剂学杂志",
+   "issn": "1005-9903"
+  },
+  {
+   "seq": 1325,
+   "name": "中国实用儿科杂志",
+   "issn": "1005-2224"
+  },
+  {
+   "seq": 1326,
+   "name": "中国实用妇科与产科杂志",
+   "issn": "1005-2216"
+  },
+  {
+   "seq": 1328,
+   "name": "中国实用内科杂志",
+   "issn": "1005-2194"
+  },
+  {
+   "seq": 1329,
+   "name": "中国实用外科杂志",
+   "issn": "1005-2208"
+  },
+  {
+   "seq": 1330,
+   "name": "中国食品卫生杂志",
+   "issn": "1004-8456"
+  },
+  {
+   "seq": 1331,
+   "name": "中国食品学报",
+   "issn": "1009-7848"
+  },
+  {
+   "seq": 1334,
+   "name": "中国水产科学",
+   "issn": "1005-8737"
+  },
+  {
+   "seq": 1335,
+   "name": "中国水稻科学",
+   "issn": "1001-7216"
+  },
+  {
+   "seq": 1336,
+   "name": "中国水土保持科学（中英文）",
+   "issn": "2096-2673"
+  },
+  {
+   "seq": 1337,
+   "name": "中国塑料",
+   "issn": "1001-9278"
+  },
+  {
+   "seq": 1338,
+   "name": "中国糖尿病杂志",
+   "issn": "1006-6187"
+  },
+  {
+   "seq": 1340,
+   "name": "中国疼痛医学杂志",
+   "issn": "1006-9852"
+  },
+  {
+   "seq": 1341,
+   "name": "中国铁道科学",
+   "issn": "1001-4632"
+  },
+  {
+   "seq": 1342,
+   "name": "中国图象图形学报",
+   "issn": "1006-8961"
+  },
+  {
+   "seq": 1343,
+   "name": "中国土地科学",
+   "issn": "1001-8158"
+  },
+  {
+   "seq": 1344,
+   "name": "中国土壤与肥料",
+   "issn": "1673-6257"
+  },
+  {
+   "seq": 1347,
+   "name": "中国卫生统计",
+   "issn": "1002-3674"
+  },
+  {
+   "seq": 1348,
+   "name": "中国卫生政策研究",
+   "issn": "1674-2982"
+  },
+  {
+   "seq": 1349,
+   "name": "中国稀土学报",
+   "issn": "1000-4343"
+  },
+  {
+   "seq": 1351,
+   "name": "中国现代应用药学",
+   "issn": "1007-7693"
+  },
+  {
+   "seq": 1353,
+   "name": "中国心理卫生杂志",
+   "issn": "1000-6729"
+  },
+  {
+   "seq": 1356,
+   "name": "中国新药杂志",
+   "issn": "1003-3734"
+  },
+  {
+   "seq": 1358,
+   "name": "中国修复重建外科杂志",
+   "issn": "1002-1892"
+  },
+  {
+   "seq": 1360,
+   "name": "中国血吸虫病防治杂志（中英文）",
+   "issn": "1005-6661"
+  },
+  {
+   "seq": 1362,
+   "name": "中国循环杂志",
+   "issn": "1000-3614"
+  },
+  {
+   "seq": 1363,
+   "name": "中国循证儿科杂志",
+   "issn": "1673-5501"
+  },
+  {
+   "seq": 1364,
+   "name": "中国循证医学杂志",
+   "issn": "1672-2531"
+  },
+  {
+   "seq": 1368,
+   "name": "中国药科大学学报",
+   "issn": "1000-5048"
+  },
+  {
+   "seq": 1369,
+   "name": "中国药理学通报",
+   "issn": "1001-1978"
+  },
+  {
+   "seq": 1372,
+   "name": "中国药学杂志",
+   "issn": "1001-2494"
+  },
+  {
+   "seq": 1376,
+   "name": "中国医学科学院学报",
+   "issn": "1000-503X"
+  },
+  {
+   "seq": 1379,
+   "name": "中国医学影像学杂志",
+   "issn": "1005-5185"
+  },
+  {
+   "seq": 1381,
+   "name": "中国疫苗和免疫",
+   "issn": "1006-916X"
+  },
+  {
+   "seq": 1382,
+   "name": "中国油料作物学报",
+   "issn": "1007-9084"
+  },
+  {
+   "seq": 1383,
+   "name": "中国油脂",
+   "issn": "1003-7969"
+  },
+  {
+   "seq": 1384,
+   "name": "中国有色金属学报",
+   "issn": "1004-0609"
+  },
+  {
+   "seq": 1388,
+   "name": "中国运动医学杂志",
+   "issn": "1000-6710"
+  },
+  {
+   "seq": 1389,
+   "name": "中国造船",
+   "issn": "1000-4882"
+  },
+  {
+   "seq": 1391,
+   "name": "中国针灸",
+   "issn": "0255-2930"
+  },
+  {
+   "seq": 1392,
+   "name": "中国真菌学杂志",
+   "issn": "1673-3827"
+  },
+  {
+   "seq": 1394,
+   "name": "中国中西医结合杂志",
+   "issn": "1003-5370"
+  },
+  {
+   "seq": 1395,
+   "name": "中国中药杂志",
+   "issn": "1001-5302"
+  },
+  {
+   "seq": 1398,
+   "name": "中国肿瘤",
+   "issn": "1004-0242"
+  },
+  {
+   "seq": 1399,
+   "name": "中国肿瘤临床",
+   "issn": "1000-8179"
+  },
+  {
+   "seq": 1401,
+   "name": "中华病理学杂志",
+   "issn": "0529-5807"
+  },
+  {
+   "seq": 1402,
+   "name": "中华超声影像学杂志",
+   "issn": "1004-4477"
+  },
+  {
+   "seq": 1403,
+   "name": "中华传染病杂志",
+   "issn": "1000-6680"
+  },
+  {
+   "seq": 1404,
+   "name": "中华创伤骨科杂志",
+   "issn": "1671-7600"
+  },
+  {
+   "seq": 1405,
+   "name": "中华创伤杂志",
+   "issn": "1001-8050"
+  },
+  {
+   "seq": 1406,
+   "name": "中华儿科杂志",
+   "issn": "0578-1310"
+  },
+  {
+   "seq": 1407,
+   "name": "中华耳鼻咽喉头颈外科杂志",
+   "issn": "1673-0860"
+  },
+  {
+   "seq": 1408,
+   "name": "中华耳科学杂志",
+   "issn": "1672-2922"
+  },
+  {
+   "seq": 1409,
+   "name": "中华放射学杂志",
+   "issn": "1005-1201"
+  },
+  {
+   "seq": 1410,
+   "name": "中华放射医学与防护杂志",
+   "issn": "0254-5098"
+  },
+  {
+   "seq": 1411,
+   "name": "中华放射肿瘤学杂志",
+   "issn": "1004-4221"
+  },
+  {
+   "seq": 1412,
+   "name": "中华妇产科杂志",
+   "issn": "0529-567X"
+  },
+  {
+   "seq": 1413,
+   "name": "中华肝胆外科杂志",
+   "issn": "1007-8118"
+  },
+  {
+   "seq": 1414,
+   "name": "中华肝脏病杂志",
+   "issn": "1007-3418"
+  },
+  {
+   "seq": 1416,
+   "name": "中华骨科杂志",
+   "issn": "0253-2352"
+  },
+  {
+   "seq": 1417,
+   "name": "中华骨与关节外科杂志",
+   "issn": "2095-9958"
+  },
+  {
+   "seq": 1418,
+   "name": "中华骨质疏松和骨矿盐疾病杂志",
+   "issn": "1674-2591"
+  },
+  {
+   "seq": 1424,
+   "name": "中华护理杂志",
+   "issn": "0254-1769"
+  },
+  {
+   "seq": 1426,
+   "name": "中华急诊医学杂志",
+   "issn": "1671-0282"
+  },
+  {
+   "seq": 1427,
+   "name": "中华疾病控制杂志",
+   "issn": "1674-3679"
+  },
+  {
+   "seq": 1428,
+   "name": "中华检验医学杂志",
+   "issn": "1009-9158"
+  },
+  {
+   "seq": 1429,
+   "name": "中华健康管理学杂志",
+   "issn": "1674-0815"
+  },
+  {
+   "seq": 1430,
+   "name": "中华结核和呼吸杂志",
+   "issn": "1001-0939"
+  },
+  {
+   "seq": 1431,
+   "name": "中华精神科杂志",
+   "issn": "1006-7884"
+  },
+  {
+   "seq": 1432,
+   "name": "中华口腔医学杂志",
+   "issn": "1002-0098"
+  },
+  {
+   "seq": 1434,
+   "name": "中华老年医学杂志",
+   "issn": "0254-9026"
+  },
+  {
+   "seq": 1435,
+   "name": "中华临床感染病杂志（中英文）",
+   "issn": "1674-2397"
+  },
+  {
+   "seq": 1436,
+   "name": "中华临床营养杂志",
+   "issn": "1674-635X"
+  },
+  {
+   "seq": 1437,
+   "name": "中华流行病学杂志",
+   "issn": "0254-6450"
+  },
+  {
+   "seq": 1439,
+   "name": "中华泌尿外科杂志",
+   "issn": "1000-6702"
+  },
+  {
+   "seq": 1440,
+   "name": "中华男科学杂志",
+   "issn": "1009-3591"
+  },
+  {
+   "seq": 1441,
+   "name": "中华内分泌代谢杂志",
+   "issn": "1000-6699"
+  },
+  {
+   "seq": 1442,
+   "name": "中华内科杂志",
+   "issn": "0578-1426"
+  },
+  {
+   "seq": 1443,
+   "name": "中华皮肤科杂志",
+   "issn": "0412-4030"
+  },
+  {
+   "seq": 1447,
+   "name": "中华烧伤与创面修复杂志",
+   "issn": "2097-1109"
+  },
+  {
+   "seq": 1448,
+   "name": "中华神经科杂志",
+   "issn": "1006-7876"
+  },
+  {
+   "seq": 1449,
+   "name": "中华神经外科杂志",
+   "issn": "1001-2346"
+  },
+  {
+   "seq": 1450,
+   "name": "中华神经医学杂志",
+   "issn": "1671-8925"
+  },
+  {
+   "seq": 1451,
+   "name": "中华肾脏病杂志",
+   "issn": "1001-7097"
+  },
+  {
+   "seq": 1454,
+   "name": "中华实验眼科杂志（中英文）",
+   "issn": "2095-0160"
+  },
+  {
+   "seq": 1455,
+   "name": "中华实用儿科临床杂志",
+   "issn": "2095-428X"
+  },
+  {
+   "seq": 1456,
+   "name": "中华手外科杂志",
+   "issn": "1005-054X"
+  },
+  {
+   "seq": 1457,
+   "name": "中华糖尿病杂志",
+   "issn": "1674-5809"
+  },
+  {
+   "seq": 1459,
+   "name": "中华外科杂志",
+   "issn": "0529-5815"
+  },
+  {
+   "seq": 1460,
+   "name": "中华危重病急救医学",
+   "issn": "2095-4352"
+  },
+  {
+   "seq": 1461,
+   "name": "中华微生物学和免疫学杂志",
+   "issn": "0254-5101"
+  },
+  {
+   "seq": 1462,
+   "name": "中华围产医学杂志",
+   "issn": "1007-9408"
+  },
+  {
+   "seq": 1463,
+   "name": "中华胃肠外科杂志",
+   "issn": "1671-0274"
+  },
+  {
+   "seq": 1464,
+   "name": "中华物理医学与康复杂志",
+   "issn": "0254-1424"
+  },
+  {
+   "seq": 1465,
+   "name": "中华显微外科杂志",
+   "issn": "1001-2036"
+  },
+  {
+   "seq": 1467,
+   "name": "中华消化外科杂志",
+   "issn": "1673-9752"
+  },
+  {
+   "seq": 1468,
+   "name": "中华消化杂志",
+   "issn": "0254-1432"
+  },
+  {
+   "seq": 1469,
+   "name": "中华小儿外科杂志",
+   "issn": "0253-3006"
+  },
+  {
+   "seq": 1470,
+   "name": "中华心血管病杂志",
+   "issn": "0253-3758"
+  },
+  {
+   "seq": 1472,
+   "name": "中华胸心血管外科杂志",
+   "issn": "1001-4497"
+  },
+  {
+   "seq": 1473,
+   "name": "中华血液学杂志",
+   "issn": "0253-2727"
+  },
+  {
+   "seq": 1475,
+   "name": "中华眼科杂志",
+   "issn": "0412-4081"
+  },
+  {
+   "seq": 1477,
+   "name": "中华医学超声杂志（电子版）",
+   "issn": "1672-6448"
+  },
+  {
+   "seq": 1479,
+   "name": "中华医学杂志",
+   "issn": "0376-2491"
+  },
+  {
+   "seq": 1482,
+   "name": "中华预防医学杂志",
+   "issn": "0253-9624"
+  },
+  {
+   "seq": 1483,
+   "name": "中华整形外科杂志",
+   "issn": "1009-4598"
+  },
+  {
+   "seq": 1485,
+   "name": "中华中医药杂志",
+   "issn": "1673-1727"
+  },
+  {
+   "seq": 1486,
+   "name": "中华肿瘤杂志",
+   "issn": "0253-3766"
+  },
+  {
+   "seq": 1488,
+   "name": "中南大学学报. 医学版",
+   "issn": "1672-7347"
+  },
+  {
+   "seq": 1489,
+   "name": "中南大学学报. 自然科学版",
+   "issn": "1672-7207"
+  },
+  {
+   "seq": 1490,
+   "name": "中南林业科技大学学报",
+   "issn": "1673-923X"
+  },
+  {
+   "seq": 1491,
+   "name": "中山大学学报. 医学科学版",
+   "issn": "1672-3554"
+  },
+  {
+   "seq": 1492,
+   "name": "中山大学学报. 自然科学版（中英文）",
+   "issn": "2097-0137"
+  },
+  {
+   "seq": 1493,
+   "name": "中文信息学报",
+   "issn": "1003-0077"
+  },
+  {
+   "seq": 1494,
+   "name": "中药新药与临床药理",
+   "issn": "1003-9783"
+  },
+  {
+   "seq": 1495,
+   "name": "中药药理与临床",
+   "issn": "1001-859X"
+  },
+  {
+   "seq": 1496,
+   "name": "中医杂志",
+   "issn": "1001-1668"
+  },
+  {
+   "seq": 1497,
+   "name": "资源科学",
+   "issn": "1007-7588"
+  },
+  {
+   "seq": 1498,
+   "name": "自动化学报",
+   "issn": "0254-4156"
+  },
+  {
+   "seq": 1501,
+   "name": "自然灾害学报",
+   "issn": "1004-4574"
+  },
+  {
+   "seq": 1502,
+   "name": "自然资源学报",
+   "issn": "1000-3037"
+  },
+  {
+   "seq": 1503,
+   "name": "自然资源遥感",
+   "issn": "2097-034X"
+  },
+  {
+   "seq": 1504,
+   "name": "作物学报",
+   "issn": "0496-3490"
+  }
+ ]
+}

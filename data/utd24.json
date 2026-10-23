@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "title": "UTD24（UT Dallas 24种商科顶级期刊）",
+  "maintainer": "UT Dallas Jindal School of Management",
+  "total": 24,
+  "source_url": "https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/list-of-journals",
+  "fetched": "2026-10-18",
+  "notes": [
+   "官方写法 Journal on Computing（即 INFORMS Journal on Computing）、The Review of Financial Studies；构建时做别名与 the-前缀归一"
+  ]
+ },
+ "journals": [
+  {
+   "seq": 1,
+   "name": "The Accounting Review"
+  },
+  {
+   "seq": 2,
+   "name": "Journal of Accounting and Economics"
+  },
+  {
+   "seq": 3,
+   "name": "Journal of Accounting Research"
+  },
+  {
+   "seq": 4,
+   "name": "Journal of Finance"
+  },
+  {
+   "seq": 5,
+   "name": "Journal of Financial Economics"
+  },
+  {
+   "seq": 6,
+   "name": "The Review of Financial Studies"
+  },
+  {
+   "seq": 7,
+   "name": "Information Systems Research"
+  },
+  {
+   "seq": 8,
+   "name": "Journal on Computing"
+  },
+  {
+   "seq": 9,
+   "name": "MIS Quarterly"
+  },
+  {
+   "seq": 10,
+   "name": "Journal of Consumer Research"
+  },
+  {
+   "seq": 11,
+   "name": "Journal of Marketing"
+  },
+  {
+   "seq": 12,
+   "name": "Journal of Marketing Research"
+  },
+  {
+   "seq": 13,
+   "name": "Marketing Science"
+  },
+  {
+   "seq": 14,
+   "name": "Management Science"
+  },
+  {
+   "seq": 15,
+   "name": "Operations Research"
+  },
+  {
+   "seq": 16,
+   "name": "Journal of Operations Management"
+  },
+  {
+   "seq": 17,
+   "name": "Manufacturing and Service Operations Management"
+  },
+  {
+   "seq": 18,
+   "name": "Production and Operations Management"
+  },
+  {
+   "seq": 19,
+   "name": "Academy of Management Journal"
+  },
+  {
+   "seq": 20,
+   "name": "Academy of Management Review"
+  },
+  {
+   "seq": 21,
+   "name": "Administrative Science Quarterly"
+  },
+  {
+   "seq": 22,
+   "name": "Organization Science"
+  },
+  {
+   "seq": 23,
+   "name": "Journal of International Business Studies"
+  },
+  {
+   "seq": 24,
+   "name": "Strategic Management Journal"
+  }
+ ]
+}

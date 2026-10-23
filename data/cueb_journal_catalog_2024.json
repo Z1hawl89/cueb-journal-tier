@@ -1,0 +1,1420 @@
+{
+  "meta": {
+    "title": "首都经济贸易大学期刊目录（2024年版）",
+    "source_document": "首经贸学术〔2024〕1号：首都经济贸易大学关于修订期刊目录的通知（红头文件，2024-06-04 学术委员会秘书处印发）",
+    "adopted": "2024-06-03 校学术委员会讨论通过",
+    "effective_date": "2025-01-01",
+    "superseded": "首经贸学术〔2021〕1号（2021-06-09通过）同时废止",
+    "extracted_at": "2026-10-18",
+    "structure": "中文期刊与外文期刊各分7级：A+、A1、A2、B1、B2、C、其他",
+    "notes": [
+      "原PDF中部分期刊名带黄色高亮（多为管理学门类期刊，如中文A2的管理世界/南开管理评论/管理科学学报、中文B1的管理评论/管理学报/中国管理科学/管理科学、国际A+的三本管理学顶刊及各附件Management学科整块等），高亮为文件阅读者所加，本数据未逐条标注。",
+      "中文B2、中文C、国际B2、国际C为规则定义（按收录库认定），无逐刊清单，见各 level 的 definition。",
+      "附件表格原文的两处编号笔误见 discrepancies 字段。"
+    ]
+  },
+  "discrepancies": [
+    "附件4（国际B1）Mathematics：文件标注 Mathematics (51)，但表格序号从33后跳过35（33→34→36），实际列出50种期刊。",
+    "附件4（国际B1）Linguistics：文件标注 Linguistics (67)，但序号在38后错误地重新从37编至67（37/38重复出现），实际列出69行；其中 Target 出现两条（Target 0294-1884 与 Target-International Journal of Translation Studies 0924-1884），疑为原文件重复收录，本数据照实保留两行。",
+    "中文B1 北京大学学报：原文写作（哲学社科科学版），疑为（哲学社会科学版）笔误，本数据照原文收录。"
+  ],
+  "chinese": {
+    "levels_order": ["A+", "A1", "A2", "B1", "B2", "C", "其他"],
+    "levels": {
+      "A+": {
+        "definition": "顶级综合期刊",
+        "journals": ["中国社会科学"]
+      },
+      "A1": {
+        "journals": [
+          "马克思主义研究", "经济研究", "管理世界", "中国科学：数学", "法学研究",
+          "政治学研究", "外国文学评论", "新闻与传播研究", "社会学研究", "历史研究", "哲学研究"
+        ]
+      },
+      "A2": {
+        "journals": [
+          "马克思主义与现实", "经济学（季刊）", "中国工业经济", "世界经济", "金融研究",
+          "财贸经济", "中国农村经济", "数量经济技术经济研究", "经济学动态", "中国经济史研究",
+          "南开管理评论", "经济管理", "会计研究", "中国行政管理", "世界经济与政治",
+          "管理科学学报", "中国安全科学学报", "计算机学报", "中国科学：信息科学", "统计研究",
+          "数学学报", "中国法学", "外语教学与研究", "文学评论", "中国人口科学",
+          "心理学报", "教育研究", "文艺研究", "体育科学", "中国科学：技术科学",
+          "中国科学：化学", "中国科学：地球科学", "中国科学：生命科学", "中国科学：物理学、力学、天文学"
+        ]
+      },
+      "B1": {
+        "journals": [
+          "国外理论动态", "中共党史研究", "思想理论教育导刊", "马克思主义理论学科研究", "中国特色社会主义研究",
+          "国际经济评论", "国际贸易问题", "财经研究", "国际金融研究", "金融评论",
+          "保险研究", "财政研究", "经济科学", "改革", "南开经济研究",
+          "经济学家", "经济社会体制比较", "世界经济研究", "经济理论与经济管理", "世界经济文汇",
+          "中国人口•资源与环境", "税务研究", "政治经济学评论", "社会保障评论", "管理评论",
+          "管理学报", "审计研究", "中国会计评论", "旅游学刊", "科研管理",
+          "公共管理学报", "中国软科学", "地理学报", "中国土地科学", "经济地理",
+          "系统工程理论与实践", "中国管理科学", "管理科学", "系统工程学报", "科学学研究",
+          "软件学报", "计算机研究与发展", "自动化学报", "安全与环境学报", "数理统计与管理",
+          "数学年刊A辑(中文版)", "系统科学与数学", "中外法学", "法商研究", "政法论坛",
+          "现代法学", "清华法学", "法学家", "中国语文", "中国比较文学",
+          "文学遗产", "外国文学", "现代外语", "中国翻译", "外语界",
+          "现代传播：中国传媒大学学报", "新闻记者", "国际新闻界", "新闻大学", "国际政治研究",
+          "国际问题研究", "美国研究", "心理科学", "心理科学进展", "世界社会科学",
+          "人口学刊", "人口研究", "高等教育研究", "北京大学教育评论", "中国体育科技",
+          "学术月刊", "情报学报", "中国图书馆学报", "图书情报工作", "美术研究",
+          "中国音乐学", "教学与研究", "读书", "北京大学学报（哲学社科科学版）", "中国人民大学学报",
+          "复旦学报（社会科学版）", "清华大学学报（哲学社会科学版）", "北京师范大学学报（社会科学版）"
+        ]
+      },
+      "B2": {
+        "definition": "南京大学中国社会科学研究评价中心《中文社会科学引文索引》（CSSCI）来源期刊（不含扩展版）及来源集刊；中国科学院文献情报中心《中国科学引文数据库》（CSCD）核心库全部期刊（不含扩展库）",
+        "journals": []
+      },
+      "C": {
+        "definition": "北京大学图书馆等编《中文核心期刊要目总览》的全部核心期刊",
+        "journals": []
+      },
+      "其他": {
+        "definition": "除中文A+、A1、A2、B1、B2、C以外的公开出版出版物",
+        "journals": []
+      }
+    },
+    "special_provisions": [
+      "所有增刊发表的文章一律不计入教师科研成果。",
+      "《求是》期刊正式刊发的文章视为中文A2类；人民日报理论版、光明日报理论版、经济日报理论版发表的学术论文视为中文B1类；被《新华文摘》《中国社会科学文摘》《高等学校文科学术文摘》全文转载的论文视为中文B1类；被中国人民大学书报资料中心（人大复印资料）全文转载的论文视为中文B2类；北京日报理论版发表的学术论文视为中文B2类；被转载收录的论文与原期刊论文只能计算一次科研成果，计分时只补足差额。",
+      "凡在中文C类及以上刊物上发表的短论降一级认定。",
+      "凡在中文C类及以上刊物上发表的会议综述论文一律按中文C类认定。",
+      "在其他公开出版报纸上发表的1500字以上的学术论文、公开出版的论文集上发表的论文，视为中文其他类期刊论文。",
+      "在任何中文期刊上发表的书评、图书推介等相关文章视为中文其他类期刊论文。",
+      "中文论文字数须3000字及以上（报纸文章除外）。"
+    ]
+  },
+  "international": {
+    "levels_order": ["A+", "A1", "A2", "B1", "B2", "C", "其他"],
+    "levels": {
+      "A+": {
+        "attachment": "附件1",
+        "disciplines": {
+          "Economics": {
+            "label_count": 5,
+            "journals": [
+              {"name": "American Economic Review", "issn": "0002-8282"},
+              {"name": "Econometrica", "issn": "0012-9682"},
+              {"name": "Journal of Political Economy", "issn": "0022-3808"},
+              {"name": "Quarterly Journal of Economics", "issn": "0033-5533"},
+              {"name": "Review of Economic Studies", "issn": "0034-6527"}
+            ]
+          },
+          "Management": {
+            "label_count": 3,
+            "journals": [
+              {"name": "Academy of Management Journal", "issn": "0001-4273"},
+              {"name": "Academy of Management Review", "issn": "0363-7425"},
+              {"name": "Administrative Science Quarterly", "issn": "0001-8392"}
+            ]
+          },
+          "Accounting and Finance": {
+            "label_count": 6,
+            "journals": [
+              {"name": "Journal of Accounting and Economics", "issn": "0165-4101"},
+              {"name": "Journal of Accounting Research", "issn": "0021-8456"},
+              {"name": "Journal of Finance", "issn": "0022-1082"},
+              {"name": "Journal of Financial Economics", "issn": "0304-405X"},
+              {"name": "Review of Financial Studies", "issn": "0893-9454"},
+              {"name": "The Accounting Review", "issn": "0001-4826"}
+            ]
+          },
+          "Statistics": {
+            "label_count": 3,
+            "journals": [
+              {"name": "Annals of Statistics", "issn": "0090-5364"},
+              {"name": "Journal of the American Statistical Association", "issn": "0162-1459"},
+              {"name": "Journal of the Royal Statistical Society Series B: Statistical Methodology", "issn": "1369-7412"}
+            ]
+          },
+          "Mathematics": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Acta Mathematica", "issn": "0001-5962"},
+              {"name": "Annals of Mathematics", "issn": "0003-486X"}
+            ]
+          },
+          "Management Science": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Management Science", "issn": "0025-1909"},
+              {"name": "Operations Research", "issn": "0030-364X"}
+            ]
+          },
+          "Sociology": {
+            "label_count": 1,
+            "journals": [
+              {"name": "American Sociological Review", "issn": "0003-1224"}
+            ]
+          },
+          "Public Administration": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Public Administration Review", "issn": "0033-3352"}
+            ]
+          },
+          "Law": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Harvard Law Review", "issn": "0017-811X"}
+            ]
+          },
+          "Linguistics": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Theoretical Linguistics", "issn": "0301-4428"}
+            ]
+          },
+          "Communication": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Journal of Communication", "issn": "0021-9916"}
+            ]
+          },
+          "综合类": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Nature", "issn": "0028-0836"},
+              {"name": "Science", "issn": "0036-8075"}
+            ]
+          }
+        }
+      },
+      "A1": {
+        "attachment": "附件2",
+        "disciplines": {
+          "Economics": {
+            "label_count": 23,
+            "journals": [
+              {"name": "American Economic Journal-Applied Economics", "issn": "1945-7782"},
+              {"name": "American Economic Journal-Economic Policy", "issn": "1945-7731"},
+              {"name": "American Economic Journal-Macroeconomics", "issn": "1945-7707"},
+              {"name": "American Economic Journal-Microeconomics", "issn": "1945-7669"},
+              {"name": "American Economic Review: Insights", "issn": "2640-205X"},
+              {"name": "American Journal of Agricultural Economics", "issn": "0002-9092"},
+              {"name": "Economic Journal", "issn": "0013-0133"},
+              {"name": "Games and Economic Behavior", "issn": "0899-8256"},
+              {"name": "International Economic Review", "issn": "0020-6598"},
+              {"name": "Journal of Development Economics", "issn": "0304-3878"},
+              {"name": "Journal of Econometrics", "issn": "0304-4076"},
+              {"name": "Journal of Economic Theory", "issn": "0022-0531"},
+              {"name": "Journal of Environmental Economics and Management", "issn": "0095-0696"},
+              {"name": "Journal of Health Economics", "issn": "0167-6296"},
+              {"name": "Journal of International Economics", "issn": "0022-1996"},
+              {"name": "Journal of Labor Economics", "issn": "0734-306X"},
+              {"name": "Journal of Monetary Economics", "issn": "0304-3932"},
+              {"name": "Journal of Money, Credit and Banking", "issn": "0022-2879"},
+              {"name": "Journal of Public Economics", "issn": "0047-2727"},
+              {"name": "Journal of the European Economic Association", "issn": "1542-4766"},
+              {"name": "Journal of Urban Economics", "issn": "0094-1190"},
+              {"name": "Rand Journal of Economics", "issn": "0741-6261"},
+              {"name": "Review of Economics and Statistics", "issn": "0034-6535"}
+            ]
+          },
+          "Management": {
+            "label_count": 15,
+            "journals": [
+              {"name": "Academy of Management Annals", "issn": "1941-6520"},
+              {"name": "Entrepreneurship Theory and Practice", "issn": "1042-2587"},
+              {"name": "Human Resource Management Journal", "issn": "0954-5395"},
+              {"name": "Journal of Consumer Research", "issn": "0093-5301"},
+              {"name": "Journal of International Business Studies", "issn": "0047-2506"},
+              {"name": "Journal of Management", "issn": "0149-2063"},
+              {"name": "Journal of Management Studies", "issn": "0022-2380"},
+              {"name": "Journal of Marketing", "issn": "0022-2429"},
+              {"name": "Journal of Marketing Research", "issn": "0022-2437"},
+              {"name": "Journal of the Academy of Marketing Science", "issn": "0092-0703"},
+              {"name": "Marketing Science", "issn": "0732-2399"},
+              {"name": "Organization Science", "issn": "1047-7039"},
+              {"name": "Research Policy", "issn": "0048-7333"},
+              {"name": "Strategic Entrepreneurship Journal", "issn": "1932-4391"},
+              {"name": "Strategic Management Journal", "issn": "0143-2095"}
+            ]
+          },
+          "Accounting and Finance": {
+            "label_count": 5,
+            "journals": [
+              {"name": "Accounting, Organization and Society", "issn": "0361-3682"},
+              {"name": "Contemporary Accounting Research", "issn": "0823-9150"},
+              {"name": "Journal of Financial and Quantitative Analysis", "issn": "0022-1090"},
+              {"name": "Review of Accounting Studies", "issn": "1380-6653"},
+              {"name": "Review of Finance", "issn": "1572-3097"}
+            ]
+          },
+          "Statistics": {
+            "label_count": 4,
+            "journals": [
+              {"name": "Annals of Applied Statistics", "issn": "1932-6157"},
+              {"name": "Biometrika", "issn": "0006-3444"},
+              {"name": "Journal of Business & Economic Statistics", "issn": "0735-0015"},
+              {"name": "Scandinavian Journal of Statistics", "issn": "0303-6898"}
+            ]
+          },
+          "Mathematics": {
+            "label_count": 11,
+            "journals": [
+              {"name": "Advances in Mathematics", "issn": "0001-8708"},
+              {"name": "American Journal of Mathematics", "issn": "0002-9327"},
+              {"name": "Communications on Pure and Applied Mathematics", "issn": "0010-3640"},
+              {"name": "Duke Mathematical Journal", "issn": "0012-7094"},
+              {"name": "Inventiones Mathematicae", "issn": "0020-9910"},
+              {"name": "Journal of the American Mathematical Society", "issn": "0894-0347"},
+              {"name": "Journal of the European Mathematical Society", "issn": "1435-9855"},
+              {"name": "Mathematics of Computation", "issn": "0025-5718"},
+              {"name": "Mathematische Annalen", "issn": "0025-5831"},
+              {"name": "Probability Theory and Related Fields", "issn": "0178-8051"},
+              {"name": "SIAM Review", "issn": "0036-1445"}
+            ]
+          },
+          "Management Science": {
+            "label_count": 12,
+            "journals": [
+              {"name": "Artificial Intelligence", "issn": "0004-3702"},
+              {"name": "Computer Methods in Applied Mechanics and Engineering", "issn": "0045-7825"},
+              {"name": "Information Systems Research", "issn": "1047-7047"},
+              {"name": "Informs Journal on Computing", "issn": "1091-9856"},
+              {"name": "Journal of Management Information Systems", "issn": "0742-1222"},
+              {"name": "Journal of Operations Management", "issn": "0272-6963"},
+              {"name": "Journal of the Association for Information Systems", "issn": "1536-9323"},
+              {"name": "Manufacturing & Service Operations Management", "issn": "1523-4614"},
+              {"name": "Mathematics of Operations Research", "issn": "0364-765X"},
+              {"name": "MIS Quarterly", "issn": "0276-7783"},
+              {"name": "Production and Operations Management", "issn": "1059-1478"},
+              {"name": "Transportation Research Part B-Methodological", "issn": "0191-2615"}
+            ]
+          },
+          "Public Administration": {
+            "label_count": 3,
+            "journals": [
+              {"name": "Journal of Policy Analysis and Management", "issn": "0276-8739"},
+              {"name": "Journal of Public Administration Research and Theory", "issn": "1053-1858"},
+              {"name": "Public Administration", "issn": "0033-3298"}
+            ]
+          },
+          "Law": {
+            "label_count": 3,
+            "journals": [
+              {"name": "California Law Review", "issn": "0008-1221"},
+              {"name": "Georgetown Law Journal", "issn": "0016-8092"},
+              {"name": "Yale Law Journal", "issn": "0044-0094"}
+            ]
+          },
+          "Linguistics": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Applied Linguistics", "issn": "0142-6001"}
+            ]
+          },
+          "Communication": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Communication Research", "issn": "0093-6502"},
+              {"name": "Journal of Advertising Research", "issn": "0021-8499"}
+            ]
+          },
+          "Philosophy": {
+            "label_count": 3,
+            "journals": [
+              {"name": "Annals of Pure and Applied Logic", "issn": "0168-0072"},
+              {"name": "Journal of Philosophy", "issn": "0022-362X"},
+              {"name": "The Philosophical Review", "issn": "0031-8108"}
+            ]
+          },
+          "Education": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Educational Researcher", "issn": "0013-189X"},
+              {"name": "Review of Educational Research", "issn": "0034-6543"}
+            ]
+          },
+          "Sociology": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Demography", "issn": "0070-3370"},
+              {"name": "Human Relations", "issn": "0018-7267"}
+            ]
+          },
+          "Psychology": {
+            "label_count": 4,
+            "journals": [
+              {"name": "Annual Review of Psychology", "issn": "0066-4308"},
+              {"name": "Journal of Applied Psychology", "issn": "0021-9010"},
+              {"name": "Journal of Consumer Psychology", "issn": "1057-7408"},
+              {"name": "Journal of Personality and Social Psychology", "issn": "0022-3514"}
+            ]
+          },
+          "Politics": {
+            "label_count": 1,
+            "journals": [
+              {"name": "American Political Science Review", "issn": "0003-0554"}
+            ]
+          },
+          "Sports": {
+            "label_count": 1,
+            "journals": [
+              {"name": "Journal of Sports Sciences", "issn": "0264-0414"}
+            ]
+          }
+        }
+      },
+      "A2": {
+        "attachment": "附件3",
+        "disciplines": {
+          "Economics": {
+            "label_count": 53,
+            "journals": [
+              {"name": "Annual Review of Economics", "issn": "1941-1383"},
+              {"name": "Brookings Papers on Economic Activity", "issn": "0007-2303"},
+              {"name": "Business History", "issn": "0007-6791"},
+              {"name": "Cambridge Journal of Economics", "issn": "0309-166X"},
+              {"name": "China Economic Review", "issn": "1043-951X"},
+              {"name": "Climate Policy", "issn": "1469-3062"},
+              {"name": "Ecological Economics", "issn": "0921-8009"},
+              {"name": "Econometric Reviews", "issn": "0747-4938"},
+              {"name": "Econometric Theory", "issn": "0266-4666"},
+              {"name": "Economic Geography", "issn": "0013-0095"},
+              {"name": "Economic History Review", "issn": "0013-0117"},
+              {"name": "Economic Theory", "issn": "0938-2259"},
+              {"name": "Economics Letters", "issn": "0165-1765"},
+              {"name": "Energy Economics", "issn": "0140-9883"},
+              {"name": "Environmental and Resource Economics", "issn": "0924-6460"},
+              {"name": "European Economic Review", "issn": "0014-2921"},
+              {"name": "European Review of Agricultural Economics", "issn": "0165-1587"},
+              {"name": "Experimental Economics", "issn": "1386-4157"},
+              {"name": "Health Economics", "issn": "1057-9230"},
+              {"name": "IMF Economic Review", "issn": "2041-4161"},
+              {"name": "International Journal of Industrial Organization", "issn": "0167-7187"},
+              {"name": "International Journal of Production Economics", "issn": "0925-5273"},
+              {"name": "Journal of Agricultural Economics", "issn": "0021-857X"},
+              {"name": "Journal of Applied Econometrics", "issn": "0883-7252"},
+              {"name": "Journal of Comparative Economics", "issn": "0147-5967"},
+              {"name": "Journal of Development Studies", "issn": "0022-0388"},
+              {"name": "Journal of Economic Behavior and Organization", "issn": "0167-2681"},
+              {"name": "Journal of Economic Dynamics and Control", "issn": "0165-1889"},
+              {"name": "Journal of Economic Geography", "issn": "1468-2702"},
+              {"name": "Journal of Economic Growth", "issn": "1381-4338"},
+              {"name": "Journal of Economic History", "issn": "0022-0507"},
+              {"name": "Journal of Economic Literature", "issn": "0022-0515"},
+              {"name": "Journal of Economic Perspectives", "issn": "0895-3309"},
+              {"name": "Journal of Financial Econometrics", "issn": "1479-8409"},
+              {"name": "Journal of Industrial Economics", "issn": "0022-1821"},
+              {"name": "Journal of Law and Economics", "issn": "0022-2186"},
+              {"name": "Journal of Law Economics & Organization", "issn": "8756-6222"},
+              {"name": "Journal of Mathematical Economics", "issn": "0304-4068"},
+              {"name": "Journal of Population Economics", "issn": "0933-1433"},
+              {"name": "Journal of Regional Science", "issn": "0022-4146"},
+              {"name": "Labour Economics", "issn": "0927-5371"},
+              {"name": "Oxford Bulletin of Economics and Statistics", "issn": "0305-9049"},
+              {"name": "Oxford Review of Economic Policy", "issn": "0266-903X"},
+              {"name": "Quantitative Economics", "issn": "1759-7323"},
+              {"name": "Real Estate Economics", "issn": "1080-8620"},
+              {"name": "Regional Science and Urban Economics", "issn": "0166-0462"},
+              {"name": "Regional Studies", "issn": "0034-3404"},
+              {"name": "Review of Economic Dynamics", "issn": "1094-2025"},
+              {"name": "Small Business Economics", "issn": "0921-898X"},
+              {"name": "Theoretical Economics", "issn": "1933-6837"},
+              {"name": "Urban Studies", "issn": "0042-0980"},
+              {"name": "World Bank Economic Review", "issn": "0258-6770"},
+              {"name": "World Development", "issn": "0305-750X"}
+            ]
+          },
+          "Management": {
+            "label_count": 53,
+            "journals": [
+              {"name": "Academy of Management Perspectives", "issn": "1558-9080"},
+              {"name": "Annals of Tourism Research", "issn": "0160-7383"},
+              {"name": "Asia Pacific Journal of Management", "issn": "0217-4561"},
+              {"name": "British Journal of Management", "issn": "1045-3172"},
+              {"name": "Business Ethics Quarterly", "issn": "1052-150X"},
+              {"name": "Business History Review", "issn": "0007-6805"},
+              {"name": "Business Strategy and the Environment", "issn": "0964-4733"},
+              {"name": "Entrepreneurship and Regional Development", "issn": "0898-5626"},
+              {"name": "Family Business Review", "issn": "0894-4865"},
+              {"name": "Global Strategy Journal", "issn": "2042-5791"},
+              {"name": "Harvard Business Review", "issn": "0017-8012"},
+              {"name": "Human Resource Management", "issn": "0090-4848"},
+              {"name": "Human Resource Management Review", "issn": "1053-4822"},
+              {"name": "Industrial and Corporate Change", "issn": "0960-6491"},
+              {"name": "Industrial and Labor Relations Review", "issn": "0019-7939"},
+              {"name": "Industrial Marketing Management", "issn": "0019-8501"},
+              {"name": "International Business Review", "issn": "0969-5931"},
+              {"name": "International Journal of Hospitality Management", "issn": "0278-4319"},
+              {"name": "International Journal of Human Resource Management", "issn": "0958-5192"},
+              {"name": "International Journal of Research in Marketing", "issn": "0167-8116"},
+              {"name": "International Small Business Journal", "issn": "0266-2426"},
+              {"name": "Journal of Behavioral Decision Making", "issn": "0894-3257"},
+              {"name": "Journal of Business Ethics", "issn": "0167-4544"},
+              {"name": "Journal of Business Research", "issn": "0148-2963"},
+              {"name": "Journal of Business Venturing", "issn": "0883-9026"},
+              {"name": "Journal of Human Resources", "issn": "0022-166X"},
+              {"name": "Journal of Interactive Marketing", "issn": "1094-9968"},
+              {"name": "Journal of International Management", "issn": "1075-4253"},
+              {"name": "Journal of International Marketing", "issn": "1069-031X"},
+              {"name": "Journal of Knowledge Management", "issn": "1367-3270"},
+              {"name": "Journal of Occupational and Organizational Psychology", "issn": "0963-1798"},
+              {"name": "Journal of Organizational Behavior", "issn": "0894-3796"},
+              {"name": "Journal of Product Innovation Management", "issn": "0737-6782"},
+              {"name": "Journal of Purchasing and Supply Management", "issn": "1478-4092"},
+              {"name": "Journal of Retailing", "issn": "0022-4359"},
+              {"name": "Journal of Service Research", "issn": "1094-6705"},
+              {"name": "Journal of Small Business Management", "issn": "0047-2778"},
+              {"name": "Journal of Supply Chain Management", "issn": "1523-2409"},
+              {"name": "Journal of Travel Research", "issn": "0047-2875"},
+              {"name": "Journal of Vocational Behavior", "issn": "0001-8791"},
+              {"name": "Journal of World Business", "issn": "1090-9516"},
+              {"name": "Long Range Planning", "issn": "0024-6301"},
+              {"name": "Management and Organization Review", "issn": "1740-8776"},
+              {"name": "MIT Sloan Management Review", "issn": "1532-9194"},
+              {"name": "Organization", "issn": "1350-5084"},
+              {"name": "Organization Studies", "issn": "0170-8406"},
+              {"name": "Organizational Behavior and Human Decision Processes", "issn": "0749-5978"},
+              {"name": "Organizational Research Methods", "issn": "1094-4281"},
+              {"name": "R & D Management", "issn": "0033-6807"},
+              {"name": "Research in Organizational Behavior", "issn": "0191-3085"},
+              {"name": "Technovation", "issn": "0166-4972"},
+              {"name": "The Leadership Quarterly", "issn": "1048-9843"},
+              {"name": "Tourism Management", "issn": "0261-5177"}
+            ]
+          },
+          "Accounting and Finance": {
+            "label_count": 21,
+            "journals": [
+              {"name": "Abacus", "issn": "0001-3072"},
+              {"name": "Accounting Auditing & Accountability Journal", "issn": "0951-3574"},
+              {"name": "Auditing: A Journal of Practice & Theory", "issn": "0278-0380"},
+              {"name": "British Accounting Review", "issn": "0890-8389"},
+              {"name": "Corporate Governance-an International Review", "issn": "0964-8410"},
+              {"name": "Critical Perspectives on Accounting", "issn": "1045-2354"},
+              {"name": "Financial Analysts Journal", "issn": "0015-198X"},
+              {"name": "Financial Management", "issn": "0046-3892"},
+              {"name": "Journal of Accounting, Auditing & Finance", "issn": "0148-558X"},
+              {"name": "Journal of Banking and Finance", "issn": "0378-4266"},
+              {"name": "Journal of Business Finance & Accounting", "issn": "0306-686X"},
+              {"name": "Journal of Corporate Finance", "issn": "0929-1199"},
+              {"name": "Journal of Empirical Finance", "issn": "0927-5398"},
+              {"name": "Journal of Financial Intermediation", "issn": "1042-9573"},
+              {"name": "Journal of Financial Markets", "issn": "1386-4181"},
+              {"name": "Journal of Futures Markets", "issn": "0270-7314"},
+              {"name": "Journal of International Money and Finance", "issn": "0261-5606"},
+              {"name": "Journal of Risk and Insurance", "issn": "0022-4367"},
+              {"name": "Journal of Risk and Uncertainty", "issn": "0895-5646"},
+              {"name": "Management Accounting Research", "issn": "1044-5005"},
+              {"name": "Mathematical Finance", "issn": "0960-1627"}
+            ]
+          },
+          "Statistics": {
+            "label_count": 15,
+            "journals": [
+              {"name": "Bernoulli", "issn": "1350-7265"},
+              {"name": "Biometrics", "issn": "0006-341X"},
+              {"name": "Biostatistics", "issn": "1465-4644"},
+              {"name": "Communications in Mathematics and Statistics", "issn": "2194-6701"},
+              {"name": "Data Mining and Knowledge Discovery", "issn": "1384-5810"},
+              {"name": "Journal of Computational and Graphical Statistics", "issn": "1061-8600"},
+              {"name": "Journal of Multivariate Analysis", "issn": "0047-259X"},
+              {"name": "Journal of the Royal Statistical Society Series A: Statistics in Society", "issn": "0964-1998"},
+              {"name": "Journal of the Royal Statistical Society Series C: Applied Statistics", "issn": "0035-9254"},
+              {"name": "Multivariate Behavioral Research", "issn": "0027-3171"},
+              {"name": "Statistica Sinica", "issn": "1017-0405"},
+              {"name": "Statistical Methods in Medical Research", "issn": "0962-2802"},
+              {"name": "Statistical Science", "issn": "0883-4237"},
+              {"name": "Statistics in Medicine", "issn": "0277-6715"},
+              {"name": "TEST", "issn": "1133-0686"}
+            ]
+          },
+          "Mathematics": {
+            "label_count": 28,
+            "journals": [
+              {"name": "Advances in Calculus of Variations", "issn": "1864-8258"},
+              {"name": "Advances in Nonlinear Analysis", "issn": "2191-9496"},
+              {"name": "Annales de l Institut Henri Poincare-Analyse non Lineaire", "issn": "0294-1449"},
+              {"name": "Annals of Applied Probability", "issn": "1050-5164"},
+              {"name": "Applied and Computational Harmonic Analysis", "issn": "1063-5203"},
+              {"name": "Archive for Rational Mechanics and Analysis", "issn": "0003-9527"},
+              {"name": "Bulletin of the American Mathematical Society", "issn": "0273-0979"},
+              {"name": "Calculus of Variations and Partial Differential Equations", "issn": "0944-2669"},
+              {"name": "Communications in Mathematical Physics", "issn": "0010-3616"},
+              {"name": "Communications in Mathematical Sciences", "issn": "1539-6746"},
+              {"name": "Compositio Mathematica", "issn": "0010-437X"},
+              {"name": "Discrete and Continuous Dynamical Systems", "issn": "1078-0947"},
+              {"name": "Finite Elements in Analysis and Design", "issn": "0168-874X"},
+              {"name": "IEEE Transactions on Neural Networks and Learning Systems", "issn": "2162-237X"},
+              {"name": "Journal of Computational Physics", "issn": "0021-9991"},
+              {"name": "Journal of Differential Equations", "issn": "0022-0396"},
+              {"name": "Journal of Dynamics and Differential Equations", "issn": "1040-7294"},
+              {"name": "Journal of Functional Analysis", "issn": "0022-1236"},
+              {"name": "Journal of Mathematical Imaging and Vision", "issn": "0924-9907"},
+              {"name": "Journal of Nonlinear Science", "issn": "0938-8974"},
+              {"name": "Journal of Scientific Computing", "issn": "0885-7474"},
+              {"name": "Mathematical Programming", "issn": "0025-5610"},
+              {"name": "Memoirs of the American Mathematical Society", "issn": "0065-9266"},
+              {"name": "SIAM Journal on Applied Mathematics", "issn": "0036-1399"},
+              {"name": "SIAM Journal on Imaging Sciences", "issn": "1936-4954"},
+              {"name": "SIAM Journal on Mathematical Analysis", "issn": "0036-1410"},
+              {"name": "SIAM Journal on Numerical Analysis", "issn": "0036-1429"},
+              {"name": "SIAM Journal on Scientific Computing", "issn": "1064-8275"}
+            ]
+          },
+          "Management Science": {
+            "label_count": 50,
+            "journals": [
+              {"name": "Accident Analysis and Prevention", "issn": "0001-4575"},
+              {"name": "ACM Transactions on Computational Logic", "issn": "1529-3785"},
+              {"name": "ACM Transactions on Information Systems", "issn": "1046-8188"},
+              {"name": "ACM Transactions on Knowledge Discovery from Data", "issn": "1556-4681"},
+              {"name": "ACM Transactions on Mathematical Software", "issn": "0098-3500"},
+              {"name": "Annals of Operations Research", "issn": "0254-5330"},
+              {"name": "Applied Soft Computing", "issn": "1568-4946"},
+              {"name": "Automation in Construction", "issn": "0926-5805"},
+              {"name": "Computers and Operations Research", "issn": "0305-0548"},
+              {"name": "Computers & Industrial Engineering", "issn": "0360-8352"},
+              {"name": "Decision Sciences", "issn": "0011-7315"},
+              {"name": "Decision Support Systems", "issn": "0167-9236"},
+              {"name": "European Journal of Information Systems", "issn": "0960-085X"},
+              {"name": "European Journal of Operational Research", "issn": "0377-2217"},
+              {"name": "Fuzzy Optimization and Decision Making", "issn": "1568-4539"},
+              {"name": "IEEE Communications Surveys and Tutorials", "issn": "1553-877X"},
+              {"name": "IEEE Transactions on Cybernetics", "issn": "2168-2267"},
+              {"name": "IEEE Transactions on Engineering Management", "issn": "0018-9391"},
+              {"name": "IEEE Transactions on Evolutionary Computation", "issn": "1089-778X"},
+              {"name": "IEEE Transactions on Fuzzy Systems", "issn": "1063-6706"},
+              {"name": "IEEE Transactions on Knowledge and Data Engineering", "issn": "1041-4347"},
+              {"name": "Information Fusion", "issn": "1566-2535"},
+              {"name": "Information Sciences", "issn": "0020-0255"},
+              {"name": "Information Systems Journal", "issn": "1350-1917"},
+              {"name": "Information & Management", "issn": "0378-7206"},
+              {"name": "International Journal of Electronic Commerce", "issn": "1086-4415"},
+              {"name": "International Journal of Forecasting", "issn": "0169-2070"},
+              {"name": "International Journal of Human-Computer Studies", "issn": "1071-5819"},
+              {"name": "International Journal of Information Management", "issn": "0268-4012"},
+              {"name": "International Journal of Intelligent Systems", "issn": "0884-8173"},
+              {"name": "International Journal of Operations & Production Management", "issn": "0144-3577"},
+              {"name": "International Journal of Production Research", "issn": "0020-7543"},
+              {"name": "Journal of Artificial Intelligence Research", "issn": "1076-9757"},
+              {"name": "Journal of Information Technology", "issn": "0268-3962"},
+              {"name": "Journal of Machine Learning Research", "issn": "1532-4435"},
+              {"name": "Journal of Safety Research", "issn": "0022-4375"},
+              {"name": "Journal of Strategic Information Systems", "issn": "0963-8687"},
+              {"name": "Journal of the American Society for Information Science and Technology", "issn": "1532-2882"},
+              {"name": "Multiscale Modeling & Simulation", "issn": "1540-3459"},
+              {"name": "Neural Networks", "issn": "0893-6080"},
+              {"name": "Omega-International Journal of Management Science", "issn": "0305-0483"},
+              {"name": "Pattern Recognition", "issn": "0031-3203"},
+              {"name": "Risk Analysis", "issn": "0272-4332"},
+              {"name": "SIAM Journal on Computing", "issn": "0097-5397"},
+              {"name": "SIAM Journal on Control and Optimization", "issn": "0363-0129"},
+              {"name": "SIAM Journal on Optimization", "issn": "1052-6234"},
+              {"name": "Supply Chain Management", "issn": "1359-8546"},
+              {"name": "Technological Forecasting and Social Change", "issn": "0040-1625"},
+              {"name": "Transportation Research Part A: Policy and Practice", "issn": "0965-8564"},
+              {"name": "Transportation Science", "issn": "0041-1655"}
+            ]
+          },
+          "Public Administration": {
+            "label_count": 10,
+            "journals": [
+              {"name": "American Review of Public Administration", "issn": "0275-0740"},
+              {"name": "China Quarterly", "issn": "0305-7410"},
+              {"name": "Cities", "issn": "0264-2751"},
+              {"name": "Governance-An International Journal of Policy Administration and Institutions", "issn": "0952-1895"},
+              {"name": "Government Information Quarterly", "issn": "0740-624X"},
+              {"name": "Journal of European Public Policy", "issn": "1350-1763"},
+              {"name": "Journal of Social Policy", "issn": "0047-2794"},
+              {"name": "Landscape and Urban Planning", "issn": "0169-2046"},
+              {"name": "Public Management Review", "issn": "1471-9037"},
+              {"name": "Regulation and Governance", "issn": "1748-5983"}
+            ]
+          },
+          "Law": {
+            "label_count": 7,
+            "journals": [
+              {"name": "American Journal of International Law", "issn": "0002-9300"},
+              {"name": "Columbia Law Review", "issn": "0010-1958"},
+              {"name": "European Journal of International Law", "issn": "0938-5428"},
+              {"name": "Harvard International Law Journal", "issn": "0017-8063"},
+              {"name": "Oxford Journal of Legal Studies", "issn": "0143-6503"},
+              {"name": "Stanford Law Review", "issn": "0038-9765"},
+              {"name": "The Pacific Review", "issn": "0951-2748"}
+            ]
+          },
+          "Linguistics": {
+            "label_count": 5,
+            "journals": [
+              {"name": "American Journal of Speech-Language Pathology", "issn": "1058-0360"},
+              {"name": "American Literary History", "issn": "0896-7148"},
+              {"name": "Journal of Memory and Language", "issn": "0749-596X"},
+              {"name": "Language", "issn": "0097-8507"},
+              {"name": "Language Teaching", "issn": "0261-4448"}
+            ]
+          },
+          "Communication": {
+            "label_count": 9,
+            "journals": [
+              {"name": "Communication methods and measures", "issn": "1931-2458"},
+              {"name": "Digital journalism", "issn": "2167-0811"},
+              {"name": "Human Communication Research", "issn": "0360-3989"},
+              {"name": "Information Communication & Society", "issn": "1369-118X"},
+              {"name": "Journal of Advertising", "issn": "0091-3367"},
+              {"name": "Journal of computer-mediated communication", "issn": "1083-6101"},
+              {"name": "New Media & Society", "issn": "1461-4448"},
+              {"name": "Political Communication", "issn": "1058-4609"},
+              {"name": "Theory Culture & Society", "issn": "0263-2764"}
+            ]
+          },
+          "Philosophy": {
+            "label_count": 3,
+            "journals": [
+              {"name": "Asian Philosophy", "issn": "0955-2367"},
+              {"name": "Journal of Symbolic Logic", "issn": "0022-4812"},
+              {"name": "Philosophy East & West", "issn": "0031-8221"}
+            ]
+          },
+          "Education": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Academy of Management Learning and Education", "issn": "1537-260X"},
+              {"name": "Journal of Teacher Education", "issn": "0022-4871"}
+            ]
+          },
+          "Sociology": {
+            "label_count": 5,
+            "journals": [
+              {"name": "British Journal of Industrial Relations", "issn": "0007-1080"},
+              {"name": "Industrial Relations : A Journal of Economy and Society", "issn": "0019-8676"},
+              {"name": "Population and Development Review", "issn": "0098-7921"},
+              {"name": "Work and Stress", "issn": "0267-8373"},
+              {"name": "Work, Employment and Society", "issn": "0950-0170"}
+            ]
+          },
+          "Psychology": {
+            "label_count": 7,
+            "journals": [
+              {"name": "Applied Psychology", "issn": "0269-994X"},
+              {"name": "British Journal of Social Psychology", "issn": "0144-6665"},
+              {"name": "Journal of Experimental Social Psychology", "issn": "0022-1031"},
+              {"name": "Journal of Occupational Health Psychology", "issn": "1076-8998"},
+              {"name": "Personnel Psychology", "issn": "0031-5826"},
+              {"name": "Psychological Bulletin", "issn": "0033-2909"},
+              {"name": "Psychological Science", "issn": "0956-7976"}
+            ]
+          },
+          "Politics": {
+            "label_count": 2,
+            "journals": [
+              {"name": "American Journal of Political Science", "issn": "0092-5853"},
+              {"name": "Annual Review of Political Science", "issn": "1094-2939"}
+            ]
+          },
+          "Sports": {
+            "label_count": 2,
+            "journals": [
+              {"name": "Journal of Sport and Health Science", "issn": "2095-2546"},
+              {"name": "Physical Education and Sport Pedagogy", "issn": "1740-8989"}
+            ]
+          }
+        }
+      },
+      "B1": {
+        "attachment": "附件4",
+        "disciplines": {
+          "Economics": {
+            "label_count": 73,
+            "journals": [
+              {"name": "Agricultural Economics", "issn": "0169-5150"},
+              {"name": "Annual Review of Financial Economics", "issn": "1941-1367"},
+              {"name": "Applied Economic Perspectives and Policy", "issn": "2040-5790"},
+              {"name": "Applied Economics", "issn": "0003-6846"},
+              {"name": "Australian Journal of Agricultural and Resource Economics", "issn": "1364-985X"},
+              {"name": "Bulletin of Economic Research", "issn": "0307-3378"},
+              {"name": "Cambridge Journal of Regions Economy and Society", "issn": "1752-1378"},
+              {"name": "Canadian Journal of Agricultural Economics", "issn": "0008-3976"},
+              {"name": "Canadian Journal of Economics", "issn": "0008-4085"},
+              {"name": "China & World Economy", "issn": "1671-2234"},
+              {"name": "Econometrics Journal", "issn": "1368-4221"},
+              {"name": "Economic Analysis and Policy", "issn": "0313-5926"},
+              {"name": "Economic Development and Cultural Change", "issn": "0013-0079"},
+              {"name": "Economic Inquiry", "issn": "0095-2583"},
+              {"name": "Economic Modelling", "issn": "0264-9993"},
+              {"name": "Economic Policy", "issn": "0266-4658"},
+              {"name": "Economic Record", "issn": "0013-0249"},
+              {"name": "Economic Systems Research", "issn": "0953-5314"},
+              {"name": "Economica", "issn": "0013-0427"},
+              {"name": "Economics and Human Biology", "issn": "1570-677X"},
+              {"name": "Economics and Philosophy", "issn": "0266-2671"},
+              {"name": "Economics of Education Review", "issn": "0272-7757"},
+              {"name": "Empirical Economics", "issn": "0377-7332"},
+              {"name": "Energy Journal", "issn": "0195-6574"},
+              {"name": "Energy Policy", "issn": "0301-4215"},
+              {"name": "Environment and Development Economics", "issn": "1355-770X"},
+              {"name": "European Journal of Political Economy", "issn": "0176-2680"},
+              {"name": "European Review of Economic History", "issn": "1361-4916"},
+              {"name": "Explorations in Economic History", "issn": "0014-4983"},
+              {"name": "Futures", "issn": "0016-3287"},
+              {"name": "Global Environmental Change", "issn": "0959-3780"},
+              {"name": "Information Economics and Policy", "issn": "0167-6245"},
+              {"name": "Insurance Mathematics and Economics", "issn": "0167-6687"},
+              {"name": "International Journal of Game Theory", "issn": "0020-7276"},
+              {"name": "International Labour Review", "issn": "0020-7780"},
+              {"name": "International Tax and Public Finance", "issn": "0927-5940"},
+              {"name": "Journal of Contemporary Accounting & Economics", "issn": "1815-5669"},
+              {"name": "Journal of Economic Methodology", "issn": "1350-178X"},
+              {"name": "Journal of Economic Surveys", "issn": "0950-0804"},
+              {"name": "Journal of Economics", "issn": "0931-8658"},
+              {"name": "Journal of Economics and Management Strategy", "issn": "1058-6407"},
+              {"name": "Journal of Housing Economics", "issn": "1051-1377"},
+              {"name": "Journal of Human Capital", "issn": "1932-8575"},
+              {"name": "Journal of Institutional and Theoretical Economics", "issn": "0932-4569"},
+              {"name": "Journal of Institutional Economics", "issn": "1744-1374"},
+              {"name": "Journal of Macroeconomics", "issn": "0164-0704"},
+              {"name": "Journal of Pension Economics and Finance", "issn": "1474-7472"},
+              {"name": "Journal of Post Keynesian Economics", "issn": "0160-3477"},
+              {"name": "Journal of Productivity Analysis", "issn": "0895-562X"},
+              {"name": "Journal of Public Economic Theory", "issn": "1097-3923"},
+              {"name": "Journal of Regulatory Economics", "issn": "0922-680X"},
+              {"name": "Journal of the Association of Environmental and Resource Economists", "issn": "2333-5955"},
+              {"name": "Journal of the Economics of Ageing", "issn": "2212-828X"},
+              {"name": "Land Economics", "issn": "0023-7639"},
+              {"name": "Macroeconomic Dynamics", "issn": "1365-1005"},
+              {"name": "Managerial and Decision Economics", "issn": "0143-6570"},
+              {"name": "Oxford Economic Papers", "issn": "0030-7653"},
+              {"name": "Public Choice", "issn": "0048-5829"},
+              {"name": "Quarterly Review of Economics and Finance", "issn": "1062-9769"},
+              {"name": "Resource and Energy Economics", "issn": "0928-7655"},
+              {"name": "Review of Development Economics", "issn": "1363-6669"},
+              {"name": "Review of Economics of the Household", "issn": "1569-5239"},
+              {"name": "Review of Industrial Organization", "issn": "0889-938X"},
+              {"name": "Review of International Economics", "issn": "0965-7576"},
+              {"name": "Review of World Economics", "issn": "1610-2878"},
+              {"name": "Scandinavian Journal of Economics", "issn": "0347-0520"},
+              {"name": "Scottish Journal of Political Economy", "issn": "0036-9292"},
+              {"name": "Southern Economic Journal", "issn": "0038-4038"},
+              {"name": "Structural Change and Economic Dynamics", "issn": "0954-349X"},
+              {"name": "Technological and Economic Development of Economy", "issn": "2029-4913"},
+              {"name": "Theory and Decision", "issn": "0040-5833"},
+              {"name": "World Bank Research Observer", "issn": "0257-3032"},
+              {"name": "World Economy", "issn": "0378-5920"}
+            ]
+          },
+          "Management": {
+            "label_count": 57,
+            "journals": [
+              {"name": "Academy of Management Discoveries", "issn": "2168-1007"},
+              {"name": "Asia Pacific Journal of Human Resources", "issn": "1038-4111"},
+              {"name": "Asia Pacific Journal of Tourism Research", "issn": "1094-1665"},
+              {"name": "Asian Journal of Technology Innovation", "issn": "1976-1597"},
+              {"name": "Business Horizons", "issn": "0007-6813"},
+              {"name": "Business & Society", "issn": "0007-6503"},
+              {"name": "California Management Review", "issn": "0008-1256"},
+              {"name": "European Journal of Innovation Management", "issn": "1460-1060"},
+              {"name": "European Journal of Marketing", "issn": "0309-0566"},
+              {"name": "European Journal of Work and Organizational Psychology", "issn": "1359-432X"},
+              {"name": "European Management Journal", "issn": "0263-2373"},
+              {"name": "European Management Review", "issn": "1740-4754"},
+              {"name": "Group Processes & Intergroup Relations", "issn": "1368-4302"},
+              {"name": "Group & Organization Management", "issn": "1059-6011"},
+              {"name": "Human Resource Development Review", "issn": "1534-4843"},
+              {"name": "Industry and Innovation", "issn": "1366-2716"},
+              {"name": "International Entrepreneurship and Management Journal", "issn": "1554-7191"},
+              {"name": "International Journal of Consumer Studies", "issn": "1470-6423"},
+              {"name": "International Journal of Contemporary Hospitality Management", "issn": "0959-6119"},
+              {"name": "International Journal of Entrepreneurial Behaviour & Research", "issn": "1355-2554"},
+              {"name": "International Journal of Logistics Management", "issn": "0957-4093"},
+              {"name": "International Journal of Management Reviews", "issn": "1460-8545"},
+              {"name": "International Journal of Technology Management", "issn": "0267-5730"},
+              {"name": "International Marketing Review", "issn": "0265-1335"},
+              {"name": "Journal of Business and Psychology", "issn": "0889-3268"},
+              {"name": "Journal of Business-to-Business Marketing", "issn": "1051-712X"},
+              {"name": "Journal of Business & Industrial Marketing", "issn": "0885-8624"},
+              {"name": "Journal of Career Assessment", "issn": "1069-0727"},
+              {"name": "Journal of Consumer Affairs", "issn": "0022-0078"},
+              {"name": "Journal of Consumer Behaviour", "issn": "1472-0817"},
+              {"name": "Journal of Family Business Strategy", "issn": "1877-8585"},
+              {"name": "Journal of Hospitality and Tourism Research", "issn": "1096-3480"},
+              {"name": "Journal of Hospitality Marketing and Management", "issn": "1936-8623"},
+              {"name": "Journal of Industrial Relations", "issn": "0022-1856"},
+              {"name": "Journal of Management Analytics", "issn": "2327-0012"},
+              {"name": "Journal of Management Inquiry", "issn": "1056-4926"},
+              {"name": "Journal of Marketing Management", "issn": "0267-257X"},
+              {"name": "Journal of Organizational Behavior Management", "issn": "0160-8061"},
+              {"name": "Journal of Organizational Computing and Electronic Commerce", "issn": "1091-9392"},
+              {"name": "Journal of Retailing and Consumer Services", "issn": "0969-6989"},
+              {"name": "Journal of Strategic Marketing", "issn": "0965-254X"},
+              {"name": "Journal of Technology Transfer", "issn": "0892-9912"},
+              {"name": "Management Decision", "issn": "0025-1747"},
+              {"name": "Management International Review", "issn": "0938-8249"},
+              {"name": "Management Learning", "issn": "1350-5076"},
+              {"name": "Marketing Letters", "issn": "0923-0645"},
+              {"name": "Marketing Theory", "issn": "1470-5931"},
+              {"name": "Naval Research Logistics", "issn": "0894-069X"},
+              {"name": "New Technology Work and Employment", "issn": "0268-1072"},
+              {"name": "Organizational Dynamics", "issn": "0090-2616"},
+              {"name": "Organization & Environment", "issn": "1086-0266"},
+              {"name": "Psychology & Marketing", "issn": "0742-6046"},
+              {"name": "Research Technology Management", "issn": "0895-6308"},
+              {"name": "Review of Managerial Science", "issn": "1863-6683"},
+              {"name": "Strategic Organization", "issn": "1476-1270"},
+              {"name": "Technology Analysis & Strategic Management", "issn": "0953-7325"},
+              {"name": "Work and Occupations", "issn": "0730-8884"}
+            ]
+          },
+          "Accounting and Finance": {
+            "label_count": 52,
+            "journals": [
+              {"name": "Accounting and Business Research", "issn": "0001-4788"},
+              {"name": "Accounting and Finance", "issn": "0810-5391"},
+              {"name": "Accounting Forum", "issn": "0155-9982"},
+              {"name": "Accounting Horizons", "issn": "0888-7993"},
+              {"name": "Asia-Pacific Journal of Accounting and Economics", "issn": "1608-1625"},
+              {"name": "Australian Accounting Review", "issn": "1035-6908"},
+              {"name": "Behavioral Research in Accounting", "issn": "1050-4753"},
+              {"name": "British Tax Review", "issn": "0007-1870"},
+              {"name": "Emerging Markets Finance and Trade", "issn": "1540-496X"},
+              {"name": "Emerging Markets Review", "issn": "1566-0141"},
+              {"name": "European Accounting Review", "issn": "0963-8180"},
+              {"name": "European Financial Management", "issn": "1354-7798"},
+              {"name": "European Journal of Finance", "issn": "1351-847X"},
+              {"name": "Finance and Stochastics", "issn": "0949-2984"},
+              {"name": "Finance Research Letters", "issn": "1544-6123"},
+              {"name": "Financial Accountability and Management", "issn": "0267-4424"},
+              {"name": "Financial Markets, Institutions and Instruments", "issn": "0963-8008"},
+              {"name": "Financial Review", "issn": "0732-8516"},
+              {"name": "Fiscal Studies", "issn": "0143-5671"},
+              {"name": "Foundations and Trends in Accounting", "issn": "1554-0642"},
+              {"name": "Geneva Papers on Risk and Insurance-Issues and Practice", "issn": "1018-5895"},
+              {"name": "International Journal of Accounting", "issn": "1094-4060"},
+              {"name": "International Journal of Accounting Information Systems", "issn": "1467-0895"},
+              {"name": "International Journal of Auditing", "issn": "1090-6738"},
+              {"name": "International Journal of Central Banking", "issn": "1815-4654"},
+              {"name": "International Journal of Finance and Economics", "issn": "1076-9307"},
+              {"name": "International Review of Economics & Finance", "issn": "1059-0560"},
+              {"name": "International Review of Finance", "issn": "1369-412X"},
+              {"name": "International Review of Financial Analysis", "issn": "1057-5219"},
+              {"name": "Journal of Accounting and Public Policy", "issn": "0278-4254"},
+              {"name": "Journal of Accounting Literature", "issn": "0737-4607"},
+              {"name": "Journal of Commodity Markets", "issn": "2405-8513"},
+              {"name": "Journal of Derivatives", "issn": "1074-1240"},
+              {"name": "Journal of Financial Research", "issn": "0270-2592"},
+              {"name": "Journal of Financial Stability", "issn": "1572-3089"},
+              {"name": "Journal of Fixed Income", "issn": "1059-8596"},
+              {"name": "Journal of International Accounting, Auditing and Taxation", "issn": "1061-9518"},
+              {"name": "Journal of International Financial Management & Accounting", "issn": "0954-1314"},
+              {"name": "Journal of International Financial Markets, Institutions and Money", "issn": "1042-4431"},
+              {"name": "Journal of Portfolio Management", "issn": "0095-4918"},
+              {"name": "Journal of Real Estate Finance and Economics", "issn": "0895-5638"},
+              {"name": "Journal of Risk", "issn": "1465-1211"},
+              {"name": "Journal of the American Taxation Association", "issn": "0198-9073"},
+              {"name": "Managerial Auditing Journal", "issn": "0268-6902"},
+              {"name": "National Tax Journal", "issn": "0028-0283"},
+              {"name": "Pacific-Basin Finance Journal", "issn": "0927-538X"},
+              {"name": "Quantitative Finance", "issn": "1469-7688"},
+              {"name": "Research in International Business and Finance", "issn": "0275-5319"},
+              {"name": "Review of Asset Pricing Studies", "issn": "2045-9920"},
+              {"name": "Review of Corporate Finance Studies", "issn": "2046-9128"},
+              {"name": "Review of Quantitative Finance and Accounting", "issn": "0924-865X"},
+              {"name": "Venture Capital", "issn": "1369-1066"}
+            ]
+          },
+          "Statistics": {
+            "label_count": 35,
+            "journals": [
+              {"name": "Advances in Data Analysis and Classification", "issn": "1862-5347"},
+              {"name": "Annales de l Institut Henri Poincare (B) Probability and Statistics", "issn": "0246-0203"},
+              {"name": "Annals of the Institute of Statistical Mathematics", "issn": "0020-3157"},
+              {"name": "Australian & New Zealand Journal of Statistics", "issn": "1369-1473"},
+              {"name": "Bayesian Analysis", "issn": "1931-6690"},
+              {"name": "Bioinformatics", "issn": "1367-4803"},
+              {"name": "Biometrical Journal", "issn": "0323-3847"},
+              {"name": "British Journal of Mathematical & Statistical Psychology", "issn": "0007-1102"},
+              {"name": "Canadian Journal of Statistics-Revue Canadienne De Statistique", "issn": "0319-5724"},
+              {"name": "Computational Statistics", "issn": "0943-4062"},
+              {"name": "Computational Statistics and Data Analysis", "issn": "0167-9473"},
+              {"name": "Electronic Journal of Statistics", "issn": "1935-7524"},
+              {"name": "Environmental and Ecological Statistics", "issn": "1352-8505"},
+              {"name": "International Statistical Review", "issn": "0306-7734"},
+              {"name": "Journal of Agricultural Biological and Environmental Statistics", "issn": "1085-7117"},
+              {"name": "Journal of Applied Statistics", "issn": "0266-4763"},
+              {"name": "Journal of Chemometrics", "issn": "0886-9383"},
+              {"name": "Journal of Computational Biology", "issn": "1066-5277"},
+              {"name": "Journal of Educational and Behavioral Statistics", "issn": "1076-9986"},
+              {"name": "Journal of Forecasting", "issn": "0277-6693"},
+              {"name": "Journal of Quality Technology", "issn": "0022-4065"},
+              {"name": "Journal of Statistical Computation and Simulation", "issn": "0094-9655"},
+              {"name": "Journal of Statistical Planning and Inference", "issn": "0378-3758"},
+              {"name": "Journal of Statistical Software", "issn": "1548-7660"},
+              {"name": "Journal of Time Series Analysis", "issn": "0143-9782"},
+              {"name": "Metrika", "issn": "0026-1335"},
+              {"name": "Random Matrices-Theory and Applications", "issn": "2010-3263"},
+              {"name": "Stat", "issn": "2049-1573"},
+              {"name": "Stata Journal", "issn": "1536-867X"},
+              {"name": "Statistical Methodology", "issn": "1572-3127"},
+              {"name": "Statistical Modelling", "issn": "1471-082X"},
+              {"name": "Statistics and Computing", "issn": "0960-3174"},
+              {"name": "Statistics and Its Interface", "issn": "1938-7989"},
+              {"name": "Technometrics", "issn": "0040-1706"},
+              {"name": "The American Statistician", "issn": "0003-1305"}
+            ]
+          },
+          "Mathematics": {
+            "label_count": 51,
+            "label_count_note": "文件标注51，表格序号跳过35，实际列出50种",
+            "journals": [
+              {"name": "ACM Transactions on Algorithms", "issn": "1549-6325"},
+              {"name": "Acta Mathematica Scientia", "issn": "0252-9602"},
+              {"name": "Advances in Applied Probability", "issn": "0001-8678"},
+              {"name": "Algebra and Logic", "issn": "0002-5232"},
+              {"name": "Analysis and Applications", "issn": "0219-5305"},
+              {"name": "Applied Mathematics Letters", "issn": "0893-9659"},
+              {"name": "ASTIN Bulletin", "issn": "0515-0361"},
+              {"name": "BIT Numerical Mathematics", "issn": "0006-3835"},
+              {"name": "Combinatorics Probability & Computing", "issn": "0963-5483"},
+              {"name": "Communications in Nonlinear Science and Numerical Simulation", "issn": "1007-5704"},
+              {"name": "Communications in Partial Differential Equations", "issn": "0360-5302"},
+              {"name": "Communications on Pure and Applied Analysis", "issn": "1534-0392"},
+              {"name": "Differential and Integral Equations", "issn": "0893-4983"},
+              {"name": "Discrete Event Dynamic Systems-Theory and Applications", "issn": "0924-6703"},
+              {"name": "Discrete Mathematics", "issn": "0012-365X"},
+              {"name": "Electronic Journal of Probability", "issn": "1083-6489"},
+              {"name": "Ergodic Theory and Dynamical Systems", "issn": "0143-3857"},
+              {"name": "Esaim-Control Optimisation and Calculus of Variations", "issn": "1292-8119"},
+              {"name": "European Journal of Combinatorics", "issn": "0195-6698"},
+              {"name": "Frontiers of Mathematics in China", "issn": "1673-3452"},
+              {"name": "Integral Equations and Operator Theory", "issn": "0378-620X"},
+              {"name": "International Journal of Approximate Reasoning", "issn": "0888-613X"},
+              {"name": "International Journal of Robust and Nonlinear Control", "issn": "1049-8923"},
+              {"name": "Journal of Applied Probability", "issn": "0021-9002"},
+              {"name": "Journal of Combinatorial Optimization", "issn": "1382-6905"},
+              {"name": "Journal of Combinatorial Theory, Seriers B", "issn": "0095-8956"},
+              {"name": "Journal of Complexity", "issn": "0885-064X"},
+              {"name": "Journal of Computational and Applied Mathematics", "issn": "0377-0427"},
+              {"name": "Journal of Computational Science", "issn": "1877-7503"},
+              {"name": "Journal of Evolution Equations", "issn": "1424-3199"},
+              {"name": "Journal of Geometric Analysis", "issn": "1050-6926"},
+              {"name": "Journal of Graph Theory", "issn": "0364-9024"},
+              {"name": "Journal of Hyperbolic Differential Equations", "issn": "0219-8916"},
+              {"name": "Journal of Pure and Applied Algebra", "issn": "0022-4049"},
+              {"name": "Journal of the London Mathematical Society-Second Series", "issn": "0024-6107"},
+              {"name": "Linear Algebra and Its Applications", "issn": "0024-3795"},
+              {"name": "Mathematical Methods in the Applied Sciences", "issn": "0170-4214"},
+              {"name": "Mathematical Population Studies", "issn": "0889-8480"},
+              {"name": "Mathematische Zeitschrift", "issn": "0025-5874"},
+              {"name": "Moscow Mathematical Journal", "issn": "1609-3321"},
+              {"name": "Nonlinear Analysis-Real World Applications", "issn": "1468-1218"},
+              {"name": "Nonlinear Analysis-Theory Methods & Applications", "issn": "0362-546X"},
+              {"name": "Nonlinearity", "issn": "0951-7715"},
+              {"name": "Numerical Methods for Partial Differential Equations", "issn": "0749-159X"},
+              {"name": "Quarterly of Applied Mathematics", "issn": "0033-569X"},
+              {"name": "Science China Mathematics", "issn": "1674-7283"},
+              {"name": "SIAM Journal on Discrete Mathematics", "issn": "0895-4801"},
+              {"name": "Stochastic Models", "issn": "1532-6349"},
+              {"name": "Stochastic Processes and Their Applications", "issn": "0304-4149"},
+              {"name": "Stochastics and Dynamics", "issn": "0219-4937"}
+            ]
+          },
+          "Management Science": {
+            "label_count": 98,
+            "journals": [
+              {"name": "Advances in Computational Mathematics", "issn": "1019-7168"},
+              {"name": "Applied Intelligence", "issn": "0924-669X"},
+              {"name": "Applied Mathematics and Computation", "issn": "0096-3003"},
+              {"name": "Applied Mathematics and Optimization", "issn": "0095-4616"},
+              {"name": "Artificial Intelligence Review", "issn": "0269-2821"},
+              {"name": "Asia-Pacific Journal of Operational Research", "issn": "0217-5959"},
+              {"name": "Big Data", "issn": "2167-6461"},
+              {"name": "Business & Information Systems Engineering", "issn": "1867-0202"},
+              {"name": "Chaos", "issn": "1054-1500"},
+              {"name": "Computational Intelligence", "issn": "0824-7935"},
+              {"name": "Computational Optimization and Applications", "issn": "0926-6003"},
+              {"name": "Computer", "issn": "0018-9162"},
+              {"name": "Computers in Human Behavior", "issn": "0747-5632"},
+              {"name": "Computers in Industry", "issn": "0166-3615"},
+              {"name": "Computers & Mathematics with Applications", "issn": "0898-1221"},
+              {"name": "Data and Knowledge Engineering", "issn": "0169-023X"},
+              {"name": "Electronic Commerce Research", "issn": "1389-5753"},
+              {"name": "Electronic Commerce Research and Applications", "issn": "1567-4223"},
+              {"name": "Engineering Applications of Artificial Intelligence", "issn": "0952-1976"},
+              {"name": "Engineering Optimization", "issn": "0305-215X"},
+              {"name": "Ergonomics", "issn": "0014-0139"},
+              {"name": "Evolutionary Computation", "issn": "1063-6560"},
+              {"name": "Expert Systems with Applications", "issn": "0957-4174"},
+              {"name": "Fire Safety Journal", "issn": "0379-7112"},
+              {"name": "Future Generation Computer Systems-the International Journal of Escience", "issn": "0167-739X"},
+              {"name": "Human Factors", "issn": "0018-7208"},
+              {"name": "Human-Computer Interaction", "issn": "0737-0024"},
+              {"name": "IEEE Transactions on Intelligent Transportation Systems", "issn": "1524-9050"},
+              {"name": "IEEE Transactions on Pattern Analysis and Machine Intelligence", "issn": "0162-8828"},
+              {"name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems", "issn": "2168-2216"},
+              {"name": "IEEE Transactions on Vehicular Technology", "issn": "0018-9545"},
+              {"name": "IIE Transactions", "issn": "2472-5854"},
+              {"name": "Image and Vision Computing", "issn": "0262-8856"},
+              {"name": "Industrial Management & Data Systems", "issn": "0263-5577"},
+              {"name": "Information and Organization", "issn": "1471-7727"},
+              {"name": "Information and Software Technology", "issn": "0950-5849"},
+              {"name": "Information Processing & Management", "issn": "0306-4573"},
+              {"name": "Information Systems", "issn": "0306-4379"},
+              {"name": "Information Systems and E-Business Management", "issn": "1617-9846"},
+              {"name": "Information Systems Frontiers", "issn": "1387-3326"},
+              {"name": "Information Systems Management", "issn": "1058-0530"},
+              {"name": "Information Technology and Management", "issn": "1385-951X"},
+              {"name": "Information Technology and People", "issn": "0959-3845"},
+              {"name": "Intelligent Data Analysis", "issn": "1088-467X"},
+              {"name": "International Journal for Numerical Methods in Engineering", "issn": "0029-5981"},
+              {"name": "International Journal of Disaster Risk Reduction", "issn": "2212-4209"},
+              {"name": "International Journal of General Systems", "issn": "0308-1079"},
+              {"name": "International Journal of Industrial Ergonomics", "issn": "0169-8141"},
+              {"name": "International Journal of Information Technology & Decision Making", "issn": "0219-6220"},
+              {"name": "International Journal of Logistics: Research and Applications", "issn": "1367-5567"},
+              {"name": "International Journal of Neural Systems", "issn": "0129-0657"},
+              {"name": "International Journal of Systems Science", "issn": "0020-7721"},
+              {"name": "International Transactions in Operational Research", "issn": "0969-6016"},
+              {"name": "Internet Research", "issn": "1066-2243"},
+              {"name": "Journal of Business Logistics", "issn": "0735-3766"},
+              {"name": "Journal of Computer Information Systems", "issn": "0887-4417"},
+              {"name": "Journal of Construction Engineering and Management", "issn": "0733-9364"},
+              {"name": "Journal of Contingencies and Crisis Management", "issn": "0966-0879"},
+              {"name": "Journal of Electronic Commerce Research", "issn": "1526-6133"},
+              {"name": "Journal of Engineering and Technology Management", "issn": "0923-4748"},
+              {"name": "Journal of Enterprise Information Management", "issn": "1741-0398"},
+              {"name": "Journal of Global Information Management", "issn": "1062-7375"},
+              {"name": "Journal of Global Optimization", "issn": "0925-5001"},
+              {"name": "Journal of Intelligent Transportation Systems", "issn": "1547-2450"},
+              {"name": "Journal of Loss Prevention in the Process Industries", "issn": "0950-4230"},
+              {"name": "Journal of Optimization Theory and Applications", "issn": "0022-3239"},
+              {"name": "Journal of Risk Research", "issn": "1366-9877"},
+              {"name": "Journal of Simulation", "issn": "1747-7778"},
+              {"name": "Journal of Systems Engineering and Electronics", "issn": "1004-4132"},
+              {"name": "Journal of Systems Science and Systems Engineering", "issn": "1004-3756"},
+              {"name": "Journal of the Operational Research Society", "issn": "0160-5682"},
+              {"name": "Journal of Transport Economics and Policy", "issn": "0022-5258"},
+              {"name": "Knowledge and Information Systems", "issn": "0219-1377"},
+              {"name": "Knowledge-based Systems", "issn": "0950-7051"},
+              {"name": "Machine Learning", "issn": "0885-6125"},
+              {"name": "Mathematical Methods of Operations Research", "issn": "1432-2994"},
+              {"name": "MIS Quarterly Executive", "issn": "1540-1960"},
+              {"name": "Neural Computation", "issn": "0899-7667"},
+              {"name": "Neurocomputing", "issn": "0925-2312"},
+              {"name": "Nonlinear Dynamics", "issn": "0924-090X"},
+              {"name": "Optimization", "issn": "0233-1934"},
+              {"name": "OR Spectrum", "issn": "0171-6468"},
+              {"name": "Pattern Recognition Letters", "issn": "0167-8655"},
+              {"name": "Physica A-Statistical Mechanics and Its Applications", "issn": "0378-4371"},
+              {"name": "Process Safety and Environmental Protection", "issn": "0957-5820"},
+              {"name": "Production Planning and Control", "issn": "0953-7287"},
+              {"name": "Reliability Engineering & System Safety", "issn": "0951-8320"},
+              {"name": "Resources Policy", "issn": "0301-4207"},
+              {"name": "Safety Science", "issn": "0925-7535"},
+              {"name": "Service Industries Journal", "issn": "0264-2069"},
+              {"name": "Social Science Computer Review", "issn": "0894-4393"},
+              {"name": "System Dynamics Review", "issn": "0883-7066"},
+              {"name": "Transport Policy", "issn": "0967-070X"},
+              {"name": "Transportation", "issn": "0049-4488"},
+              {"name": "Transportation Research Part C: Emerging Technologies", "issn": "0968-090X"},
+              {"name": "Transportation Research Part D:Transport and Environment", "issn": "1361-9209"},
+              {"name": "Transportation Research Part E: Logistics and Transportation Review", "issn": "1366-5545"},
+              {"name": "Transportmetrica A: Transport Science", "issn": "2324-9935"}
+            ]
+          },
+          "Public Administration": {
+            "label_count": 41,
+            "journals": [
+              {"name": "Administration and Society", "issn": "0095-3997"},
+              {"name": "Applied Geography", "issn": "0143-6228"},
+              {"name": "China Journal", "issn": "1324-9347"},
+              {"name": "Environment and Planning A", "issn": "0308-518X"},
+              {"name": "Environment and Planning C: Government and Policy", "issn": "0263-774X"},
+              {"name": "European Planning Studies", "issn": "0965-4313"},
+              {"name": "European Urban and Regional Studies", "issn": "0969-7764"},
+              {"name": "Habitat International", "issn": "0197-3975"},
+              {"name": "Housing Studies", "issn": "0267-3037"},
+              {"name": "Housing Theory and Society", "issn": "1403-6096"},
+              {"name": "International Journal of Manpower", "issn": "0143-7720"},
+              {"name": "International Journal of Public Opinion Research", "issn": "0954-2892"},
+              {"name": "International Journal of Social Welfare", "issn": "1369-6866"},
+              {"name": "International Public Management Journal", "issn": "1096-7494"},
+              {"name": "International Review of Administrative Sciences", "issn": "0020-8523"},
+              {"name": "Journal of Applied Gerontology", "issn": "0733-4648"},
+              {"name": "Journal of Comparative Policy Analysis", "issn": "1387-6988"},
+              {"name": "Journal of Contemporary China", "issn": "1067-0564"},
+              {"name": "Journal of European Social Policy", "issn": "0958-9287"},
+              {"name": "Journal of Public Policy", "issn": "0143-814X"},
+              {"name": "Journal of Public Policy and Marketing", "issn": "0743-9156"},
+              {"name": "Journal of Urban Affairs", "issn": "0735-2166"},
+              {"name": "Journal of Urban Technology", "issn": "1063-0732"},
+              {"name": "Land Use Policy", "issn": "0264-8377"},
+              {"name": "Local Government Studies", "issn": "0300-3930"},
+              {"name": "Nonprofit and Voluntary Sector Quarterly", "issn": "0899-7640"},
+              {"name": "Papers in Regional Science", "issn": "1056-8190"},
+              {"name": "Philosophy and Public Affairs", "issn": "0048-3915"},
+              {"name": "Policy and Politics", "issn": "0305-5736"},
+              {"name": "Policy Studies Journal", "issn": "0190-292X"},
+              {"name": "Public Administration and Development", "issn": "0271-2075"},
+              {"name": "Public Performance & Management Review", "issn": "1530-9576"},
+              {"name": "Public Policy & Administration", "issn": "0952-0767"},
+              {"name": "Public Relations Review", "issn": "0363-8111"},
+              {"name": "Review of Income and Wealth", "issn": "0034-6586"},
+              {"name": "Review of Public Personnel Administration", "issn": "0734-371X"},
+              {"name": "Science and Public Policy", "issn": "0302-3427"},
+              {"name": "Social Choice and Welfare", "issn": "0176-1714"},
+              {"name": "Social Policy & Administration", "issn": "0144-5596"},
+              {"name": "Sustainable Cities and Society", "issn": "2210-6715"},
+              {"name": "Urban Geography", "issn": "0272-3638"}
+            ]
+          },
+          "Law": {
+            "label_count": 31,
+            "journals": [
+              {"name": "American Business Law Journal", "issn": "0002-7766"},
+              {"name": "American Journal of Comparative Law", "issn": "0002-919X"},
+              {"name": "Antitrust Law Journal", "issn": "0003-6056"},
+              {"name": "Boston University Law Review", "issn": "0006-8047"},
+              {"name": "Cambridge Law Journal", "issn": "0008-1973"},
+              {"name": "Chinese Journal of International Law", "issn": "1540-1650"},
+              {"name": "Columbia Journal of Transnational Law", "issn": "0010-1931"},
+              {"name": "Cornell International Law Journal", "issn": "0010-8812"},
+              {"name": "Cornell Law Review", "issn": "0010-8847"},
+              {"name": "Duke Law Journal", "issn": "0012-7086"},
+              {"name": "Fordham Law Review", "issn": "0015-704X"},
+              {"name": "Harvard Environmental Law Review", "issn": "0147-8257"},
+              {"name": "Industrial Law Journal", "issn": "0305-9332"},
+              {"name": "International Journal of Marine and Coastal Law", "issn": "0927-3522"},
+              {"name": "International Review of Law and Economics", "issn": "0144-8188"},
+              {"name": "International Review of the Red Cross", "issn": "1816-3831"},
+              {"name": "Journal of International Economic Law", "issn": "1369-3034"},
+              {"name": "Journal of Legal Studies", "issn": "0047-2530"},
+              {"name": "Journal of World Trade", "issn": "1011-6702"},
+              {"name": "Leiden Journal of International Law", "issn": "0922-1565"},
+              {"name": "Michigan Law Review", "issn": "0026-2234"},
+              {"name": "Minnesota Law Review", "issn": "0026-5535"},
+              {"name": "New York University Law Review", "issn": "0028-7881"},
+              {"name": "Northwestern University Law Review", "issn": "0029-3571"},
+              {"name": "Stanford Journal of International Law", "issn": "0731-5082"},
+              {"name": "UCLA Law Review", "issn": "0041-5650"},
+              {"name": "University of Chicago Law Review", "issn": "0041-9494"},
+              {"name": "Vanderbilt Law Review", "issn": "0042-2533"},
+              {"name": "Virginia Law Review", "issn": "0042-6601"},
+              {"name": "Wisconsin Law Review", "issn": "0043-650X"},
+              {"name": "World Trade Review", "issn": "1474-7456"}
+            ]
+          },
+          "Linguistics": {
+            "label_count": 67,
+            "label_count_note": "文件标注67，序号在38后重复从37编至67，实际列出69行（含Target重复两条）",
+            "journals": [
+              {"name": "American Literature", "issn": "0002-9831"},
+              {"name": "Annual Review of Applied Linguistics", "issn": "0267-1905"},
+              {"name": "Applied Psycholinguistics", "issn": "0142-7164"},
+              {"name": "Assessing Writing", "issn": "1075-2935"},
+              {"name": "Bilingualism-Language and Cognition", "issn": "1366-7289"},
+              {"name": "Boundary2-An International Journal of literature and Culture", "issn": "0190-3659"},
+              {"name": "Brain and Language", "issn": "0093-934X"},
+              {"name": "Cognitive Linguistics", "issn": "0936-5907"},
+              {"name": "Comparative Literature", "issn": "0010-4124"},
+              {"name": "Comparative Literature Studies", "issn": "0010-4132"},
+              {"name": "Computational Linguistics", "issn": "0891-2017"},
+              {"name": "Computer Assisted Language Learning", "issn": "0958-8221"},
+              {"name": "Contemporary Literature", "issn": "0010-7484"},
+              {"name": "Critical Inquiry", "issn": "0093-1896"},
+              {"name": "Criticism-A Quarterly for Literature and the Arts", "issn": "0011-1589"},
+              {"name": "English for Specific Purposes", "issn": "0889-4906"},
+              {"name": "Foreign Language Annals", "issn": "0015-718X"},
+              {"name": "Intercultural Pragmatics", "issn": "1612-295X"},
+              {"name": "International Journal of Intercultural Relations", "issn": "0147-1767"},
+              {"name": "Journal of Child Language", "issn": "0305-0009"},
+              {"name": "Journal of Chinese Linguistics", "issn": "0091-3723"},
+              {"name": "Journal of East Asian Linguistics", "issn": "0925-8558"},
+              {"name": "Journal of Linguistics", "issn": "0022-2267"},
+              {"name": "Journal of Neurolinguistics", "issn": "0911-6044"},
+              {"name": "Journal of Phonetics", "issn": "0095-4470"},
+              {"name": "Journal of Pragmatics", "issn": "0378-2166"},
+              {"name": "Journal of Second Language Writing", "issn": "1060-3743"},
+              {"name": "Journal of Semantics", "issn": "0167-5133"},
+              {"name": "Journal of Sociolinguistics", "issn": "1360-6441"},
+              {"name": "La linguistique", "issn": "0075-966X"},
+              {"name": "Language and Education", "issn": "0950-0782"},
+              {"name": "Language and Speech", "issn": "0023-8309"},
+              {"name": "Language in Society", "issn": "0047-4045"},
+              {"name": "Language Learning", "issn": "0023-8333"},
+              {"name": "Language Learning and Technology", "issn": "1094-3501"},
+              {"name": "Language Teaching Research", "issn": "1362-1688"},
+              {"name": "Language Testing", "issn": "0265-5322"},
+              {"name": "Le français moderne", "issn": "1386-1204"},
+              {"name": "Linguistic Inquiry", "issn": "0024-3892"},
+              {"name": "Linguistic Review", "issn": "0167-6318"},
+              {"name": "Linguistics", "issn": "0024-3949"},
+              {"name": "Linguistics and Philosophy", "issn": "0165-0157"},
+              {"name": "Meta", "issn": "0026-0452"},
+              {"name": "Mind & Language", "issn": "0268-1064"},
+              {"name": "Modern Fiction Studies", "issn": "0026-7724"},
+              {"name": "Modern Language Journal", "issn": "0026-7902"},
+              {"name": "Modern Language Quarterly", "issn": "0026-7929"},
+              {"name": "Mosaic-A Journal for the Interdisciplinary Study of Literature", "issn": "0027-1276"},
+              {"name": "Narrative", "issn": "1063-3685"},
+              {"name": "New Literary History", "issn": "0028-6087"},
+              {"name": "Papers on Language and Literature", "issn": "0031-1294"},
+              {"name": "Perspectives-Studies in Translation Theory and Practice", "issn": "0907-676X"},
+              {"name": "Phonetica", "issn": "0031-8388"},
+              {"name": "Phonology", "issn": "0952-6757"},
+              {"name": "Pmla-Publications of the Modern Language Association of America", "issn": "0030-8129"},
+              {"name": "Poetics", "issn": "0304-422X"},
+              {"name": "Review of Cognitive Linguistics", "issn": "1877-9751"},
+              {"name": "Review of English Studies", "issn": "0034-6551"},
+              {"name": "Second Language Research", "issn": "0267-6583"},
+              {"name": "South Atlantic Quarterly", "issn": "0038-2876"},
+              {"name": "Studies in American Indian Literatures", "issn": "0730-3238"},
+              {"name": "Studies in Second Language Acquisition", "issn": "0272-2631"},
+              {"name": "Style", "issn": "0039-4238"},
+              {"name": "System", "issn": "0346-251X"},
+              {"name": "Target", "issn": "0294-1884"},
+              {"name": "Target-International Journal of Translation Studies", "issn": "0924-1884"},
+              {"name": "Tesol Quarterly", "issn": "0039-8322"},
+              {"name": "Translation Studies", "issn": "1478-1700"},
+              {"name": "Translator", "issn": "1355-6509"}
+            ]
+          },
+          "Communication": {
+            "label_count": 19,
+            "journals": [
+              {"name": "Chinese journal of communication", "issn": "1754-4750"},
+              {"name": "Convergence-the international journal of research into new media technologies", "issn": "1354-8565"},
+              {"name": "Creativity and Innovation Management", "issn": "0963-1690"},
+              {"name": "Critical Discourse Studies", "issn": "1740-5904"},
+              {"name": "Design Issues", "issn": "0747-9360"},
+              {"name": "Design Studies", "issn": "0142-694X"},
+              {"name": "Discourse & Communication", "issn": "1750-4813"},
+              {"name": "European Journal of Communication", "issn": "0267-3231"},
+              {"name": "International Journal of Advertising", "issn": "0265-0487"},
+              {"name": "International Journal of Press-Politics", "issn": "1940-1612"},
+              {"name": "Journal of Applied Communication Research", "issn": "0090-9882"},
+              {"name": "Journal of Broadcasting & Electronic Media", "issn": "0883-8151"},
+              {"name": "Journal of Intellectual Capital", "issn": "1469-1930"},
+              {"name": "Journal of Services Marketing", "issn": "0887-6045"},
+              {"name": "Journalism & Mass Communication Quarterly", "issn": "1077-6990"},
+              {"name": "Media Culture & Society", "issn": "0163-4437"},
+              {"name": "Media psychology", "issn": "1521-3269"},
+              {"name": "Mobile media & communication", "issn": "2050-1579"},
+              {"name": "Social media + society", "issn": "2056-3051"}
+            ]
+          },
+          "Philosophy": {
+            "label_count": 4,
+            "journals": [
+              {"name": "Contemporary Chinese Thought", "issn": "1097-1467"},
+              {"name": "Dao-A Journal of Comparative Philosophy", "issn": "1540-3009"},
+              {"name": "Journal of Chinese Philosophy", "issn": "0301-8121"},
+              {"name": "Studies in History and Philosophy of Science", "issn": "0039-3681"}
+            ]
+          },
+          "Education": {
+            "label_count": 4,
+            "journals": [
+              {"name": "British Educational Research Journal", "issn": "0141-1926"},
+              {"name": "Journal of Education Policy", "issn": "0268-0939"},
+              {"name": "Studies in Higher Education", "issn": "0307-5079"},
+              {"name": "Teaching and Teacher Education", "issn": "0742-051X"}
+            ]
+          },
+          "Sociology": {
+            "label_count": 39,
+            "journals": [
+              {"name": "Acta Sociologica", "issn": "0001-6993"},
+              {"name": "Ageing & Society", "issn": "0144-686X"},
+              {"name": "Aging and Mental Health", "issn": "1360-7863"},
+              {"name": "American Journal of Public Health", "issn": "0090-0036"},
+              {"name": "Chinese Sociological Review", "issn": "2162-0555"},
+              {"name": "Current Sociology", "issn": "0011-3921"},
+              {"name": "Demographic Research", "issn": "1435-9871"},
+              {"name": "Economic and Industrial Democracy", "issn": "0143-831X"},
+              {"name": "Enterprise and Society", "issn": "1467-2227"},
+              {"name": "European Journal of Industrial Relations", "issn": "0959-6801"},
+              {"name": "Gender and Society", "issn": "0891-2432"},
+              {"name": "Gender, Work and Organization", "issn": "0968-6673"},
+              {"name": "Gerontology", "issn": "0304-324X"},
+              {"name": "Industrial Relations Journal", "issn": "0019-8692"},
+              {"name": "Information Society", "issn": "0197-2243"},
+              {"name": "International Migration", "issn": "0020-7985"},
+              {"name": "International Migration Review", "issn": "0197-9183"},
+              {"name": "International Perspectives on Sexual and Reproductive Health", "issn": "1944-0391"},
+              {"name": "International Social Security Review", "issn": "0020-871X"},
+              {"name": "International Sociology", "issn": "0268-5809"},
+              {"name": "Journal of Aging and Health", "issn": "0898-2643"},
+              {"name": "Journal of Ethnic and Migration Studies", "issn": "1369-183X"},
+              {"name": "Journal of Marriage and Family", "issn": "0022-2445"},
+              {"name": "Journal of Population Research", "issn": "1443-2447"},
+              {"name": "Journals of Gerontology - Series B Psychological Sciences and Social Sciences", "issn": "1079-5014"},
+              {"name": "Population", "issn": "1634-2941"},
+              {"name": "Population and Environment", "issn": "0199-0039"},
+              {"name": "Population Research and Policy Review", "issn": "0167-5923"},
+              {"name": "Population Space and Place", "issn": "1544-8444"},
+              {"name": "Population Studies-A Journal of Demography", "issn": "0032-4728"},
+              {"name": "Research in the Sociology of Organizations", "issn": "0733-558X"},
+              {"name": "Research on Aging", "issn": "0164-0275"},
+              {"name": "Science and Society", "issn": "0036-8237"},
+              {"name": "Social Forces", "issn": "0037-7732"},
+              {"name": "Social Justice Research", "issn": "0885-7466"},
+              {"name": "Sociological Forum", "issn": "0884-8971"},
+              {"name": "Studies in Family Planning", "issn": "0039-3665"},
+              {"name": "The Gerontologist", "issn": "0016-9013"},
+              {"name": "Theory and Society", "issn": "0304-2421"}
+            ]
+          },
+          "Psychology": {
+            "label_count": 9,
+            "journals": [
+              {"name": "Acta Psychologica", "issn": "0001-6918"},
+              {"name": "Cognitive Psychology", "issn": "0010-0285"},
+              {"name": "European Journal of Social Psychology", "issn": "0046-2772"},
+              {"name": "Journal of Applied Behavioral Science", "issn": "0021-8863"},
+              {"name": "Journal of Cross-Cultural Psychology", "issn": "0022-0221"},
+              {"name": "Journal of Managerial Psychology", "issn": "0268-3946"},
+              {"name": "Personality and Individual Differences", "issn": "0191-8869"},
+              {"name": "Psychological Research", "issn": "0340-0727"},
+              {"name": "Stress and Health", "issn": "1532-3005"}
+            ]
+          },
+          "Politics": {
+            "label_count": 4,
+            "journals": [
+              {"name": "Business and Politics", "issn": "1469-3569"},
+              {"name": "Journal of Contemporary Asia", "issn": "0047-2336"},
+              {"name": "Studies in Comparative International Development", "issn": "0039-3606"},
+              {"name": "World Politics", "issn": "0043-8871"}
+            ]
+          },
+          "Sports": {
+            "label_count": 10,
+            "journals": [
+              {"name": "American Journal of Health Behavior", "issn": "1945-7359"},
+              {"name": "American Journal of Health Promotion", "issn": "0890-1171"},
+              {"name": "Journal of Human Kinetics", "issn": "1640-5544"},
+              {"name": "Journal of Sport Management", "issn": "0888-4773"},
+              {"name": "Journal of Teaching in Physical Education", "issn": "0273-5024"},
+              {"name": "Public Health", "issn": "0033-3506"},
+              {"name": "Public Health Nutrition", "issn": "1368-9800"},
+              {"name": "Sociology of Sport Journal", "issn": "0741-1235"},
+              {"name": "Sport Education and Society", "issn": "1357-3322"},
+              {"name": "Sport Management Review", "issn": "1441-3523"}
+            ]
+          }
+        }
+      },
+      "B2": {
+        "definition": "其他被SCI、SSCI、A&HCI收录的期刊"
+      },
+      "C": {
+        "definition": "EI收录的期刊"
+      },
+      "其他": {
+        "definition": "除国际A+、A1、A2、B1、B2、C以外的公开出版出版物"
+      }
+    },
+    "special_provisions": [
+      "分类仅指外文论文（包括Article、Review、法律学科中的Notes/Comments）全文被相应级别期刊收录（或索引）；非全文收录（或索引）类型成果认定为国际其他类期刊论文。",
+      "发表在各类外文期刊上的书评、图书推介等文章视为国际其他类期刊论文。",
+      "外文论文字数须达到4000字及以上。",
+      "校学术委员会将适时推出外文期刊预警名单，预警期刊将根据情况采取降级认定、直接按B2认定或按国际其他类期刊认定等方式处理。",
+      "学校鼓励高质量交叉学科研究：发表于单列目录之外但有重要影响的国际期刊论文，由科研处组织专家鉴定后提交校学术委员会讨论决定。"
+    ]
+  }
+}

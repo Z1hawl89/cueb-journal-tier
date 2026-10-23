@@ -1,0 +1,3386 @@
+{
+ "meta": {
+  "title": "CSSCI来源期刊目录（2025-2026）",
+  "adopted": "2025-08 中文社会科学引文索引建设专家咨询会审定",
+  "total": 674,
+  "source_url": "https://rwskc.zust.edu.cn/__local/3/CB/3F/ADA3D8675FEDE867F8F7B11E39E_8198B043_2A396.pdf",
+  "fetched": "2026-10-18",
+  "school_rule": "首经贸2024目录 中文B2 = CSSCI来源期刊(不含扩展版)+来源集刊；CSCD核心库（CSCD未含本数据）",
+  "notes": [
+   "671号刊名与学科同行、613-619号学科名跨行，已修正；341号学科按原文照录",
+   "仅来源期刊，不含扩展版/集刊"
+  ]
+ },
+ "journals": [
+  {
+   "seq": 1,
+   "name": "比较法研究",
+   "discipline": "法学"
+  },
+  {
+   "seq": 2,
+   "name": "财经法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 3,
+   "name": "当代法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 4,
+   "name": "东方法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 5,
+   "name": "法律科学（西北政法大学学报)",
+   "discipline": "法学"
+  },
+  {
+   "seq": 6,
+   "name": "法律适用",
+   "discipline": "法学"
+  },
+  {
+   "seq": 7,
+   "name": "法商研究",
+   "discipline": "法学"
+  },
+  {
+   "seq": 8,
+   "name": "法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 9,
+   "name": "法学家",
+   "discipline": "法学"
+  },
+  {
+   "seq": 10,
+   "name": "法学论坛",
+   "discipline": "法学"
+  },
+  {
+   "seq": 11,
+   "name": "法学评论",
+   "discipline": "法学"
+  },
+  {
+   "seq": 12,
+   "name": "法学研究",
+   "discipline": "法学"
+  },
+  {
+   "seq": 13,
+   "name": "法学杂志",
+   "discipline": "法学"
+  },
+  {
+   "seq": 14,
+   "name": "法制与社会发展",
+   "discipline": "法学"
+  },
+  {
+   "seq": 15,
+   "name": "法治研究",
+   "discipline": "法学"
+  },
+  {
+   "seq": 16,
+   "name": "国家检察官学院学报",
+   "discipline": "法学"
+  },
+  {
+   "seq": 17,
+   "name": "华东政法大学学报",
+   "discipline": "法学"
+  },
+  {
+   "seq": 18,
+   "name": "环球法律评论",
+   "discipline": "法学"
+  },
+  {
+   "seq": 19,
+   "name": "南大法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 20,
+   "name": "清华法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 21,
+   "name": "现代法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 22,
+   "name": "行政法学研究",
+   "discipline": "法学"
+  },
+  {
+   "seq": 23,
+   "name": "月旦法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 24,
+   "name": "政大法学评论",
+   "discipline": "法学"
+  },
+  {
+   "seq": 25,
+   "name": "政法论丛",
+   "discipline": "法学"
+  },
+  {
+   "seq": 26,
+   "name": "政法论坛",
+   "discipline": "法学"
+  },
+  {
+   "seq": 27,
+   "name": "政治与法律",
+   "discipline": "法学"
+  },
+  {
+   "seq": 28,
+   "name": "知识产权",
+   "discipline": "法学"
+  },
+  {
+   "seq": 29,
+   "name": "中国法律评论",
+   "discipline": "法学"
+  },
+  {
+   "seq": 30,
+   "name": "中国法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 31,
+   "name": "中国刑事法杂志",
+   "discipline": "法学"
+  },
+  {
+   "seq": 32,
+   "name": "中国应用法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 33,
+   "name": "中外法学",
+   "discipline": "法学"
+  },
+  {
+   "seq": 34,
+   "name": "安徽大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 35,
+   "name": "安徽师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 36,
+   "name": "澳门理工学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 37,
+   "name": "北京大学学报（哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 38,
+   "name": "北京工业大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 39,
+   "name": "北京联合大学学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 40,
+   "name": "北京师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 41,
+   "name": "重庆大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 42,
+   "name": "大连理工大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 43,
+   "name": "东北大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 44,
+   "name": "东北师大学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 45,
+   "name": "东南大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 46,
+   "name": "福建师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 47,
+   "name": "复旦学报（社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 48,
+   "name": "广西大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 49,
+   "name": "广州大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 50,
+   "name": "海南大学学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 51,
+   "name": "河海大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 52,
+   "name": "河南大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 53,
+   "name": "河南师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 54,
+   "name": "湖北大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 55,
+   "name": "湖南大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 56,
+   "name": "湖南科技大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 57,
+   "name": "湖南师范大学社会科学学报",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 58,
+   "name": "华东师范大学学报(哲学社会科学版）",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 59,
+   "name": "华南农业大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 60,
+   "name": "华南师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 61,
+   "name": "华中科技大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 62,
+   "name": "华中农业大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 63,
+   "name": "华中师范大学学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 64,
+   "name": "吉林大学社会科学学报",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 65,
+   "name": "吉首大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 66,
+   "name": "济南大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 67,
+   "name": "暨南学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 68,
+   "name": "江西师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 69,
+   "name": "兰州大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 70,
+   "name": "南昌大学学报(人大社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 71,
+   "name": "南京大学学报(哲学·人文科学·社会科学)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 72,
+   "name": "南京农业大学学报(社会科学版）",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 73,
+   "name": "南京师大学报(社会科学段)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 74,
+   "name": "南开学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 75,
+   "name": "南通大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 76,
+   "name": "齐鲁学刊",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 77,
+   "name": "清华大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 78,
+   "name": "山东大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 79,
+   "name": "山东师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 80,
+   "name": "山西大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 81,
+   "name": "陕西师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 82,
+   "name": "上海大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 83,
+   "name": "上海交通大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 84,
+   "name": "上海师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 85,
+   "name": "深圳大学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 86,
+   "name": "首都师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 87,
+   "name": "四川大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 88,
+   "name": "四川师范大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 89,
+   "name": "苏州大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 90,
+   "name": "同济大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 91,
+   "name": "武汉大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 92,
+   "name": "西安交通大学学报(社会科学版",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 93,
+   "name": "西北大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 94,
+   "name": "西北农林科技大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 95,
+   "name": "西北师大学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 96,
+   "name": "西南大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 97,
+   "name": "西藏大学学报(藏文版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 98,
+   "name": "西藏大学学报（社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 99,
+   "name": "厦门大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 100,
+   "name": "湘潭大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 101,
+   "name": "新疆师范大学学报（哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 102,
+   "name": "云南师范大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 103,
+   "name": "浙江大学学报(人文社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 104,
+   "name": "浙江工商大学学报",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 105,
+   "name": "郑州大学学报(哲学社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 106,
+   "name": "中国地质大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 107,
+   "name": "中国矿业大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 108,
+   "name": "中国农业大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 109,
+   "name": "中国人民大学学报",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 110,
+   "name": "中国社会科学院大学学报",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 111,
+   "name": "中南大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 112,
+   "name": "中山大学学报(社会科学版)",
+   "discipline": "高校学报"
+  },
+  {
+   "seq": 113,
+   "name": "当代经济管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 114,
+   "name": "电子政务",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 115,
+   "name": "工程管理科技前沿",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 116,
+   "name": "公共管理评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 117,
+   "name": "公共管理学报",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 118,
+   "name": "公共管理与政策评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 119,
+   "name": "管理工程学报",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 120,
+   "name": "管理科学",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 121,
+   "name": "管理科学学报",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 122,
+   "name": "管理评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 123,
+   "name": "管理世界",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 124,
+   "name": "管理学报(湖北)",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 125,
+   "name": "管理学报(台湾)",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 126,
+   "name": "管理学刊",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 127,
+   "name": "宏观质量研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 128,
+   "name": "华东经济管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 129,
+   "name": "会计评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 130,
+   "name": "会计研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 131,
+   "name": "会计与经济研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 132,
+   "name": "经济管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 133,
+   "name": "经济体制改革",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 134,
+   "name": "科技进步与对策",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 135,
+   "name": "科学学研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 136,
+   "name": "科学学与科学技术管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 137,
+   "name": "科研管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 138,
+   "name": "南开管理评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 139,
+   "name": "软科学",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 140,
+   "name": "社会保障评论",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 141,
+   "name": "审计研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 142,
+   "name": "审计与经济研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 143,
+   "name": "外国经济与管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 144,
+   "name": "系统工程理论与实践",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 145,
+   "name": "系统管理学报",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 146,
+   "name": "行政管理改革",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 147,
+   "name": "研究与发展管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 148,
+   "name": "证券市场发展季刊",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 149,
+   "name": "治理研究",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 150,
+   "name": "中国管理科学",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 151,
+   "name": "中国科技论坛",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 152,
+   "name": "中国科学院院刊",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 153,
+   "name": "中国人力资源开发",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 154,
+   "name": "中国软科学",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 155,
+   "name": "中国行政管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 156,
+   "name": "组织与管理",
+   "discipline": "管理学"
+  },
+  {
+   "seq": 157,
+   "name": "北京大学教育评论",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 158,
+   "name": "比较教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 159,
+   "name": "大学教育科学",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 160,
+   "name": "电化教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 161,
+   "name": "复旦教育论坛",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 162,
+   "name": "高等工程教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 163,
+   "name": "高等教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 164,
+   "name": "高校教育管理",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 165,
+   "name": "国家教育行政学院学报",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 166,
+   "name": "湖南师范大学教育科学学报",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 167,
+   "name": "华东师范大学学报(教育科学版)",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 168,
+   "name": "华文教学与研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 169,
+   "name": "基础教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 170,
+   "name": "江苏高教",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 171,
+   "name": "教师教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 172,
+   "name": "教育发展研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 173,
+   "name": "教育科学",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 174,
+   "name": "教育科学研究期刊",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 175,
+   "name": "教育实践与研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 176,
+   "name": "教育学报",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 177,
+   "name": "教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 178,
+   "name": "教育研究与实验",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 179,
+   "name": "教育与经济",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 180,
+   "name": "开放教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 181,
+   "name": "课程·教材·教法",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 182,
+   "name": "清华大学教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 183,
+   "name": "全球教育展望",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 184,
+   "name": "苏州大学学报(教育科学版)",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 185,
+   "name": "特殊教育研究学刊",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 186,
+   "name": "现代大学教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 187,
+   "name": "现代教育管理",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 188,
+   "name": "现代教育技术",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 189,
+   "name": "现代远程教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 190,
+   "name": "现代远距离教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 191,
+   "name": "学前教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 192,
+   "name": "学位与研究生教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 193,
+   "name": "研究生教育研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 194,
+   "name": "远程教育杂志",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 195,
+   "name": "中国电化教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 196,
+   "name": "中国高等教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 197,
+   "name": "中国高教研究",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 198,
+   "name": "中国教育学刊",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 199,
+   "name": "中国特殊教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 200,
+   "name": "中国远程教育",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 201,
+   "name": "中国大学教学",
+   "discipline": "教育学"
+  },
+  {
+   "seq": 202,
+   "name": "保险研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 203,
+   "name": "北京工商大学学报(社会科学版)",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 204,
+   "name": "财经科学",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 205,
+   "name": "既经理论与实践",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 206,
+   "name": "财经论丛(浙江财经大学学报)",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 207,
+   "name": "财经问题研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 208,
+   "name": "财经研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 209,
+   "name": "财贸经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 210,
+   "name": "财贸研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 211,
+   "name": "财政研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 212,
+   "name": "产业经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 213,
+   "name": "当代财经",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 214,
+   "name": "当代经济科学",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 215,
+   "name": "当代经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 216,
+   "name": "改革",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 217,
+   "name": "广东财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 218,
+   "name": "贵州财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 219,
+   "name": "国际金融研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 220,
+   "name": "国际经济合作",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 221,
+   "name": "国际经济评论",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 222,
+   "name": "国际经贸探索",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 223,
+   "name": "国际贸易",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 224,
+   "name": "国际贸易问题",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 225,
+   "name": "国际商务(对外经济贸易大学学报)",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 226,
+   "name": "国际税收",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 227,
+   "name": "宏观经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 228,
+   "name": "金融经济学研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 229,
+   "name": "金融评论",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 230,
+   "name": "金融研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 231,
+   "name": "经济经纬",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 232,
+   "name": "经济科学",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 233,
+   "name": "经济理论与经济管理",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 234,
+   "name": "经济论文",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 235,
+   "name": "经济论文丛刊",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 236,
+   "name": "经济评论",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 237,
+   "name": "经济社会体制比较",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 238,
+   "name": "经济问题",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 239,
+   "name": "经济问题探索",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 240,
+   "name": "经济学(季刊)",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 241,
+   "name": "经济学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 242,
+   "name": "经济学动态",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 243,
+   "name": "经济学家",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 244,
+   "name": "经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 245,
+   "name": "经济与管理评论",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 246,
+   "name": "经济与管理研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 247,
+   "name": "经济纵横",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 248,
+   "name": "劳动经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 249,
+   "name": "南方经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 250,
+   "name": "南开经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 251,
+   "name": "农村经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 252,
+   "name": "农业技术经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 253,
+   "name": "农业经济问题",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 254,
+   "name": "山西财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 255,
+   "name": "上海财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 256,
+   "name": "上海经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 257,
+   "name": "世界经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 258,
+   "name": "世界经济文汇",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 259,
+   "name": "世界经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 260,
+   "name": "世界经济与政治论坛",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 261,
+   "name": "数量经济技术经济研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 262,
+   "name": "税务研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 263,
+   "name": "台湾经济预测与政策",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 264,
+   "name": "西安财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 265,
+   "name": "现代财经(天津财经大学学报)",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 266,
+   "name": "现代金融研究",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 267,
+   "name": "现代经济探讨",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 268,
+   "name": "亚太经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 269,
+   "name": "证券市场导报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 270,
+   "name": "政治经济学评论",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 271,
+   "name": "中国工业经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 272,
+   "name": "中国经济问题",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 273,
+   "name": "中国流通经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 274,
+   "name": "中国农村观察",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 275,
+   "name": "中国农村经济",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 276,
+   "name": "中南财经政法大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 277,
+   "name": "中央财经大学学报",
+   "discipline": "经济学"
+  },
+  {
+   "seq": 278,
+   "name": "故宫博物院院刊",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 279,
+   "name": "江汉考古",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 280,
+   "name": "考古",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 281,
+   "name": "考古学报",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 282,
+   "name": "考古与文物",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 283,
+   "name": "文物",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 284,
+   "name": "中原文物",
+   "discipline": "考古学"
+  },
+  {
+   "seq": 285,
+   "name": "安徽史学",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 286,
+   "name": "当代中国史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 287,
+   "name": "东南文化",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 288,
+   "name": "古代文明",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 289,
+   "name": "华侨华人历史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 290,
+   "name": "近代史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 291,
+   "name": "经济社会史评论",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 292,
+   "name": "抗日战争研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 293,
+   "name": "历史档案",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 294,
+   "name": "历史人类学学刊",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 295,
+   "name": "历史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 296,
+   "name": "历史语言研究所集刊",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 297,
+   "name": "民国档案",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 298,
+   "name": "清史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 299,
+   "name": "日本侵华南京大屠杀研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 300,
+   "name": "史林",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 301,
+   "name": "史学集刊",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 302,
+   "name": "史学理论研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 303,
+   "name": "史学史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 304,
+   "name": "史学月刊",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 305,
+   "name": "世界历史",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 306,
+   "name": "世界历史评论",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 307,
+   "name": "文史",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 308,
+   "name": "文献",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 309,
+   "name": "中国经济史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 310,
+   "name": "中国科技史杂志",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 311,
+   "name": "中国农史",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 312,
+   "name": "中国社会经济史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 313,
+   "name": "中国史研究",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 314,
+   "name": "中国史研究动态",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 315,
+   "name": "中华文史论丛",
+   "discipline": "历史学"
+  },
+  {
+   "seq": 316,
+   "name": "当代世界社会主义问题",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 317,
+   "name": "当代世界与社会主义",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 318,
+   "name": "党的文献",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 319,
+   "name": "党建",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 320,
+   "name": "党史研究与教学",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 321,
+   "name": "光明日报·理论版",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 322,
+   "name": "国外理论动态",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 323,
+   "name": "红旗文稿",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 324,
+   "name": "教学与研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 325,
+   "name": "科学社会主义",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 326,
+   "name": "理论视野",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 327,
+   "name": "马克思主义理论学科研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 328,
+   "name": "马克思主义研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 329,
+   "name": "马克思主义与现实",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 330,
+   "name": "毛泽东邓小平理论研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 331,
+   "name": "求是",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 332,
+   "name": "人民日报理论版",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 333,
+   "name": "社会主义研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 334,
+   "name": "世界社会主义研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 335,
+   "name": "思想教育研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 336,
+   "name": "思想理论教育",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 337,
+   "name": "思想理论教育导刊",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 338,
+   "name": "统一战线学研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 339,
+   "name": "中共党史研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 340,
+   "name": "中国特色社会主义研究",
+   "discipline": "马克思主义理论"
+  },
+  {
+   "seq": 341,
+   "name": "民族研究",
+   "discipline": "民俗学与文化学"
+  },
+  {
+   "seq": 342,
+   "name": "北方民族大学学报(哲学社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 343,
+   "name": "广西民族研究",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 344,
+   "name": "贵州民族研究",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 345,
+   "name": "湖北民族大学学报(哲学社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 346,
+   "name": "民族教育研究",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 347,
+   "name": "民族学刊",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 348,
+   "name": "青海民族研究",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 349,
+   "name": "西北民族研究",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 350,
+   "name": "西南民族大学学报(人文社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 351,
+   "name": "西藏研究(藏文)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 352,
+   "name": "云南民族大学学报(哲学社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 353,
+   "name": "中国藏学",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 354,
+   "name": "中国藏学(藏文)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 355,
+   "name": "中南民族大学学报(人文社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 356,
+   "name": "中央民族大学学报(哲学社会科学版)",
+   "discipline": "民族学与文化学"
+  },
+  {
+   "seq": 357,
+   "name": "城市发展研究",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 358,
+   "name": "城市规划",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 359,
+   "name": "城市规划学刊",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 360,
+   "name": "城市问题",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 361,
+   "name": "地理科学",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 362,
+   "name": "地理科学进展",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 363,
+   "name": "地理学报(北京)",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 364,
+   "name": "地理学报(台湾)",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 365,
+   "name": "地理研究",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 366,
+   "name": "经济地理",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 367,
+   "name": "旅游科学",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 368,
+   "name": "旅游学刊",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 369,
+   "name": "人文地理",
+   "discipline": "人文经济地理"
+  },
+  {
+   "seq": 370,
+   "name": "残疾人研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 371,
+   "name": "妇女研究论丛",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 372,
+   "name": "青年研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 373,
+   "name": "人口学刊",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 374,
+   "name": "人口研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 375,
+   "name": "人口与发展",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 376,
+   "name": "人口与经济",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 377,
+   "name": "社会",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 378,
+   "name": "社会发展研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 379,
+   "name": "社会建设",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 380,
+   "name": "社会学评论",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 381,
+   "name": "社会学研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 382,
+   "name": "台大社会工作学刊",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 383,
+   "name": "中国青年研究",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 384,
+   "name": "中国人口科学",
+   "discipline": "社会学"
+  },
+  {
+   "seq": 385,
+   "name": "北京体育大学学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 386,
+   "name": "成都体育学院学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 387,
+   "name": "上海体育大学学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 388,
+   "name": "沈阳体育学院学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 389,
+   "name": "体育科学",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 390,
+   "name": "体育学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 391,
+   "name": "体育学刊",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 392,
+   "name": "体育学研究",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 393,
+   "name": "体育与科学",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 394,
+   "name": "天津体育学院学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 395,
+   "name": "武汉体育学院学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 396,
+   "name": "西安体育学院学报",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 397,
+   "name": "中国体育科技",
+   "discipline": "体育学"
+  },
+  {
+   "seq": 398,
+   "name": "数理统计与管理",
+   "discipline": "统计学"
+  },
+  {
+   "seq": 399,
+   "name": "统计研究",
+   "discipline": "统计学"
+  },
+  {
+   "seq": 400,
+   "name": "统计与决策",
+   "discipline": "统计学"
+  },
+  {
+   "seq": 401,
+   "name": "统计与信息论坛",
+   "discipline": "统计学"
+  },
+  {
+   "seq": 402,
+   "name": "当代外国文学",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 403,
+   "name": "国外文学",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 404,
+   "name": "外国文学",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 405,
+   "name": "外国文学动态研究",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 406,
+   "name": "外国文学评论",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 407,
+   "name": "外国文学研究",
+   "discipline": "外国文学"
+  },
+  {
+   "seq": 408,
+   "name": "心理发展与教育",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 409,
+   "name": "心理科学",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 410,
+   "name": "心理科学进展",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 411,
+   "name": "心理学报",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 412,
+   "name": "心理与行为研究",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 413,
+   "name": "应用心理学",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 414,
+   "name": "中国临床心理学杂志",
+   "discipline": "心理学"
+  },
+  {
+   "seq": 415,
+   "name": "编辑学报",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 416,
+   "name": "编辑之友",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 417,
+   "name": "出版发行研究",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 418,
+   "name": "出版科学",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 419,
+   "name": "传媒观察",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 420,
+   "name": "当代传播",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 421,
+   "name": "国际新闻界",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 422,
+   "name": "科技与：版",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 423,
+   "name": "全球传媒学刊",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 424,
+   "name": "现代出版",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 425,
+   "name": "现代传播(中国传媒大学学报)",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 426,
+   "name": "新闻大学",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 427,
+   "name": "新闻记者",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 428,
+   "name": "新闻界",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 429,
+   "name": "新闻与传播评论",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 430,
+   "name": "新闻与传播研究",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 431,
+   "name": "新闻与写作",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 432,
+   "name": "中国编辑",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 433,
+   "name": "中国出版",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 434,
+   "name": "中国科技期刊研究",
+   "discipline": "新闻学与传播学"
+  },
+  {
+   "seq": 435,
+   "name": "档案学研究",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 436,
+   "name": "大学图书馆学报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 437,
+   "name": "档案学通讯",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 438,
+   "name": "国家图书馆学刊",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 439,
+   "name": "情报科学",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 440,
+   "name": "情报理论与实践",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 441,
+   "name": "情报学报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 442,
+   "name": "情报杂志",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 443,
+   "name": "情报资料工作",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 444,
+   "name": "数据分析与知识发现",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 445,
+   "name": "图书馆建设",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 446,
+   "name": "图书馆论坛",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 447,
+   "name": "图书馆学研究",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 448,
+   "name": "图书馆杂志",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 449,
+   "name": "图书情报工作",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 450,
+   "name": "图书情报知识",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 451,
+   "name": "图书与情报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 452,
+   "name": "图书资讯学刊",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 453,
+   "name": "现代情报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 454,
+   "name": "信息资源管理学报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 455,
+   "name": "中国图书馆学报",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 456,
+   "name": "图书馆",
+   "discipline": "信息资源管理"
+  },
+  {
+   "seq": 457,
+   "name": "北京电影学院学报",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 458,
+   "name": "北京舞蹈学院学报",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 459,
+   "name": "当代电影",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 460,
+   "name": "电视研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 461,
+   "name": "电影艺术",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 462,
+   "name": "建筑学报",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 463,
+   "name": "美术",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 464,
+   "name": "美术研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 465,
+   "name": "民族艺术",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 466,
+   "name": "民族艺术研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 467,
+   "name": "南京艺术学院学报(美术与设计)",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 468,
+   "name": "设计学报",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 469,
+   "name": "书法研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 470,
+   "name": "台湾大学美术史研究集刊",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 471,
+   "name": "文艺研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 472,
+   "name": "戏剧(中央戏剧学院学报)",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 473,
+   "name": "戏剧艺术(上海戏剧学院学报)",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 474,
+   "name": "戏曲艺术",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 475,
+   "name": "新美术",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 476,
+   "name": "艺术设计研究(中契文)",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 477,
+   "name": "音乐研究",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 478,
+   "name": "音乐艺术(上海音乐学院学报）",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 479,
+   "name": "中国电视",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 480,
+   "name": "中国书法",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 481,
+   "name": "中国文艺评论",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 482,
+   "name": "中国音乐",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 483,
+   "name": "中国音乐学",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 484,
+   "name": "中央音乐学院学报",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 485,
+   "name": "装饰",
+   "discipline": "艺术学"
+  },
+  {
+   "seq": 486,
+   "name": "外语教学理论与实践",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 487,
+   "name": "当代外语研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 488,
+   "name": "当代修辞学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 489,
+   "name": "当代语言学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 490,
+   "name": "方言",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 491,
+   "name": "古汉语研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 492,
+   "name": "汉语学报",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 493,
+   "name": "汉语学习",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 494,
+   "name": "民族语文",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 495,
+   "name": "上海翻译(中英文)",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 496,
+   "name": "世界汉语教学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 497,
+   "name": "外国语(上海外国语大学学报)",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 498,
+   "name": "外语导刊",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 499,
+   "name": "外语电化教学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 500,
+   "name": "外语教学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 501,
+   "name": "外语教学与研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 502,
+   "name": "外语教育研究前沿",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 503,
+   "name": "外语界",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 504,
+   "name": "外语与外语教学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 505,
+   "name": "现代外语",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 506,
+   "name": "语立研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 507,
+   "name": "语言教学与研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 508,
+   "name": "语言科学",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 509,
+   "name": "语言文字应用",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 510,
+   "name": "语言研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 511,
+   "name": "语言战略研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 512,
+   "name": "中国翻译",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 513,
+   "name": "中国外语",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 514,
+   "name": "中国语文",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 515,
+   "name": "中国语文通讯",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 516,
+   "name": "中国语文研究",
+   "discipline": "语言学"
+  },
+  {
+   "seq": 517,
+   "name": "道德与文明",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 518,
+   "name": "科学技术哲学研究",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 519,
+   "name": "伦理学研究",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 520,
+   "name": "逻辑学研究",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 521,
+   "name": "世界哲学",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 522,
+   "name": "现代哲学",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 523,
+   "name": "哲学动态",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 524,
+   "name": "哲学分析",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 525,
+   "name": "哲学研究",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 526,
+   "name": "哲学与文化",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 527,
+   "name": "政治大学哲学学报",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 528,
+   "name": "中国哲学史",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 529,
+   "name": "自然辩证法通讯",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 530,
+   "name": "自然辩证法研究",
+   "discipline": "哲学"
+  },
+  {
+   "seq": 531,
+   "name": "北京行政学院学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 532,
+   "name": "当代美国评论",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 533,
+   "name": "当代世界)",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 534,
+   "name": "当代亚太",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 535,
+   "name": "德国研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 536,
+   "name": "东北亚论坛",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 537,
+   "name": "东南亚研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 538,
+   "name": "甘肃行政学院学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 539,
+   "name": "港澳研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 540,
+   "name": "公共行政评论",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 541,
+   "name": "公共行政学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 542,
+   "name": "国际安全研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 543,
+   "name": "国际关系研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 544,
+   "name": "国际观察",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 545,
+   "name": "国际论坛",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 546,
+   "name": "国际问题研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 547,
+   "name": "国际展望",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 548,
+   "name": "国际政治科学",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 549,
+   "name": "国际政治研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 550,
+   "name": "和平与发展",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 551,
+   "name": "江苏行政学院学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 552,
+   "name": "理论探索",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 553,
+   "name": "理论探讨",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 554,
+   "name": "理论学刊",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 555,
+   "name": "理论与改革",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 556,
+   "name": "美国研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 557,
+   "name": "南洋问题研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 558,
+   "name": "欧洲研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 559,
+   "name": "求实",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 560,
+   "name": "人权",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 561,
+   "name": "日本学刊",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 562,
+   "name": "上海行政学院学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 563,
+   "name": "世界经济与政治",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 564,
+   "name": "台湾研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 565,
+   "name": "太平洋学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 566,
+   "name": "探索",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 567,
+   "name": "外交评论",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 568,
+   "name": "西亚非洲",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 569,
+   "name": "现代国际关系",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 570,
+   "name": "行政论坛",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 571,
+   "name": "亚太安全与海洋研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 572,
+   "name": "政治学研究",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 573,
+   "name": "中共中央党校(国家行政学院)学报",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 574,
+   "name": "中国评论",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 575,
+   "name": "中国人民公安大学学报(社会科学版)",
+   "discipline": "政治学"
+  },
+  {
+   "seq": 576,
+   "name": "清华中文学报",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 577,
+   "name": "当代文坛",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 578,
+   "name": "当代作家评论",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 579,
+   "name": "岭南学报",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 580,
+   "name": "民族文学研究",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 581,
+   "name": "南方文坛",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 582,
+   "name": "人文中国学报",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 583,
+   "name": "台大中文学报",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 584,
+   "name": "文学评论",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 585,
+   "name": "文学遗产",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 586,
+   "name": "文艺理论研究",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 587,
+   "name": "文艺理论与批评",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 588,
+   "name": "文艺争鸣",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 589,
+   "name": "文与哲",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 590,
+   "name": "现代中文学刊",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 591,
+   "name": "小说评论",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 592,
+   "name": "新文学史料",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 593,
+   "name": "扬子江文学评论",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 594,
+   "name": "中国比较文学",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 595,
+   "name": "中国当代文学研究",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 596,
+   "name": "中国文学批评",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 597,
+   "name": "中国文学研究",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 598,
+   "name": "中国现代文学研究丛刊",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 599,
+   "name": "鲁迅研究月刊",
+   "discipline": "中国文学"
+  },
+  {
+   "seq": 600,
+   "name": "出土文献",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 601,
+   "name": "敦煌学辑刊",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 602,
+   "name": "敦煌研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 603,
+   "name": "国际汉学",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 604,
+   "name": "孔子研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 605,
+   "name": "历史地理研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 606,
+   "name": "民俗研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 607,
+   "name": "文化遗产",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 608,
+   "name": "文化杂志",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 609,
+   "name": "西域研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 610,
+   "name": "中国边疆史地研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 611,
+   "name": "中国历史地理论丛",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 612,
+   "name": "周易研究",
+   "discipline": "中华传统文化"
+  },
+  {
+   "seq": 613,
+   "name": "长江流域资源与环境",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 614,
+   "name": "生态文明研究",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 615,
+   "name": "中国环境管理",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 616,
+   "name": "中国人口·资源与环境",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 617,
+   "name": "中国土地科学",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 618,
+   "name": "资源科学",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 619,
+   "name": "自然资源学报",
+   "discipline": "自然资源与环境科学"
+  },
+  {
+   "seq": 620,
+   "name": "世界宗教研究",
+   "discipline": "宗教学"
+  },
+  {
+   "seq": 621,
+   "name": "宗教学研究",
+   "discipline": "宗教学"
+  },
+  {
+   "seq": 622,
+   "name": "世界宗教文化",
+   "discipline": "宗教学"
+  },
+  {
+   "seq": 623,
+   "name": "重庆社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 624,
+   "name": "东南学术",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 625,
+   "name": "东岳论丛",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 626,
+   "name": "读书",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 627,
+   "name": "福建论坛(人文社会科学版）",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 628,
+   "name": "甘肃社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 629,
+   "name": "广东社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 630,
+   "name": "贵州社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 631,
+   "name": "河北学刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 632,
+   "name": "江海学刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 633,
+   "name": "江汉论坛",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 634,
+   "name": "江淮论坛",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 635,
+   "name": "江苏社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 636,
+   "name": "江西社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 637,
+   "name": "开放时代)",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 638,
+   "name": "南国学术",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 639,
+   "name": "南京社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 640,
+   "name": "内蒙古社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 641,
+   "name": "宁夏社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 642,
+   "name": "青海社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 643,
+   "name": "求是学刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 644,
+   "name": "求索",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 645,
+   "name": "人民论坛",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 646,
+   "name": "人文杂志",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 647,
+   "name": "山东社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 648,
+   "name": "社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 649,
+   "name": "社会科学辑刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 650,
+   "name": "社会科学研究",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 651,
+   "name": "社会科学战线",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 652,
+   "name": "世界社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 653,
+   "name": "思想战线",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 654,
+   "name": "探索与争鸣",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 655,
+   "name": "天津社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 656,
+   "name": "文化纵横",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 657,
+   "name": "文史哲",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 658,
+   "name": "新疆社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 659,
+   "name": "学海",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 660,
+   "name": "学术界",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 661,
+   "name": "学术论坛",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 662,
+   "name": "学术前沿",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 663,
+   "name": "学术研究",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 664,
+   "name": "学术月刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 665,
+   "name": "学习与实践",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 666,
+   "name": "学习与探索",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 667,
+   "name": "云南社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 668,
+   "name": "浙江社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 669,
+   "name": "浙江学刊",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 670,
+   "name": "中国高校社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 671,
+   "name": "中国社会科学",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 672,
+   "name": "中国社会科学评价",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 673,
+   "name": "中国文化研究所学报",
+   "discipline": "综合性社会科学"
+  },
+  {
+   "seq": 674,
+   "name": "中州学刊",
+   "discipline": "综合性社会科学"
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "title": "FT50（金融时报50种商科期刊，2026版）",
+  "maintainer": "Financial Times",
+  "total": 50,
+  "effective": "2026-04-29 发布新榜（替代2016版）",
+  "changes": "移除 Human Relations、Journal of Business Ethics、Organization Studies；新增 Academy of Management Annals*、American Sociological Review*、Psychological Science*",
+  "source_url": "https://www.ft.com/ft50-journals",
+  "fetched": "2026-10-18"
+ },
+ "journals": [
+  {
+   "seq": 1,
+   "name": "Academy of Management Annals",
+   "new_2026": true
+  },
+  {
+   "seq": 2,
+   "name": "Academy of Management Journal",
+   "new_2026": false
+  },
+  {
+   "seq": 3,
+   "name": "Academy of Management Review",
+   "new_2026": false
+  },
+  {
+   "seq": 4,
+   "name": "Accounting Review",
+   "new_2026": false
+  },
+  {
+   "seq": 5,
+   "name": "Accounting, Organizations and Society",
+   "new_2026": false
+  },
+  {
+   "seq": 6,
+   "name": "Administrative Science Quarterly",
+   "new_2026": false
+  },
+  {
+   "seq": 7,
+   "name": "American Economic Review",
+   "new_2026": false
+  },
+  {
+   "seq": 8,
+   "name": "American Sociological Review",
+   "new_2026": true
+  },
+  {
+   "seq": 9,
+   "name": "Contemporary Accounting Research",
+   "new_2026": false
+  },
+  {
+   "seq": 10,
+   "name": "Econometrica",
+   "new_2026": false
+  },
+  {
+   "seq": 11,
+   "name": "Entrepreneurship Theory and Practice",
+   "new_2026": false
+  },
+  {
+   "seq": 12,
+   "name": "Harvard Business Review",
+   "new_2026": false
+  },
+  {
+   "seq": 13,
+   "name": "Human Resource Management",
+   "new_2026": false
+  },
+  {
+   "seq": 14,
+   "name": "Information Systems Research",
+   "new_2026": false
+  },
+  {
+   "seq": 15,
+   "name": "Journal of Accounting and Economics",
+   "new_2026": false
+  },
+  {
+   "seq": 16,
+   "name": "Journal of Accounting Research",
+   "new_2026": false
+  },
+  {
+   "seq": 17,
+   "name": "Journal of Applied Psychology",
+   "new_2026": false
+  },
+  {
+   "seq": 18,
+   "name": "Journal of Business Venturing",
+   "new_2026": false
+  },
+  {
+   "seq": 19,
+   "name": "Journal of Consumer Psychology",
+   "new_2026": false
+  },
+  {
+   "seq": 20,
+   "name": "Journal of Consumer Research",
+   "new_2026": false
+  },
+  {
+   "seq": 21,
+   "name": "Journal of Finance",
+   "new_2026": false
+  },
+  {
+   "seq": 22,
+   "name": "Journal of Financial and Quantitative Analysis",
+   "new_2026": false
+  },
+  {
+   "seq": 23,
+   "name": "Journal of Financial Economics",
+   "new_2026": false
+  },
+  {
+   "seq": 24,
+   "name": "Journal of International Business Studies",
+   "new_2026": false
+  },
+  {
+   "seq": 25,
+   "name": "Journal of Management",
+   "new_2026": false
+  },
+  {
+   "seq": 26,
+   "name": "Journal of Management Information Systems",
+   "new_2026": false
+  },
+  {
+   "seq": 27,
+   "name": "Journal of Management Studies",
+   "new_2026": false
+  },
+  {
+   "seq": 28,
+   "name": "Journal of Marketing",
+   "new_2026": false
+  },
+  {
+   "seq": 29,
+   "name": "Journal of Marketing Research",
+   "new_2026": false
+  },
+  {
+   "seq": 30,
+   "name": "Journal of Operations Management",
+   "new_2026": false
+  },
+  {
+   "seq": 31,
+   "name": "Journal of Political Economy",
+   "new_2026": false
+  },
+  {
+   "seq": 32,
+   "name": "Journal of the Academy of Marketing Science",
+   "new_2026": false
+  },
+  {
+   "seq": 33,
+   "name": "Management Science",
+   "new_2026": false
+  },
+  {
+   "seq": 34,
+   "name": "Manufacturing & Service Operations Management",
+   "new_2026": false
+  },
+  {
+   "seq": 35,
+   "name": "Marketing Science",
+   "new_2026": false
+  },
+  {
+   "seq": 36,
+   "name": "MIS Quarterly",
+   "new_2026": false
+  },
+  {
+   "seq": 37,
+   "name": "MIT Sloan Management Review",
+   "new_2026": false
+  },
+  {
+   "seq": 38,
+   "name": "Operations Research",
+   "new_2026": false
+  },
+  {
+   "seq": 39,
+   "name": "Organization Science",
+   "new_2026": false
+  },
+  {
+   "seq": 40,
+   "name": "Organizational Behavior and Human Decision Processes",
+   "new_2026": false
+  },
+  {
+   "seq": 41,
+   "name": "Production and Operations Management",
+   "new_2026": false
+  },
+  {
+   "seq": 42,
+   "name": "Psychological Science",
+   "new_2026": true
+  },
+  {
+   "seq": 43,
+   "name": "Quarterly Journal of Economics",
+   "new_2026": false
+  },
+  {
+   "seq": 44,
+   "name": "Research Policy",
+   "new_2026": false
+  },
+  {
+   "seq": 45,
+   "name": "Review of Accounting Studies",
+   "new_2026": false
+  },
+  {
+   "seq": 46,
+   "name": "Review of Economic Studies",
+   "new_2026": false
+  },
+  {
+   "seq": 47,
+   "name": "Review of Finance",
+   "new_2026": false
+  },
+  {
+   "seq": 48,
+   "name": "Review of Financial Studies",
+   "new_2026": false
+  },
+  {
+   "seq": 49,
+   "name": "Strategic Entrepreneurship Journal",
+   "new_2026": false
+  },
+  {
+   "seq": 50,
+   "name": "Strategic Management Journal",
+   "new_2026": false
+  }
+ ]
+}

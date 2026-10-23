@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# 构建产物不入库（含打包数据，由使用者自行构建）
+browser/standalone/
+zotero-plugin/zotero/
