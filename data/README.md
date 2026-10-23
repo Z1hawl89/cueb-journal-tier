@@ -21,7 +21,9 @@
 | `ssci_2026.json` | SSCI 期刊名单 3536 种 | Clarivate Master Journal List → Collection List Downloads（https://mjl.clarivate.com/collection-list-downloads，需注册/订阅） |
 | `jcr_2026.json` | JCR 2025 学科分区 Q1/Q2 | 学校图书馆的 JCR 入口导出，或自行整理；格式见下 |
 
-放入后重跑 `browser/build_standalone.py` 与 `zotero-plugin/build_zotero.py` 即启用
+也可显式设置环境变量 `CUEB_DATA_DIR` 为授权数据所在目录的绝对路径（仓库文件优先），不会自动搜索个人工作目录。额外数据会内嵌到构建产物中。
+
+放入或设置目录后重跑 `browser/build_standalone.py` 与 `zotero-plugin/build_zotero.py` 即启用
 `SSCI` / `JCR Q1/Q2` 标签与「SSCI → 国际B2」折算。
 
 ## JSON 格式

@@ -19,14 +19,15 @@ SRC_GLOB = (r"C:/Users/lizih/AppData/Local/Microsoft/Edge/User Data/Default"
             r"/Extensions/bpepicgagmdchlkjjeeiekpoafehpagm/*/manifest.json")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
 FORK_PATCH = 10   # 分支补丁号：官方 15.4 → 15.4.10（manifest 只允许点分整数）
-# 数据集解析：仓库 data/ 目录优先（发布用），本机 workspace 后备（本地开发用）。
+# 数据集解析：仓库数据优先；额外目录必须由 CUEB_DATA_DIR 显式指定。
 # 缺失的数据集自动跳过对应标签（build_data 内部已做 os.path.exists 检查）。
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _DATA_DIRS = [
     os.path.join(_HERE, "..", "data"),                                    # 仓库布局
     os.path.join(_HERE, "data"),                                          # 同目录 data/
-    r"C:/Users/lizih/.zcode/workspace/default",                          # 本机 workspace
 ]
+if os.environ.get("CUEB_DATA_DIR"):
+    _DATA_DIRS.append(os.path.abspath(os.path.expanduser(os.environ["CUEB_DATA_DIR"])))
 
 def _find_data(filename):
     for d in _DATA_DIRS:
@@ -52,11 +53,15 @@ WEBLIST_ALIASES = {
 HOOK = ("try{window.__cuebNames=Object.assign(window.__cuebNames||{},"
         "(a&&a.publicationName)||{})}catch(__cuebE){}")
 
-DATA_TEMPLATE = r"""/* cueb_data.js — 首经贸期刊目录数据 + 共享匹配逻辑（build_fork.py 生成） */
-self.__CUEB_TIERS__ = %DATA%;
-self.__cuebMakeLookup = function () {
+LOOKUP_FACTORY = r"""function (D) {
   "use strict";
-  var D = self.__CUEB_TIERS__;
+  // JSON/浏览器消息反序列化后恢复为普通对象；隔离继承属性。
+  ["byName", "byIssn", "canonicalByName", "issnNames", "disp", "src",
+   "inCssci", "inCscd", "inUtd24", "inFt50", "inAjg", "inSsci", "inJcr", "inJcrCat"
+  ].forEach(function (k) { if (D[k]) Object.setPrototypeOf(D[k], null); });
+  function get(table, k) {
+    return table && Object.prototype.hasOwnProperty.call(table, k) ? table[k] : null;
+  }
   function norm(s) {
     try { s = String(s).normalize("NFKC"); } catch (e) {}
     return String(s || "").toLowerCase().replace(/[^0-9a-z\u4e00-\u9fff]/g, "");
@@ -77,18 +82,24 @@ self.__cuebMakeLookup = function () {
     }
     return 1 - prev[n] / Math.max(m, n);
   }
-  function lookup(name) {
+  function key(name) {
     var n = norm(name);
-    if (!n) return null;
-    var t = D.byName[n];
-    if (!t && n.indexOf("the") === 0) t = D.byName[n.slice(3)];   /* The Accounting Review ↔ Accounting Review */
-    if (!t) t = D.byName["the" + n];
-    if (t) return t;
-    if (/^[a-z\d]{7}[\dx]$/.test(n)) {           /* 输入恰为ISSN数字串 */
-      var iss = n.toUpperCase();                   /* 数据键尾位X为大写 */
-      if (D.byIssn[iss]) return D.byIssn[iss];
+    return get(D.canonicalByName, n) || n;
+  }
+  function resolve(name, issn) {
+    var n = norm(name);
+    var iss = String(issn || "").replace(/[^0-9xX]/g, "").toUpperCase();
+    if (!issn && /^[0-9]{7}[0-9x]$/.test(n)) iss = n.toUpperCase();
+    var id = /^[0-9]{7}[0-9X]$/.test(iss) && get(D.issnNames, iss);
+    if (id) {
+      return { key: id, tier: get(D.byIssn, iss) || get(D.byName, id) || "",
+               name: get(D.disp, id) || name || "" };
     }
-    return null;
+    var k = key(name);
+    return { key: k, tier: get(D.byName, k) || "", name: get(D.disp, k) || name || "" };
+  }
+  function lookup(name) {
+    return resolve(name).tier || null;
   }
   function candidates(name, limit) {       /* 只做候选，不自动确认 */
     var n = norm(name), out = [];
@@ -109,8 +120,13 @@ self.__cuebMakeLookup = function () {
       return { name: (D.disp && D.disp[c.name]) || c.name, level: c.level };
     });
   }
-  return { norm: norm, lookup: lookup, candidates: candidates };
-};
+  return { norm: norm, key: key, get: get, resolve: resolve,
+           lookup: lookup, candidates: candidates };
+}"""
+
+DATA_TEMPLATE = """/* cueb_data.js — 数据与共享期刊匹配逻辑 */
+self.__CUEB_TIERS__ = %DATA%;
+self.__cuebMakeLookup = function () { return (""" + LOOKUP_FACTORY + """)(self.__CUEB_TIERS__); };
 """
 
 INJECT_TEMPLATE = r"""/* cueb_inject.js — 首经贸等级徽章 + 右键查询 toast（build_fork.py 生成） */
@@ -389,8 +405,13 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
                  "（来源见 data/README.md）后重跑。其余数据集缺失只会少对应标签。")
     with open(catalog_path, encoding="utf-8") as f:
         cat = json.load(f)
-    sha = hashlib.sha256(open(catalog_path, "rb").read()).hexdigest()[:12]
+    with open(catalog_path, "rb") as f:
+        sha = hashlib.sha256(f.read()).hexdigest()[:12]
     by_name, by_issn, conflicts = {}, {}, []
+    identities = []
+
+    def remember(name, issn=None, eissn=None, aliases=()):
+        identities.append((name, (issn, eissn), aliases))
     disp, src = {}, {}
     cssci_meta = cscd_meta = utd24_meta = ft50_meta = ajg_meta = ssci_meta = jcr_meta = None
     in_cssci, in_cscd = {}, {}          # 收录事实（与等级优先级解耦，供多标签展示）
@@ -412,11 +433,12 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         lv = cat["international"]["levels"][level]
         for disc, d in (lv.get("disciplines") or {}).items():
             for j in d["journals"]:
-                by_issn.setdefault(norm_issn(j["issn"]), f"国际{level}")
                 put(j["name"], f"国际{level}")
+                remember(j["name"], j.get("issn"), j.get("eissn"))
     for level in cat["chinese"]["levels_order"]:
         for name in cat["chinese"]["levels"][level].get("journals", []):
             put(name, f"中文{level}")
+            remember(name)
     put("求是", "中文A2")
     # CSSCI 来源期刊（2025-2026）：校目录枚举清单优先，其余按校规计为中文B2
     n_cssci = n_cssci_new = 0
@@ -428,6 +450,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
             k = norm(e["name"])
             n_cssci += 1
             in_cssci[k] = 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             if k not in by_name:
                 put(e["name"], "中文B2", "cssci")
                 n_cssci_new += 1
@@ -441,12 +464,10 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
             k = norm(e["name"])
             n_cscd += 1
             in_cscd[k] = 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             if k not in by_name:
                 put(e["name"], "中文B2", "cscd")
                 n_cscd_new += 1
-            iss = norm_issn(e.get("issn"))
-            if iss:
-                by_issn.setdefault(iss, "中文B2")
     # UTD24 / FT50：仅作收录标签，不产生校等级
     n_utd = n_ft = 0
     if utd24_path and os.path.exists(utd24_path):
@@ -455,6 +476,8 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         utd24_meta = utd.get("meta", {})
         for e in utd.get("journals", []):
             n_utd += 1
+            remember(e["name"], e.get("issn"), e.get("eissn"),
+                     WEBLIST_ALIASES.get(str(e["name"]).strip(), ()))
             for k in member_keys(e["name"], WEBLIST_ALIASES.get(str(e["name"]).strip(), ())):
                 in_utd24[k] = 1
     if ft50_path and os.path.exists(ft50_path):
@@ -463,6 +486,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         ft50_meta = ft.get("meta", {})
         for e in ft.get("journals", []):
             n_ft += 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             for k in member_keys(e["name"]):
                 in_ft50[k] = 1
     # AJG 2024（原ABS榜）：值为档位 4*/4/3/2/1，仅作收录标签，不产生校等级
@@ -473,6 +497,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         ajg_meta = ajg.get("meta", {})
         for e in ajg.get("journals", []):
             n_ajg += 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             for k in member_keys(e["name"]):
                 in_ajg[k] = str(e["rating"]).strip()
     # SSCI（2026-08 官方快照）：校目录枚举优先，新刊按校规折算为国际B2；
@@ -486,15 +511,13 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
             k = norm(e["name"])
             n_ssci += 1
             in_ssci[k] = 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             # the-变体碰撞：SSCI 写法常无 The（ACCOUNTING REVIEW），校目录可能写
             # The Accounting Review——直接查/the 回退能命中的不折算为国际B2（防降级）
             alt = k[3:] if k.startswith("the") and len(k) > 4 else "the" + k
             if k not in by_name and alt not in by_name:
                 put(e["name"], "国际B2", "ssci")
                 n_ssci_new += 1
-            for iss in (norm_issn(e.get("issn")), norm_issn(e.get("eissn"))):
-                if iss:
-                    by_issn.setdefault(iss, "国际B2")
     # JCR 2025 学科分区：仅收录标签（值=Q1/Q2，数据集已按用户设定只留这两档）
     n_jcr = 0
     if jcr_path and os.path.exists(jcr_path):
@@ -503,6 +526,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         jcr_meta = jcr.get("meta", {})
         for e in jcr.get("journals", []):
             n_jcr += 1
+            remember(e["name"], e.get("issn"), e.get("eissn"))
             k0 = norm(e["name"])
             for k in member_keys(e["name"]):
                 in_jcr[k] = str(e["best"]).strip()
@@ -512,6 +536,32 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
                 hover = (hover + "｜" if hover else "") + "｜".join(cats)
             if hover:
                 in_jcr_cat[k0] = hover
+    # 名称别名和 ISSN 指向同一个身份；等级仍由校目录/已有折算表决定。
+    # 先登记校目录，再补各榜单的电子 ISSN，避免给高等级期刊固定写入 B2。
+    canonical_by_name, issn_names = {}, {}
+    for k in by_name:
+        for alias in sorted(member_keys(disp[k])):
+            canonical_by_name.setdefault(alias, k)
+    canonical_by_name.update({k: k for k in by_name})
+    for name, numbers, aliases in identities:
+        keys = member_keys(name, aliases)
+        existing = next((issn_names[s] for s in map(norm_issn, numbers) if s in issn_names), None)
+        canonical = existing or canonical_by_name.get(norm(name), norm(name))
+        disp.setdefault(canonical, str(name))
+        for alias in sorted(keys):
+            canonical_by_name[alias] = canonical
+        for s in map(norm_issn, numbers):
+            if s:
+                issn_names.setdefault(s, canonical)
+    for iss, k in issn_names.items():
+        if k in by_name:
+            by_issn[iss] = by_name[k]
+    for table in (in_cssci, in_cscd, in_utd24, in_ft50, in_ajg, in_ssci, in_jcr, in_jcr_cat):
+        for k, value in list(table.items()):
+            table[canonical_by_name.get(k, k)] = value
+    for path in (catalog_path, cssci_path, cscd_path, utd24_path, ft50_path, ajg_path, ssci_path, jcr_path):
+        if path and os.path.isfile(path):
+            print("数据来源:", os.path.abspath(path))
     if conflicts:
         print("WARN 同名不同级:", conflicts)
     return {
@@ -525,6 +575,8 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         "ssci": {"total": n_ssci} if ssci_meta else None,
         "byName": by_name,
         "byIssn": by_issn,
+        "canonicalByName": canonical_by_name,
+        "issnNames": issn_names,
         "disp": disp,
         "src": src,
         "inCssci": in_cssci,

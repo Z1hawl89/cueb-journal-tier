@@ -9,9 +9,9 @@
 
 | | 浏览器独立版 | Zotero 版 |
 |---|---|---|
-| 形态 | Edge/Chrome 扩展（解包加载） | Zotero 7+ 插件（.xpi） |
-| 功能 | 8 站自动徽章 + 任意网页右键框选查询 | 条目列表新增「首经贸等级」列 |
-| 版本 | 1.6.2 | 1.0.8 |
+| 形态 | Edge/Chrome 扩展（解包加载） | Zotero 7.0.11–8.x 插件（.xpi） |
+| 功能 | 9 站自动徽章 + 任意网页右键框选查询 | 条目列表新增「首经贸等级」列 |
+| 版本 | 1.6.3 | 1.0.9 |
 
 标签示例（同一套数据，两个插件同源）：
 
@@ -19,7 +19,7 @@
 Management Science              首经贸 国际A+ | UTD24 | FT50 | ABS 4* | JCR Q1 | SSCI
 经济研究                         首经贸 中文A1 | CSSCI
 aBIOTECH                        首经贸 中文B2 | CSCD | JCR Q1
-International Journal of ...    首经贸 国际B1 | SSCI | JCR Q1 | ABS 3
+International Journal of ...    首经贸 国际B1 | ABS 3 | JCR Q1 | SSCI
 ```
 
 标签顺序（Zotero 列与浏览器徽章一致为：等级 → UTD24 → FT50 → ABS → JCR → SSCI；
@@ -29,7 +29,7 @@ International Journal of ...    首经贸 国际B1 | SSCI | JCR Q1 | ABS 3
 
 ### 安装
 
-1. 构建（见下文）或将本仓库 clone 到本机
+1. 将本仓库 clone 到本机，再按下文执行浏览器版构建
 2. Edge：`edge://extensions` → 开发人员模式 → 加载解压缩的扩展 → 选 `browser/standalone/`
    （Chrome：`chrome://extensions`，步骤一致）
 
@@ -53,8 +53,8 @@ JCR Q1/Q2 深紫/紫、UTD24 深红、FT50 玫红、ABS 藏青。悬停可见数
 2. Zotero → 工具 → 插件 → 齿轮 → Install Plugin From File → 选 .xpi → 按提示重启
 3. 条目列表表头右键 → 勾选「首经贸等级」（选项在菜单**最底部**；列出现在最右侧，可拖动）
 
-匹配：ISSN 优先（最可靠），刊名归一化 + The 前缀回退兜底；未收录条目显示空白。
-排序为文字排序（同等级排在一起）。需要 Zotero 7+。
+匹配：已知 ISSN 优先（刊名冲突时以 ISSN 为准），刊名归一化及 The、&/and 别名兜底；等级与榜单标签均按匹配到的期刊身份查询；未收录条目显示空白。
+排序为文字排序（同等级排在一起）。需要 Zotero 7.0.11–8.x；暂不声明对未来主版本的兼容。
 
 ## 数据体系
 
@@ -74,17 +74,17 @@ SSCI 与 JCR 属 Clarivate 授权数据，未包含在仓库中；获取方式�
 
 ## 构建
 
-依赖：Python 3.8+（仅标准库）、Node.js（语法校验用，可选）。
+依赖：Python 3.8+（仅标准库）、Node.js（构建语法校验用，可选；运行测试时必需）。以下命令均在仓库根目录执行；macOS/Linux 若无 `python` 命令，请使用 `python3`。
 
 ```bash
 # 浏览器版 → browser/standalone/
-cd browser && python build_standalone.py
+python browser/build_standalone.py
 
 # Zotero 版 → zotero-plugin/zotero/*.xpi
-cd zotero-plugin && python build_zotero.py
+python zotero-plugin/build_zotero.py
 ```
 
-测试：`node browser/test_sa_web8.js`（11 例）、`node zotero-plugin/test_zotero.js`（13 例）。
+测试：`node browser/test_sa_web8.js`、`node zotero-plugin/test_zotero.js`。先重新构建，再运行测试；两组测试均支持缺少 SSCI/JCR 的正常降级，并包含边界回归测试。数据管线另可执行 `python -m unittest discover -s browser -p "test_build_data.py"`。
 
 注意：`browser/build_fork.py` 是共享数据管线（`build_data`、别名归一、数据模板），
 被两个构建脚本 import；其 `main()` 是历史遗留的 easyScholar 分支构建入口，已废弃，勿运行。
@@ -93,6 +93,13 @@ cd zotero-plugin && python build_zotero.py
 
 更换/新增 `data/` 里的 JSON 后重跑两个构建脚本、重新加载插件即可。
 各数据集格式见文件内 `meta` 字段。
+
+默认只搜索仓库根目录 `data/` 和 `browser/data/`，不会自动读取个人工作目录。
+需要附加本地授权数据时，显式设置环境变量 `CUEB_DATA_DIR` 为该目录的绝对路径，再执行两个构建命令；仓库内同名文件仍优先。
+构建会打印实际使用的数据文件路径。显式加载的额外数据会内嵌到两个产物中，分发前应核对其授权范围。
+
+浏览器扩展仍匹配 HTTP/HTTPS 页面，以接收任意网页右键查询；非目标学术站点只运行轻量消息监听器，收到查询后才加载期刊数据，不启动 DOM 观察和定时扫描。
+Zotero 插件当前采用手动安装更新，不配置自动更新服务器。
 
 ## 已知边界
 

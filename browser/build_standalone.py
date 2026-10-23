@@ -11,7 +11,7 @@ import json, os, shutil, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_fork import (build_data, DEFAULT_CATALOG, DEFAULT_CSSCI,
                         DEFAULT_CSCD, DEFAULT_UTD24, DEFAULT_FT50, DEFAULT_AJG,
-                        DEFAULT_SSCI, DEFAULT_JCR, node_check)
+                        DEFAULT_SSCI, DEFAULT_JCR, LOOKUP_FACTORY, node_check)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "standalone")
@@ -19,7 +19,7 @@ OUT = os.path.join(HERE, "standalone")
 MANIFEST = {
     "manifest_version": 3,
     "name": "首经贸期刊等级助手",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "首都经济贸易大学期刊目录（2024版，含CSSCI/CSCD折算中文B2、SSCI折算国际B2）+ UTD24/FT50/AJG/JCR分区收录标签：右键框选查等级；百度学术/谷歌学术（含国内镜像）/知网/万方/ScienceDirect/Springer/PubMed/Web of Science 自动徽章。完全本地运行。",
     "permissions": ["contextMenus"],
     "background": {"service_worker": "background.js"},
@@ -27,7 +27,7 @@ MANIFEST = {
     "icons": {},
     "content_scripts": [{
         "matches": ["https://*/*", "http://*/*"],
-        "js": ["cueb_data.js", "content.js"],
+        "js": ["content.js"],
         "run_at": "document_end"
     }]
 }
@@ -38,6 +38,11 @@ importScripts('/cueb_data.js');
   "use strict";
   if (!self.__cuebMakeLookup || !chrome.contextMenus) return;
   var L = self.__cuebMakeLookup();
+  chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
+    if (sender.id === chrome.runtime.id && msg && msg.type === "__cueb_get_data") {
+      sendResponse(self.__CUEB_TIERS__);
+    }
+  });
   var MID = "cueb-sa-selection-lookup";
   chrome.contextMenus.removeAll(function () {
     chrome.contextMenus.create({
@@ -53,8 +58,8 @@ importScripts('/cueb_data.js');
     var payload = { type: "__cueb_result", query: q, tier: tier,
                     candidates: tier ? [] : L.candidates(q, 3) };
     if (tab && typeof tab.id === "number" && tab.id >= 0) {
-      chrome.tabs.sendMessage(tab.id, payload, function () {
-        if (chrome.runtime.lastError) {
+      chrome.tabs.sendMessage(tab.id, payload, function (response) {
+        if (chrome.runtime.lastError || !response || !response.ok) {
           void chrome.runtime.lastError;
           chrome.action.setBadgeBackgroundColor({ color: tier ? "#2e8b57" : "#8a6d3b" });
           chrome.action.setBadgeText({ text: tier ? tier.replace(/^(中文|国际)/, "") : "未收录" });
@@ -70,8 +75,26 @@ importScripts('/cueb_data.js');
 CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽章（选择器移植自 easyScholar） */
 (function () {
   "use strict";
-  if (!self.__CUEB_TIERS__ || !self.__cuebMakeLookup) return;
-  var L = self.__cuebMakeLookup();
+  var L = null, loading = false, waiting = [];
+  var makeLookup = __LOOKUP_FACTORY__;
+  // 非学术页面只保留右键消息监听器，不加载数据、不扫描 DOM。
+  function ensureData(done) {
+    if (L) { done(true); return; }
+    waiting.push(done);
+    if (loading) return;
+    loading = true;
+    chrome.runtime.sendMessage({ type: "__cueb_get_data" }, function (data) {
+      loading = false;
+      var callbacks = waiting; waiting = [];
+      if (chrome.runtime.lastError || !data || !data.byName) {
+        callbacks.forEach(function (fn) { fn(false); });
+        return;
+      }
+      self.__CUEB_TIERS__ = data;
+      L = makeLookup(data);
+      callbacks.forEach(function (fn) { fn(true); });
+    });
+  }
   var COLORS = {
     "A+": ["#b8860b", "#ffffff"], "A1": ["#1a6dd4", "#ffffff"],
     "A2": ["#2e8b57", "#ffffff"], "B1": ["#5f6b7a", "#ffffff"],
@@ -86,7 +109,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
   }
   function tierSource(journal) {
     var D = self.__CUEB_TIERS__;
-    return (D.src && D.src[L.norm(journal)]) || "";
+    return (D.src && D.src[L.resolve(journal).key]) || "";
   }
   function sourceNote(via) {
     if (via === "cssci") return "｜依据：CSSCI来源期刊目录（2025-2026）→ 校规中文B2";
@@ -104,7 +127,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
   }
   function buildChips(tier, journal) {    /* 多标签：等级 + CSSCI/CSCD/UTD24/FT50 收录 */
     var D = self.__CUEB_TIERS__;
-    var n = L.norm(journal);
+    var n = L.resolve(journal).key;
     var wrap = document.createElement("span");
     wrap.className = "cueb-flag";
     if (tier) {
@@ -123,18 +146,6 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       wrap.appendChild(innerChip("CSCD核心", chipStyle("#475569", "#ffffff"),
         "CSCD核心库（2025-2026）收录" + sc + (journal ? "｜" + journal : "")));
     }
-    if (D.inSsci && D.inSsci[n]) {
-      var sb = tier === "国际B2" ? "（校规计为国际B2）" : "";
-      wrap.appendChild(innerChip("SSCI", chipStyle("#166534", "#ffffff"),
-        "SSCI（社会科学引文索引，Clarivate）收录" + sb + (journal ? "｜" + journal : "")));
-    }
-    if (D.inJcr && D.inJcr[n]) {
-      var jq = D.inJcr[n];
-      wrap.appendChild(innerChip("JCR " + jq, chipStyle(jq === "Q1" ? "#4c1d95" : "#7c3aed", "#ffffff"),
-        "JCR 2025 学科分区 " + jq +
-        ((D.inJcrCat && D.inJcrCat[n]) ? "｜" + D.inJcrCat[n] : "") +
-        (journal ? "｜" + journal : "")));
-    }
     if (D.inUtd24 && D.inUtd24[n]) {
       wrap.appendChild(innerChip("UTD24", chipStyle("#7f1d1d", "#ffffff"),
         "UTD24：UT Dallas 24种商科顶级期刊收录" + (journal ? "｜" + journal : "")));
@@ -148,6 +159,18 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       wrap.appendChild(innerChip("ABS " + ag, chipStyle("#1e3a8a", "#ffffff"),
         "AJG 2024（英国商学院协会期刊指南，原ABS榜）评级 " + ag +
         (journal ? "｜" + journal : "")));
+    }
+    if (D.inJcr && D.inJcr[n]) {
+      var jq = D.inJcr[n];
+      wrap.appendChild(innerChip("JCR " + jq, chipStyle(jq === "Q1" ? "#4c1d95" : "#7c3aed", "#ffffff"),
+        "JCR 2025 学科分区 " + jq +
+        ((D.inJcrCat && D.inJcrCat[n]) ? "｜" + D.inJcrCat[n] : "") +
+        (journal ? "｜" + journal : "")));
+    }
+    if (D.inSsci && D.inSsci[n]) {
+      var sb = tier === "国际B2" ? "（校规计为国际B2）" : "";
+      wrap.appendChild(innerChip("SSCI", chipStyle("#166534", "#ffffff"),
+        "SSCI（社会科学引文索引，Clarivate）收录" + sb + (journal ? "｜" + journal : "")));
     }
     return wrap;
   }
@@ -206,8 +229,8 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       } },
     { host: "scholar.google.com",
       match: function (h) {          /* 谷歌学术各国域名 + 国内镜像（整站克隆，选择器通用） */
-        return h.indexOf("scholar.google") >= 0 ||
-          h.indexOf("lanfanshu.cn") >= 0 ||
+        return /^scholar\.google\.(?:[a-z]{2,3}|(?:com|co)\.[a-z]{2})$/.test(h) ||
+          (h === "lanfanshu.cn" || h.endsWith(".lanfanshu.cn")) ||
           h === "sc.panda321.com" || h === "panda321.com" || h.endsWith(".panda321.com") ||
           h === "scholar.ustc.cf" ||
           h === "dailyheadlines.cc" || h.endsWith(".dailyheadlines.cc");
@@ -266,7 +289,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
         var t = document.querySelector("div.detailTitle div.detailTitleCN");
         if (t && !t.querySelector(".cueb-flag") && !t.getAttribute("data-cueb-sa")) {
           var j = txt(document.querySelector("div.periodicalInformation div.periodicalName a"));
-          if (j) { t.setAttribute("data-cueb-sa", "1"); out.push({ anchor: t, journal: clean(j) }); }
+          if (j) out.push({ anchor: t, journal: clean(j) });
         }
         out = out.concat(rowCollect("tbody.paperInfoItem tr", function (tr) {
           var tt = tr.querySelector("td span");
@@ -310,8 +333,9 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       } },
     { host: "webofscience.com",
       match: function (h) {          /* 新旧域名 + clarivate 托管入口 */
-        return h.indexOf("webofscience") >= 0 || h.indexOf("webofknowledge") >= 0 ||
-          h.indexOf("clarivate") >= 0;
+        return ["webofscience.com", "webofknowledge.com", "clarivate.com"].some(function (d) {
+          return h === d || h.endsWith("." + d);
+        });
       },
       find: function () {
         /* 移植自 easyScholar：WOS 每行结果/详情页右栏的 JCR 小组件（app-jcr-sidenav）
@@ -345,7 +369,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
         var h = hits[k];
         if (h.anchor.getAttribute && h.anchor.getAttribute("data-cueb-sa") === "1") continue;
         var tier = L.lookup(h.journal);
-        var D0 = self.__CUEB_TIERS__, n0 = L.norm(h.journal);
+        var D0 = self.__CUEB_TIERS__, n0 = L.resolve(h.journal).key;
         var g0 = D0.inAjg && D0.inAjg[n0];
         var memberOnly = !tier && ((D0.inUtd24 && D0.inUtd24[n0]) || (D0.inFt50 && D0.inFt50[n0]) ||
           (g0 && AJG_RANK[g0] >= AJG_MIN) || (D0.inJcr && D0.inJcr[n0]));
@@ -358,14 +382,22 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       }
     }
   }
-  var t = null;
-  try {
-    new MutationObserver(function () {
-      if (t) clearTimeout(t);
-      t = setTimeout(stamp, 300);
-    }).observe(document.documentElement, { childList: true, subtree: true });
-  } catch (e) {}
-  setInterval(stamp, 3000);
+  var academicSite = SITES.some(function (site) {
+    var h = location.hostname;
+    return site.match ? site.match(h) : (h === site.host || h.endsWith("." + site.host));
+  });
+  if (academicSite) ensureData(function (ready) {
+    if (!ready) return;
+    var t = null;
+    try {
+      new MutationObserver(function () {
+        if (t) clearTimeout(t);
+        t = setTimeout(stamp, 300);
+      }).observe(document.documentElement, { childList: true, subtree: true });
+    } catch (e) {}
+    stamp();
+    setInterval(stamp, 3000);
+  });
 
   /* ---------------- 右键查询结果 toast（与分支一致） ---------------- */
   function escapeHtml(s) {
@@ -380,7 +412,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       "<div style=\"font-size:12px;opacity:.85;margin-bottom:6px;\">" + escapeHtml(msg.query) + "</div>";
     if (msg.tier) {
       var c = COLORS[msg.tier.slice(-2)] || COLORS["A1"];
-      var D = self.__CUEB_TIERS__, n = L.norm(msg.query), tags = [];
+      var D = self.__CUEB_TIERS__, n = L.resolve(msg.query).key, tags = [];
       if (D.inCssci && D.inCssci[n]) tags.push("CSSCI");
       if (D.inCscd && D.inCscd[n]) tags.push("CSCD核心");
       if (D.inSsci && D.inSsci[n]) tags.push("SSCI");
@@ -395,7 +427,7 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
       inner += "<span style=\"" + chipStyle(c[0], c[1]) + "\">" + msg.tier + "</span>" +
         "<span style=\"font-size:11px;opacity:.7;margin-left:6px;\">" + sub + "</span>";
     } else {
-      var D2 = self.__CUEB_TIERS__, n2 = L.norm(msg.query), mtags = [];
+      var D2 = self.__CUEB_TIERS__, n2 = L.resolve(msg.query).key, mtags = [];
       if (D2.inUtd24 && D2.inUtd24[n2]) mtags.push("UTD24");
       if (D2.inFt50 && D2.inFt50[n2]) mtags.push("FT50");
       if (D2.inAjg && D2.inAjg[n2] && AJG_RANK[D2.inAjg[n2]] >= AJG_MIN) mtags.push("ABS " + D2.inAjg[n2]);
@@ -434,24 +466,28 @@ CONTENT = r"""/* content.js — 独立版：右键结果 toast + 常用站点徽
     }, 4200);
   }
   try {
-    chrome.runtime.onMessage.addListener(function (msg) {
-      if (msg && msg.type === "__cueb_result") showToast(msg);
+    chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
+      if (msg && msg.type === "__cueb_result") {
+        ensureData(function (ready) {
+          if (ready) showToast(msg);
+          if (sendResponse) sendResponse({ ok: ready });
+        });
+        return true;
+      }
     });
   } catch (e) {}
-  window.__CUEB_LOOKUP__ = L.lookup;
-  console.log("[CUEB-SA] 首经贸独立助手已加载 v" + self.__CUEB_TIERS__.version +
-              " 条目 " + Object.keys(self.__CUEB_TIERS__.byName).length);
+  window.__CUEB_LOOKUP__ = function (name) { return L ? L.lookup(name) : null; };
 })();
 """
 
 
 def main():
-    if os.path.exists(OUT):
-        shutil.rmtree(OUT)
-    os.makedirs(OUT)
     data, n_name, n_issn, conflicts, n_cssci, n_cssci_new, n_cscd, n_cscd_new,         n_utd, n_ft, n_ajg, n_ssci, n_ssci_new, n_jcr = build_data(
         DEFAULT_CATALOG, DEFAULT_CSSCI, DEFAULT_CSCD, DEFAULT_UTD24, DEFAULT_FT50,
         DEFAULT_AJG, DEFAULT_SSCI, DEFAULT_JCR)
+    if os.path.exists(OUT):
+        shutil.rmtree(OUT)
+    os.makedirs(OUT)
     print(f"数据: byName {n_name} / byIssn {n_issn} | CSSCI+B2 {n_cssci_new} | CSCD+B2 {n_cscd_new}"
           f" | SSCI→国际B2 {n_ssci_new} | UTD24 {n_utd} | FT50 {n_ft} | AJG {n_ajg} | JCR Q1/Q2 {n_jcr}")
 
@@ -463,7 +499,8 @@ def main():
 
     open(os.path.join(OUT, "background.js"), "w", encoding="utf-8").write(BACKGROUND)
     node_check(os.path.join(OUT, "background.js"))
-    open(os.path.join(OUT, "content.js"), "w", encoding="utf-8").write(CONTENT)
+    open(os.path.join(OUT, "content.js"), "w", encoding="utf-8").write(
+        CONTENT.replace("__LOOKUP_FACTORY__", LOOKUP_FACTORY))
     node_check(os.path.join(OUT, "content.js"))
 
     man = dict(MANIFEST)
