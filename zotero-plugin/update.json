@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "cueb-tier-column@example.com": {
+      "updates": [
+        {
+          "version": "1.0.10",
+          "update_link": "https://github.com/Z1hawl89/cueb-journal-tier/releases/download/zotero-v1.0.10/cueb-tier-column-1.0.10.xpi",
+          "update_hash": "sha256:9c8d966691330b0380a1ddab7f903d5e3f97c4ce5171bec94a74f9739817dd89",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.0.11",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

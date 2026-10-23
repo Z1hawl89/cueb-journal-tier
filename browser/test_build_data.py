@@ -44,6 +44,16 @@ class DataTests(unittest.TestCase):
         self.assertEqual(self.public["inJcr"], {})
         self.assertEqual(self.public["byName"][norm("经济研究")], "中文A1")
 
+    def test_catalog_fingerprint_ignores_git_line_endings(self):
+        text = (DATA / "cueb_journal_catalog_2024.json").read_text(encoding="utf-8")
+        with tempfile.TemporaryDirectory(prefix="cueb-lines-") as directory:
+            versions = []
+            for i, newline in enumerate(("\n", "\r\n")):
+                path = Path(directory) / (str(i) + ".json")
+                path.write_bytes(text.replace("\n", newline).encode("utf-8"))
+                versions.append(build(str(path), None, None)["version"])
+            self.assertEqual(versions[0], versions[1])
+
     def test_optional_alias_and_eissn_preserve_tier_and_membership(self):
         with tempfile.TemporaryDirectory(prefix="cueb-data-") as directory:
             folder = Path(directory)

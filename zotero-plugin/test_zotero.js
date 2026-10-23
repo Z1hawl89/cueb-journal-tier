@@ -4,6 +4,7 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const DIR = path.join(__dirname, "zotero");
 const builtData = JSON.parse(fs.readFileSync(path.join(DIR, "data.json"), "utf8"));
@@ -52,7 +53,11 @@ function ok(cond, label) {
      "registerColumn 已注册 dataKey=cuebTier");
   ok(captured.label === "首经贸等级", "列名 = 首经贸等级");
 
-  const item = (pub, issn) => ({ getField: (f) => (f === "publicationTitle" ? pub : f === "issn" ? issn : "") });
+  const item = (pub, issn) => ({ getField: (f) => {
+    if (f === "publicationTitle") return pub;
+    if (f === "ISSN") return issn;
+    throw new Error("Invalid field: " + f);
+  } });
   const T = (pub, issn) => captured.dataProvider(item(pub, issn));
 
   ok(T("Management Science", "") === withOptional(["国际A+", "UTD24", "FT50", "ABS 4*"]),
@@ -103,8 +108,24 @@ function ok(cond, label) {
 
   const manifest = JSON.parse(fs.readFileSync(path.join(DIR, "manifest.json"), "utf8"));
   ok(manifest.applications.zotero.strict_min_version === "7.0.11" &&
-     manifest.applications.zotero.strict_max_version === "8.*" &&
-     !manifest.applications.zotero.update_url, "安装范围为7.0.11–8.x，移除占位自动更新地址");
+     manifest.applications.zotero.strict_max_version === "10.0.*" &&
+     manifest.applications.zotero.id === captured.pluginID &&
+     manifest.applications.zotero.update_url === "https://raw.githubusercontent.com/Z1hawl89/cueb-journal-tier/master/zotero-plugin/update.json",
+     "安装器必填项齐全，范围包含10.0.6，更新清单使用真实仓库地址");
+  if (!hasSsci && !hasJcr) {
+    const update = JSON.parse(fs.readFileSync(path.join(DIR, "update.json"), "utf8"));
+    const entry = update.addons[manifest.applications.zotero.id].updates[0];
+    const file = `cueb-tier-column-${manifest.version}.xpi`;
+    const hash = crypto.createHash("sha256").update(fs.readFileSync(path.join(DIR, file))).digest("hex");
+    ok(entry.version === manifest.version && entry.update_hash === "sha256:" + hash &&
+       entry.update_link === `https://github.com/Z1hawl89/cueb-journal-tier/releases/download/zotero-v${manifest.version}/${file}` &&
+       entry.applications.zotero.strict_max_version === manifest.applications.zotero.strict_max_version,
+       "公开更新清单的插件ID、版本、下载地址、兼容范围和XPI哈希一致");
+    const published = JSON.parse(fs.readFileSync(path.join(__dirname, "update.json"), "utf8"));
+    ok(JSON.stringify(published) === JSON.stringify(update), "仓库线上更新清单与本次公开构建一致");
+  } else {
+    ok(!fs.existsSync(path.join(DIR, "update.json")), "包含授权数据的构建不会生成公共更新清单");
+  }
 
   console.log(fail === 0 ? `\n全部通过 (${pass}/${pass + fail})` : `\n失败 ${fail}/${pass + fail} 项`);
   process.exit(fail === 0 ? 0 : 1);

@@ -10,7 +10,7 @@ UTD24/FT50/ABS 收录标签（如：国际A+｜SSCI｜Q1｜UTD24｜FT50｜ABS 4*
 安装：Zotero → 工具 → 插件 → 右上角齿轮 → Install Plugin From File
 列显示：条目列表表头右键 → 勾选「首经贸等级」
 """
-import json, os, shutil, subprocess, sys, zipfile
+import hashlib, json, os, shutil, subprocess, sys, zipfile
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 for _p in (_HERE, os.path.normpath(os.path.join(_HERE, '..', 'browser'))):
@@ -22,8 +22,9 @@ from build_fork import (build_data, DEFAULT_CATALOG, DEFAULT_CSSCI, DEFAULT_CSCD
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "zotero")
-VERSION = "1.0.9"
+VERSION = "1.0.10"
 PLUGIN_ID = "cueb-tier-column@example.com"
+UPDATE_URL = "https://raw.githubusercontent.com/Z1hawl89/cueb-journal-tier/master/zotero-plugin/update.json"
 XPI = os.path.join(OUT, f"cueb-tier-column-{VERSION}.xpi")
 
 MANIFEST = {
@@ -40,9 +41,10 @@ MANIFEST = {
     "applications": {
         "zotero": {
             "id": PLUGIN_ID,
-            # registerColumn 单列 API 在 Zotero 7.0.11 起可用；不预先承诺未来主版本。
+            # Zotero 安装器要求 id/update_url/strict_max_version 三项均存在。
+            "update_url": UPDATE_URL,
             "strict_min_version": "7.0.11",
-            "strict_max_version": "8.*"
+            "strict_max_version": "10.0.*"
         }
     }
 }
@@ -82,7 +84,7 @@ function computeTier(item) {
         if (DATA_ERROR) return "⚠" + DATA_ERROR;
         if (!DATA) return "⚠数据未加载";
         var pub = safeField(item, "publicationTitle");
-        var issn = safeField(item, "issn");
+        var issn = safeField(item, "ISSN");
         var resolved = LOOKUP.resolve(pub, issn);
         var t = resolved.tier, n = resolved.key;
         var mem = (set) => LOOKUP.get(set, n);
@@ -162,12 +164,12 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
 
-    with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(MANIFEST, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(OUT, "data.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUT, "data.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False)
     # 数据以 JS 字面量内嵌进 bootstrap（ensure_ascii=True 保证字面量安全），启动零文件读取
-    open(os.path.join(OUT, "bootstrap.js"), "w", encoding="utf-8").write(
+    open(os.path.join(OUT, "bootstrap.js"), "w", encoding="utf-8", newline="\n").write(
         BOOTSTRAP.replace("__VERSION__", VERSION).replace("__PLUGIN_ID__", PLUGIN_ID)
         .replace("__LOOKUP_FACTORY__", LOOKUP_FACTORY)
         + "\nvar DATA_EMBEDDED = " + json.dumps(data, ensure_ascii=True) + ";\n")
@@ -193,7 +195,32 @@ def main():
 
     with zipfile.ZipFile(XPI, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for name in ("manifest.json", "bootstrap.js", "data.json", "icons/48.png", "icons/96.png"):
-            z.write(os.path.join(OUT, name), name)
+            # 固定 ZIP 元数据，让独立构建得到相同 SHA-256，更新清单才能稳定校验。
+            info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3
+            info.external_attr = 0o100644 << 16
+            with open(os.path.join(OUT, name), "rb") as f:
+                z.writestr(info, f.read(), compresslevel=9)
+    if not data["inSsci"] and not data["inJcr"]:
+        with open(XPI, "rb") as f:
+            xpi_hash = hashlib.sha256(f.read()).hexdigest()
+        update = {
+            "addons": {PLUGIN_ID: {"updates": [{
+                "version": VERSION,
+                "update_link": f"https://github.com/Z1hawl89/cueb-journal-tier/releases/download/zotero-v{VERSION}/cueb-tier-column-{VERSION}.xpi",
+                "update_hash": "sha256:" + xpi_hash,
+                "applications": {"zotero": dict(
+                    (k, MANIFEST["applications"]["zotero"][k])
+                    for k in ("strict_min_version", "strict_max_version"))}
+            }]}}
+        }
+        with open(os.path.join(OUT, "update.json"), "w", encoding="utf-8", newline="\n") as f:
+            json.dump(update, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print("公开数据更新清单 →", os.path.join(OUT, "update.json"))
+    else:
+        print("检测到 SSCI/JCR 额外数据：不生成公共更新清单")
     print(f"完成 → {XPI} ({os.path.getsize(XPI)//1024} KB)")
     print("安装: Zotero → 工具 → 插件 → 右上角齿轮 → Install Plugin From File → 选本 xpi")
     print("显示: 条目列表表头右键 → 勾选「首经贸等级」")

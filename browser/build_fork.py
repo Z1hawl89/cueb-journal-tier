@@ -404,9 +404,10 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         sys.exit("缺少必需的校目录数据 cueb_journal_catalog_2024.json——把它放到仓库 data/ 目录"
                  "（来源见 data/README.md）后重跑。其余数据集缺失只会少对应标签。")
     with open(catalog_path, encoding="utf-8") as f:
-        cat = json.load(f)
-    with open(catalog_path, "rb") as f:
-        sha = hashlib.sha256(f.read()).hexdigest()[:12]
+        catalog_text = f.read()
+    cat = json.loads(catalog_text)
+    # Git 在 Windows 可能检出 CRLF；统一文本换行后再取版本指纹。
+    sha = hashlib.sha256(catalog_text.encode("utf-8")).hexdigest()[:12]
     by_name, by_issn, conflicts = {}, {}, []
     identities = []
 
@@ -478,7 +479,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
             n_utd += 1
             remember(e["name"], e.get("issn"), e.get("eissn"),
                      WEBLIST_ALIASES.get(str(e["name"]).strip(), ()))
-            for k in member_keys(e["name"], WEBLIST_ALIASES.get(str(e["name"]).strip(), ())):
+            for k in sorted(member_keys(e["name"], WEBLIST_ALIASES.get(str(e["name"]).strip(), ()))):
                 in_utd24[k] = 1
     if ft50_path and os.path.exists(ft50_path):
         with open(ft50_path, encoding="utf-8") as f:
@@ -487,7 +488,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         for e in ft.get("journals", []):
             n_ft += 1
             remember(e["name"], e.get("issn"), e.get("eissn"))
-            for k in member_keys(e["name"]):
+            for k in sorted(member_keys(e["name"])):
                 in_ft50[k] = 1
     # AJG 2024（原ABS榜）：值为档位 4*/4/3/2/1，仅作收录标签，不产生校等级
     n_ajg = 0
@@ -498,7 +499,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
         for e in ajg.get("journals", []):
             n_ajg += 1
             remember(e["name"], e.get("issn"), e.get("eissn"))
-            for k in member_keys(e["name"]):
+            for k in sorted(member_keys(e["name"])):
                 in_ajg[k] = str(e["rating"]).strip()
     # SSCI（2026-08 官方快照）：校目录枚举优先，新刊按校规折算为国际B2；
     # 与 CSSCI/CSCD 的中文B2 同一套"枚举缺失→规则级别"逻辑
@@ -528,7 +529,7 @@ def build_data(catalog_path, cssci_path, cscd_path, utd24_path=None, ft50_path=N
             n_jcr += 1
             remember(e["name"], e.get("issn"), e.get("eissn"))
             k0 = norm(e["name"])
-            for k in member_keys(e["name"]):
+            for k in sorted(member_keys(e["name"])):
                 in_jcr[k] = str(e["best"]).strip()
             hover = str(e.get("index") or "")
             cats = e.get("cats") or []
